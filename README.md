@@ -1,12 +1,12 @@
 # Skills
 
-一组可复用的 AI Agent skills，把设计经验整理成可以直接调用的规则、参考资料和资源文件，让不同项目中的设计与实现保持一致。
+个人维护的通用 AI Agent skills 集合，收集可跨项目复用的方法、工作流、规范和资源。每个 skill 独立说明能力、适用场景和使用方式，不依赖特定项目或本地环境。
 
 ## Skill 列表
 
-| Skill | 风格 / 简介 | 适用场景 | 资源 |
+| Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
-| [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情、预测页面；支持 Web 和 Flutter | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
+| [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情与预测页面；可适配不同技术栈 | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
 
 ## Gentle Design System
 
@@ -26,7 +26,7 @@
 | [组件规范](gentle-design-system/references/components.md) | 导航、指标卡、表格、筛选、洞察卡、弹窗、情景开关及交互状态 |
 | [图表语言](gentle-design-system/references/charts.md) | 纹理柱图、瀑布、桥接图、点阵、热力矩阵和预测趋势 |
 | [页面布局](gentle-design-system/references/layouts.md) | 六类页面配方、响应式适配和跨业务迁移 |
-| [平台映射](gentle-design-system/references/platforms.md) | Web CSS 变量与 Flutter 主题、组件和绘制方式 |
+| [平台映射](gentle-design-system/references/platforms.md) | 平台适配原则，以及 Web / Flutter 的可选实现参考 |
 | [验收清单](gentle-design-system/references/quality.md) | 视觉一致性、数值正确性、可访问性和状态检查 |
 
 ### 安装
@@ -46,7 +46,7 @@ cp -R skills/gentle-design-system ~/.codex/skills/
 在支持 skill 调用的 Agent 中明确指定名称和任务：
 
 ```text
-使用 $gentle-design-system，为现有 Flutter 邮件应用实现桌面收件箱，保留现有功能。
+使用 $gentle-design-system 设计一个浅色数据界面，包含导航、指标卡片和记录列表。
 ```
 
 ```text
