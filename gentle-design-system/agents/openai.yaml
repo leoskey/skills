@@ -1,0 +1,4 @@
+interface:
+  display_name: "柔和极简数据风"
+  short_description: "复用柔和极简数据风的设计 token、组件、图表与布局规范"
+  default_prompt: "使用 $gentle-design-system，根据当前产品与技术栈实现界面，复用其设计 token、组件和数据可视化语言。"
