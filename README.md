@@ -7,6 +7,7 @@
 | Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
 | [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情与预测页面；可适配不同技术栈 | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
+| [game-sutdio](game-sutdio/SKILL.md) | 游戏全流程交付：需求与设计确认、可玩原型、完整体验样段、内容扩充、测试试玩与反馈迭代 | 新游戏策划、已有游戏阶段推进与单项修复；按目标选择引擎和平台 | [阶段交付与验收](game-sutdio/references/lifecycle.md) |
 
 ## Gentle Design System
 
@@ -58,3 +59,25 @@ cp -R skills/gentle-design-system ~/.codex/skills/
 ```
 
 设计 token 是根据视觉参考估算、规范化后的实现起点；响应式与无障碍规则是为复用补充的建议。它不是成品组件库，落地后仍需在目标项目中验证布局、交互和数据。
+
+## Game Sutdio
+
+从概念与需求访谈开始，确认设计和本轮实现范围，再分阶段制作、测试、试玩并评估反馈。适用于不同引擎、平台和游戏类型；仅讨论或调整流程时，不启动游戏开发。
+
+### 安装与使用
+
+克隆仓库后，将整个 `game-sutdio/` 目录复制到 Agent 的 skills 目录。Codex 默认个人目录为 `~/.codex/skills/`；自定义 `CODEX_HOME` 时使用其 `skills/` 子目录。替换已安装版本前，先检查本地修改。
+
+```bash
+cp -R skills/game-sutdio ~/.codex/skills/
+```
+
+```text
+使用 $game-sutdio，先访谈并整理游戏需求，向我展示具体摘要，确认需求与设计后再开始实现。
+```
+
+```text
+使用 $game-sutdio，核对这个游戏已确认的需求、设计和授权范围，继续当前批次，并提供测试与试玩证据。
+```
+
+阶段产物、验收标准与反馈处理见 [阶段交付、验收与反馈循环](game-sutdio/references/lifecycle.md)。

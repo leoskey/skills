@@ -1,0 +1,4 @@
+interface:
+  display_name: "game-sutdio"
+  short_description: "从需求与设计确认，经可玩原型、完整体验样段到内容扩充与发布验证的游戏迭代流程"
+  default_prompt: "使用 $game-sutdio，先核对想法与当前阶段，确认需求、设计及实现范围，再分阶段制作可玩原型、完整体验样段和交付版本，每阶段持续测试、试玩并根据反馈迭代。"
