@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adobe Spectrum Design System"
+  short_description: "以 Spectrum 2 设计与审查产品界面，兼顾桌面信息密度和可验证交互"
+  default_prompt: "使用 $adobe-spectrum-design-system 设计或审查当前界面，保留技术栈并验证布局与交互。"
