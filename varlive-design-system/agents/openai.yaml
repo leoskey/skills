@@ -1,4 +1,4 @@
 interface:
   display_name: "VAR LIVE 品牌设计"
   short_description: "将 VAR LIVE 品牌设计规则、素材与统一字体应用到 Flutter、Web 等项目"
-  default_prompt: "使用 $var-live-design，按当前项目技术栈实现页面，统一品牌配色、字体、组件与交互状态。"
+  default_prompt: "使用 $varlive-design-system，按当前项目技术栈实现页面，统一品牌配色、字体、组件与交互状态。"

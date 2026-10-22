@@ -1,5 +1,5 @@
 ---
-name: var-live-design
+name: varlive-design-system
 description: 为 VAR LIVE 项目应用统一的黑白橙品牌 UI，支持 Flutter、Web 和其他界面技术。用户要求使用 VAR LIVE 风格、品牌设计包或将现有页面改为该品牌时使用；普通 UI 请求不自动套用此品牌。
 ---
 
