@@ -13,19 +13,37 @@
 
 ## 安装
 
-克隆仓库，将所需 skill 的整个目录复制到 Agent 的 skills 目录。以 Codex 为例：
+### 通过 npx 安装
+
+先安装 [Node.js](https://nodejs.org/) 22.20 或更新版本，然后在项目目录运行以下命令，按提示选择 skill 和目标 Agent：
 
 ```bash
-git clone https://github.com/leoskey/skills.git
-
-# 将名称替换为上方列表中的 skill
-SKILL=adobe-spectrum-design-system
-SKILLS_DIR="${CODEX_HOME:-$HOME/.codex}/skills"
-mkdir -p "$SKILLS_DIR"
-cp -R "skills/$SKILL" "$SKILLS_DIR/"
+npx skills add leoskey/skills
 ```
 
-未设置 `CODEX_HOME` 时，安装位置为 `~/.codex/skills/`。如果已有同名 skill，先检查本地修改，再决定是否替换。其他 Agent 使用其支持的 skills 目录。
+也可以直接指定 skill，将名称替换为上方列表中的任意一项：
+
+```bash
+npx skills add leoskey/skills --skill varlive-design-system
+```
+
+默认安装到当前项目；添加 `--global` 可供多个项目使用。例如，安装到 Codex 的用户级 skills：
+
+```bash
+npx skills add leoskey/skills --skill varlive-design-system --agent codex --global
+```
+
+只查看可安装的 skill，可运行 `npx skills add leoskey/skills --list`。更多选项见 [skills CLI 安装说明](https://github.com/vercel-labs/skills/blob/main/docs/commands.md#skills-add)。
+
+### 通过提示词安装
+
+将下面的提示词发送给支持访问 GitHub 和写入本地文件的 Agent；需要其他 skill 时，替换名称和链接末尾的目录名：
+
+```text
+请将 https://github.com/leoskey/skills/tree/main/varlive-design-system 中的 varlive-design-system 安装到当前 Agent 的用户级 skills 目录，供多个项目使用。
+请安装完整目录，包括 SKILL.md 及其引用的脚本、参考文档和素材。若已有同名 skill，先检查本地修改，保留自定义内容后再处理更新。
+完成后确认 skill 可被发现，并告诉我调用方式。
+```
 
 ## 使用
 
