@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/welcome",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "欢迎 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/admin/sub-page",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 390,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "二级管理页 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/chatbot",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "AI 助手 - Ant Design Pro",
+    "problematic": []
+  }
+]

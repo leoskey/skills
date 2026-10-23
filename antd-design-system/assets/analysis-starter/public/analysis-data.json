@@ -1,0 +1,823 @@
+{
+  "visitData": [
+    {
+      "x": "1",
+      "y": 7
+    },
+    {
+      "x": "2",
+      "y": 5
+    },
+    {
+      "x": "3",
+      "y": 4
+    },
+    {
+      "x": "4",
+      "y": 2
+    },
+    {
+      "x": "5",
+      "y": 4
+    },
+    {
+      "x": "6",
+      "y": 7
+    },
+    {
+      "x": "7",
+      "y": 5
+    },
+    {
+      "x": "8",
+      "y": 6
+    },
+    {
+      "x": "9",
+      "y": 5
+    },
+    {
+      "x": "10",
+      "y": 9
+    },
+    {
+      "x": "11",
+      "y": 6
+    },
+    {
+      "x": "12",
+      "y": 3
+    },
+    {
+      "x": "13",
+      "y": 1
+    },
+    {
+      "x": "14",
+      "y": 5
+    },
+    {
+      "x": "15",
+      "y": 3
+    },
+    {
+      "x": "16",
+      "y": 6
+    },
+    {
+      "x": "17",
+      "y": 5
+    }
+  ],
+  "visitData2": [
+    {
+      "x": "1",
+      "y": 1
+    },
+    {
+      "x": "2",
+      "y": 6
+    },
+    {
+      "x": "3",
+      "y": 4
+    },
+    {
+      "x": "4",
+      "y": 8
+    },
+    {
+      "x": "5",
+      "y": 3
+    },
+    {
+      "x": "6",
+      "y": 7
+    },
+    {
+      "x": "7",
+      "y": 2
+    }
+  ],
+  "salesData": [
+    {
+      "x": "1月",
+      "y": 1000
+    },
+    {
+      "x": "2月",
+      "y": 450
+    },
+    {
+      "x": "3月",
+      "y": 900
+    },
+    {
+      "x": "4月",
+      "y": 810
+    },
+    {
+      "x": "5月",
+      "y": 830
+    },
+    {
+      "x": "6月",
+      "y": 490
+    },
+    {
+      "x": "7月",
+      "y": 360
+    },
+    {
+      "x": "8月",
+      "y": 460
+    },
+    {
+      "x": "9月",
+      "y": 490
+    },
+    {
+      "x": "10月",
+      "y": 230
+    },
+    {
+      "x": "11月",
+      "y": 920
+    },
+    {
+      "x": "12月",
+      "y": 750
+    }
+  ],
+  "searchData": [
+    {
+      "index": 1,
+      "keyword": "搜索关键词-0",
+      "count": 976,
+      "range": 7,
+      "status": 0
+    },
+    {
+      "index": 2,
+      "keyword": "搜索关键词-1",
+      "count": 959,
+      "range": 20,
+      "status": 1
+    },
+    {
+      "index": 3,
+      "keyword": "搜索关键词-2",
+      "count": 942,
+      "range": 33,
+      "status": 0
+    },
+    {
+      "index": 4,
+      "keyword": "搜索关键词-3",
+      "count": 925,
+      "range": 46,
+      "status": 1
+    },
+    {
+      "index": 5,
+      "keyword": "搜索关键词-4",
+      "count": 908,
+      "range": 59,
+      "status": 0
+    },
+    {
+      "index": 6,
+      "keyword": "搜索关键词-5",
+      "count": 891,
+      "range": 72,
+      "status": 1
+    },
+    {
+      "index": 7,
+      "keyword": "搜索关键词-6",
+      "count": 874,
+      "range": 85,
+      "status": 0
+    },
+    {
+      "index": 8,
+      "keyword": "搜索关键词-7",
+      "count": 857,
+      "range": 2,
+      "status": 1
+    },
+    {
+      "index": 9,
+      "keyword": "搜索关键词-8",
+      "count": 840,
+      "range": 15,
+      "status": 0
+    },
+    {
+      "index": 10,
+      "keyword": "搜索关键词-9",
+      "count": 823,
+      "range": 28,
+      "status": 1
+    },
+    {
+      "index": 11,
+      "keyword": "搜索关键词-10",
+      "count": 806,
+      "range": 41,
+      "status": 0
+    },
+    {
+      "index": 12,
+      "keyword": "搜索关键词-11",
+      "count": 789,
+      "range": 54,
+      "status": 1
+    },
+    {
+      "index": 13,
+      "keyword": "搜索关键词-12",
+      "count": 772,
+      "range": 67,
+      "status": 0
+    },
+    {
+      "index": 14,
+      "keyword": "搜索关键词-13",
+      "count": 755,
+      "range": 80,
+      "status": 1
+    },
+    {
+      "index": 15,
+      "keyword": "搜索关键词-14",
+      "count": 738,
+      "range": 93,
+      "status": 0
+    },
+    {
+      "index": 16,
+      "keyword": "搜索关键词-15",
+      "count": 721,
+      "range": 10,
+      "status": 1
+    },
+    {
+      "index": 17,
+      "keyword": "搜索关键词-16",
+      "count": 704,
+      "range": 23,
+      "status": 0
+    },
+    {
+      "index": 18,
+      "keyword": "搜索关键词-17",
+      "count": 687,
+      "range": 36,
+      "status": 1
+    },
+    {
+      "index": 19,
+      "keyword": "搜索关键词-18",
+      "count": 670,
+      "range": 49,
+      "status": 0
+    },
+    {
+      "index": 20,
+      "keyword": "搜索关键词-19",
+      "count": 653,
+      "range": 62,
+      "status": 1
+    },
+    {
+      "index": 21,
+      "keyword": "搜索关键词-20",
+      "count": 636,
+      "range": 75,
+      "status": 0
+    },
+    {
+      "index": 22,
+      "keyword": "搜索关键词-21",
+      "count": 619,
+      "range": 88,
+      "status": 1
+    },
+    {
+      "index": 23,
+      "keyword": "搜索关键词-22",
+      "count": 602,
+      "range": 5,
+      "status": 0
+    },
+    {
+      "index": 24,
+      "keyword": "搜索关键词-23",
+      "count": 585,
+      "range": 18,
+      "status": 1
+    },
+    {
+      "index": 25,
+      "keyword": "搜索关键词-24",
+      "count": 568,
+      "range": 31,
+      "status": 0
+    },
+    {
+      "index": 26,
+      "keyword": "搜索关键词-25",
+      "count": 551,
+      "range": 44,
+      "status": 1
+    },
+    {
+      "index": 27,
+      "keyword": "搜索关键词-26",
+      "count": 534,
+      "range": 57,
+      "status": 0
+    },
+    {
+      "index": 28,
+      "keyword": "搜索关键词-27",
+      "count": 517,
+      "range": 70,
+      "status": 1
+    },
+    {
+      "index": 29,
+      "keyword": "搜索关键词-28",
+      "count": 500,
+      "range": 83,
+      "status": 0
+    },
+    {
+      "index": 30,
+      "keyword": "搜索关键词-29",
+      "count": 483,
+      "range": 0,
+      "status": 1
+    },
+    {
+      "index": 31,
+      "keyword": "搜索关键词-30",
+      "count": 466,
+      "range": 13,
+      "status": 0
+    },
+    {
+      "index": 32,
+      "keyword": "搜索关键词-31",
+      "count": 449,
+      "range": 26,
+      "status": 1
+    },
+    {
+      "index": 33,
+      "keyword": "搜索关键词-32",
+      "count": 432,
+      "range": 39,
+      "status": 0
+    },
+    {
+      "index": 34,
+      "keyword": "搜索关键词-33",
+      "count": 415,
+      "range": 52,
+      "status": 1
+    },
+    {
+      "index": 35,
+      "keyword": "搜索关键词-34",
+      "count": 398,
+      "range": 65,
+      "status": 0
+    },
+    {
+      "index": 36,
+      "keyword": "搜索关键词-35",
+      "count": 381,
+      "range": 78,
+      "status": 1
+    },
+    {
+      "index": 37,
+      "keyword": "搜索关键词-36",
+      "count": 364,
+      "range": 91,
+      "status": 0
+    },
+    {
+      "index": 38,
+      "keyword": "搜索关键词-37",
+      "count": 347,
+      "range": 8,
+      "status": 1
+    },
+    {
+      "index": 39,
+      "keyword": "搜索关键词-38",
+      "count": 330,
+      "range": 21,
+      "status": 0
+    },
+    {
+      "index": 40,
+      "keyword": "搜索关键词-39",
+      "count": 313,
+      "range": 34,
+      "status": 1
+    },
+    {
+      "index": 41,
+      "keyword": "搜索关键词-40",
+      "count": 296,
+      "range": 47,
+      "status": 0
+    },
+    {
+      "index": 42,
+      "keyword": "搜索关键词-41",
+      "count": 279,
+      "range": 60,
+      "status": 1
+    },
+    {
+      "index": 43,
+      "keyword": "搜索关键词-42",
+      "count": 262,
+      "range": 73,
+      "status": 0
+    },
+    {
+      "index": 44,
+      "keyword": "搜索关键词-43",
+      "count": 245,
+      "range": 86,
+      "status": 1
+    },
+    {
+      "index": 45,
+      "keyword": "搜索关键词-44",
+      "count": 228,
+      "range": 3,
+      "status": 0
+    },
+    {
+      "index": 46,
+      "keyword": "搜索关键词-45",
+      "count": 211,
+      "range": 16,
+      "status": 1
+    },
+    {
+      "index": 47,
+      "keyword": "搜索关键词-46",
+      "count": 194,
+      "range": 29,
+      "status": 0
+    },
+    {
+      "index": 48,
+      "keyword": "搜索关键词-47",
+      "count": 177,
+      "range": 42,
+      "status": 1
+    },
+    {
+      "index": 49,
+      "keyword": "搜索关键词-48",
+      "count": 160,
+      "range": 55,
+      "status": 0
+    },
+    {
+      "index": 50,
+      "keyword": "搜索关键词-49",
+      "count": 143,
+      "range": 68,
+      "status": 1
+    }
+  ],
+  "salesTypeData": [
+    {
+      "x": "家用电器",
+      "y": 4544
+    },
+    {
+      "x": "食用酒水",
+      "y": 3321
+    },
+    {
+      "x": "个护健康",
+      "y": 3113
+    },
+    {
+      "x": "服饰箱包",
+      "y": 2341
+    },
+    {
+      "x": "母婴产品",
+      "y": 1231
+    },
+    {
+      "x": "其他",
+      "y": 1231
+    }
+  ],
+  "salesTypeDataOnline": [
+    {
+      "x": "家用电器",
+      "y": 244
+    },
+    {
+      "x": "食用酒水",
+      "y": 321
+    },
+    {
+      "x": "个护健康",
+      "y": 311
+    },
+    {
+      "x": "服饰箱包",
+      "y": 41
+    },
+    {
+      "x": "母婴产品",
+      "y": 121
+    },
+    {
+      "x": "其他",
+      "y": 111
+    }
+  ],
+  "salesTypeDataOffline": [
+    {
+      "x": "家用电器",
+      "y": 99
+    },
+    {
+      "x": "食用酒水",
+      "y": 188
+    },
+    {
+      "x": "个护健康",
+      "y": 344
+    },
+    {
+      "x": "服饰箱包",
+      "y": 255
+    },
+    {
+      "x": "其他",
+      "y": 65
+    }
+  ],
+  "offlineData": [
+    {
+      "name": "Stores 0",
+      "cvr": 0.3
+    },
+    {
+      "name": "Stores 1",
+      "cvr": 0.4
+    },
+    {
+      "name": "Stores 2",
+      "cvr": 0.5
+    },
+    {
+      "name": "Stores 3",
+      "cvr": 0.6
+    },
+    {
+      "name": "Stores 4",
+      "cvr": 0.7
+    },
+    {
+      "name": "Stores 5",
+      "cvr": 0.8
+    },
+    {
+      "name": "Stores 6",
+      "cvr": 0.3
+    },
+    {
+      "name": "Stores 7",
+      "cvr": 0.4
+    },
+    {
+      "name": "Stores 8",
+      "cvr": 0.5
+    },
+    {
+      "name": "Stores 9",
+      "cvr": 0.6
+    }
+  ],
+  "offlineChartData": [
+    {
+      "date": "00:00",
+      "type": "客流量",
+      "value": 20
+    },
+    {
+      "date": "00:00",
+      "type": "支付笔数",
+      "value": 51
+    },
+    {
+      "date": "00:30",
+      "type": "客流量",
+      "value": 37
+    },
+    {
+      "date": "00:30",
+      "type": "支付笔数",
+      "value": 68
+    },
+    {
+      "date": "01:00",
+      "type": "客流量",
+      "value": 54
+    },
+    {
+      "date": "01:00",
+      "type": "支付笔数",
+      "value": 85
+    },
+    {
+      "date": "01:30",
+      "type": "客流量",
+      "value": 71
+    },
+    {
+      "date": "01:30",
+      "type": "支付笔数",
+      "value": 102
+    },
+    {
+      "date": "02:00",
+      "type": "客流量",
+      "value": 88
+    },
+    {
+      "date": "02:00",
+      "type": "支付笔数",
+      "value": 29
+    },
+    {
+      "date": "02:30",
+      "type": "客流量",
+      "value": 105
+    },
+    {
+      "date": "02:30",
+      "type": "支付笔数",
+      "value": 46
+    },
+    {
+      "date": "03:00",
+      "type": "客流量",
+      "value": 32
+    },
+    {
+      "date": "03:00",
+      "type": "支付笔数",
+      "value": 63
+    },
+    {
+      "date": "03:30",
+      "type": "客流量",
+      "value": 49
+    },
+    {
+      "date": "03:30",
+      "type": "支付笔数",
+      "value": 80
+    },
+    {
+      "date": "04:00",
+      "type": "客流量",
+      "value": 66
+    },
+    {
+      "date": "04:00",
+      "type": "支付笔数",
+      "value": 97
+    },
+    {
+      "date": "04:30",
+      "type": "客流量",
+      "value": 83
+    },
+    {
+      "date": "04:30",
+      "type": "支付笔数",
+      "value": 24
+    },
+    {
+      "date": "05:00",
+      "type": "客流量",
+      "value": 100
+    },
+    {
+      "date": "05:00",
+      "type": "支付笔数",
+      "value": 41
+    },
+    {
+      "date": "05:30",
+      "type": "客流量",
+      "value": 27
+    },
+    {
+      "date": "05:30",
+      "type": "支付笔数",
+      "value": 58
+    },
+    {
+      "date": "06:00",
+      "type": "客流量",
+      "value": 44
+    },
+    {
+      "date": "06:00",
+      "type": "支付笔数",
+      "value": 75
+    },
+    {
+      "date": "06:30",
+      "type": "客流量",
+      "value": 61
+    },
+    {
+      "date": "06:30",
+      "type": "支付笔数",
+      "value": 92
+    },
+    {
+      "date": "07:00",
+      "type": "客流量",
+      "value": 78
+    },
+    {
+      "date": "07:00",
+      "type": "支付笔数",
+      "value": 109
+    },
+    {
+      "date": "07:30",
+      "type": "客流量",
+      "value": 95
+    },
+    {
+      "date": "07:30",
+      "type": "支付笔数",
+      "value": 36
+    },
+    {
+      "date": "08:00",
+      "type": "客流量",
+      "value": 22
+    },
+    {
+      "date": "08:00",
+      "type": "支付笔数",
+      "value": 53
+    },
+    {
+      "date": "08:30",
+      "type": "客流量",
+      "value": 39
+    },
+    {
+      "date": "08:30",
+      "type": "支付笔数",
+      "value": 70
+    },
+    {
+      "date": "09:00",
+      "type": "客流量",
+      "value": 56
+    },
+    {
+      "date": "09:00",
+      "type": "支付笔数",
+      "value": 87
+    },
+    {
+      "date": "09:30",
+      "type": "客流量",
+      "value": 73
+    },
+    {
+      "date": "09:30",
+      "type": "支付笔数",
+      "value": 104
+    }
+  ],
+  "radarData": []
+}

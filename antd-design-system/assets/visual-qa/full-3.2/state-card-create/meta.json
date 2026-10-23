@@ -1,0 +1,13 @@
+{
+  "id": "state-card-create",
+  "path": "/list/card-list",
+  "mode": "state",
+  "state": "same create click: official no handler, local form",
+  "classification": "local_extension",
+  "referenceTransport": "canonical list",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "保留本地实际功能。官方文章仍5条、标准列表仍5条、卡片两个入口无处理、AI没有重新生成入口；无法得到相同完成态，原始差异继续保留。",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

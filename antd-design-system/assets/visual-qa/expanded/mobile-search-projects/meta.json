@@ -1,0 +1,11 @@
+{
+  "id": "mobile-search-projects",
+  "path": "/list/search/projects",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机作者/好评度筛选占满可用宽度；官方较窄。筛选区相差16px，后续卡片随之平移。",
+  "humanAcceptance": "pending"
+}

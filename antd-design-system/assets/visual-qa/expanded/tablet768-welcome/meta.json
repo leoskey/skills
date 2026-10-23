@@ -1,0 +1,10 @@
+{
+  "id": "tablet768-welcome",
+  "path": "/welcome",
+  "mode": "tablet768",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "代码6.0.3比线上6.0.1多AI Skills等文档；长文高度和目录锚点随内容变化，保留新版文档。",
+  "humanAcceptance": "pending"
+}

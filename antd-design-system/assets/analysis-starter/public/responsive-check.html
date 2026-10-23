@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>页面响应式预览</title
+  ><style>
+    body {
+      margin: 0;
+      padding: 12px;
+      display: flex;
+      gap: 16px;
+      background: #e8e8e8;
+      font: 12px sans-serif;
+    }
+    section {
+      width: 390px;
+      flex-shrink: 0;
+    }
+    pre {
+      font: 10px monospace;
+      white-space: pre-wrap;
+      background: white;
+      margin: 4px 0;
+    }
+    select {
+      display: block;
+      width: 100%;
+      height: 28px;
+      margin-bottom: 8px;
+    }
+    iframe {
+      display: block;
+      width: 390px;
+      height: 640px;
+      border: 0;
+      background: white;
+    }
+  </style>
+  <script type="module">
+    window.addEventListener("message", (event) => {
+      if (
+        event.origin !== location.origin ||
+        event.data.kind !== "responsive-preview"
+      )
+        return;
+      const frame = Array.from(document.querySelectorAll("iframe")).find(
+        (f) => f.contentWindow === event.source,
+      );
+      if (frame)
+        frame.nextElementSibling.textContent = JSON.stringify(
+          event.data,
+          null,
+          2,
+        );
+    });
+    const pages = [
+      { path: "/user/login", name: "登录" },
+      { path: "/user/register-result", name: "注册结果" },
+      { path: "/user/register", name: "注册" },
+      { path: "/welcome", name: "欢迎" },
+      { path: "/admin/sub-page", name: "管理页" },
+      { path: "/dashboard/analysis", name: "分析页" },
+      { path: "/dashboard/monitor", name: "监控页" },
+      { path: "/dashboard/workplace", name: "工作台" },
+      { path: "/form/basic-form", name: "基础表单" },
+      { path: "/form/step-form", name: "分步表单" },
+      { path: "/form/advanced-form", name: "高级表单" },
+      { path: "/list/search/articles", name: "搜索列表·文章" },
+      { path: "/list/search/projects", name: "搜索列表·项目" },
+      { path: "/list/search/applications", name: "搜索列表·应用" },
+      { path: "/list/table-list", name: "查询表格" },
+      { path: "/list/basic-list", name: "标准列表" },
+      { path: "/list/card-list", name: "卡片列表" },
+      { path: "/profile/basic", name: "基础详情页" },
+      { path: "/profile/advanced", name: "高级详情页" },
+      { path: "/result/success", name: "成功页" },
+      { path: "/result/fail", name: "失败页" },
+      { path: "/exception/403", name: "403" },
+      { path: "/exception/404", name: "404" },
+      { path: "/exception/500", name: "500" },
+      { path: "/account/center", name: "个人中心" },
+      { path: "/account/settings", name: "个人设置" },
+      { path: "/chatbot", name: "AI助手" },
+    ];
+    const requested = (
+      new URLSearchParams(location.search).get("routes") ||
+      "/dashboard/analysis,/list/table-list,/form/basic-form"
+    ).split(",");
+    for (const path of requested) {
+      const section = document.createElement("section");
+      const select = document.createElement("select");
+      select.setAttribute("aria-label", "预览页面 " + path);
+      const frame = document.createElement("iframe");
+      frame.title = path + " · 390×640 CSS像素";
+      for (const p of pages) {
+        const option = document.createElement("option");
+        option.value = p.path;
+        option.textContent = p.name + " · 390px";
+        select.append(option);
+      }
+      select.value = path;
+      const show = () => (frame.src = "./?preview=mobile#" + select.value);
+      select.addEventListener("change", show);
+      const output = document.createElement("pre");
+      output.textContent = "页面加载中";
+      section.append(select, frame, output);
+      document.body.append(section);
+      show();
+    }
+  </script>
+</html>

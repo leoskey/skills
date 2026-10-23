@@ -1,0 +1,109 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 34,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 780,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 210
+    },
+    {
+      "height": 32,
+      "title": ".ant-steps:0",
+      "width": 881,
+      "x": 320,
+      "y": 234
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:0",
+      "width": 420,
+      "x": 550.5,
+      "y": 298
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:1",
+      "width": 100,
+      "x": 550.5,
+      "y": 438
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:2",
+      "width": 200,
+      "x": 658.5,
+      "y": 438
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:3",
+      "width": 420,
+      "x": 550.5,
+      "y": 494
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:4",
+      "width": 420,
+      "x": 550.5,
+      "y": 580
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:0",
+      "width": 328,
+      "x": 550.5,
+      "y": 328
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:1",
+      "width": 328,
+      "x": 550.5,
+      "y": 524
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:2",
+      "width": 328,
+      "x": 550.5,
+      "y": 610
+    }
+  ],
+  "content": "表单页\n/\n分步表单\n分步表单\n将一个冗长或用户不熟悉的表单任务分成多个步骤，指导用户完成。\n1\n填写转账信息\n2\n确认转账信息\n3\n完成\n付款账户\nant-design@alipay.com\nant-design@alipay.com\n收款账户\n支付宝\n收款人姓名\n转账金额\n￥\n下一步\n说明\n转账到支付宝账户\n\n如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。如果需要，这里可以放一些关于产品的常见问题说明。\n\n转账到银行卡\n\n如果需要，这里可以放",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

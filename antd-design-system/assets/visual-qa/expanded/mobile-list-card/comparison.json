@@ -1,0 +1,191 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 20,
+  "candidateAnchors": 20,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": -4,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:2",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:3",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:4",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:5",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:6",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:7",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:0",
+      "delta": {
+        "x": 0,
+        "y": -4,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:1",
+      "delta": {
+        "x": 0,
+        "y": -4,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:2",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:3",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:4",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:5",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:6",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:7",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:8",
+      "delta": {
+        "x": 0,
+        "y": -4.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "pageDescription:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": -4
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机文档链接取消官方1000px绝对定位，改为容器内可换行链接；页头比参考短4px，后续卡片同偏移，未作零差异声明。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,38 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 8,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 40
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "controlled_official_renderer",
+  "reviewNote": "两边均实际中止流式请求；官方部分Think闭合标签可能残留，本地解析器裁掉未闭合标签并提供重新生成。流式时钟放慢到1000ms便于采样，消息长度不是逐字同步。",
+  "humanAcceptance": "pending"
+}

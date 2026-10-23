@@ -1,0 +1,46 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 77,
+      "title": ".ant-list-item:0",
+      "width": 640,
+      "x": 560,
+      "y": 152
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:1",
+      "width": 640,
+      "x": 560,
+      "y": 229
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:2",
+      "width": 640,
+      "x": 560,
+      "y": 306
+    }
+  ],
+  "content": "基本设置\n安全设置\n账号绑定\n新消息通知\n账号绑定\n绑定淘宝\n当前未绑定淘宝账号\n绑定\n绑定支付宝\n当前未绑定支付宝账号\n绑定\n绑定钉钉\n当前未绑定钉钉账号\n绑定",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1248,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

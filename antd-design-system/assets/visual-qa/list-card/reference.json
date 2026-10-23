@@ -1,0 +1,157 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 96,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:0",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:1",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:2",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:3",
+      "width": 220.25,
+      "x": 296,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:4",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:5",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:6",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-card:7",
+      "width": 220.25,
+      "x": 296,
+      "y": 705.140625
+    },
+    {
+      "height": 201,
+      "title": ".ant-list-item:0",
+      "width": 220.25,
+      "x": 296,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:1",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:2",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:3",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 272
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:4",
+      "width": 220.25,
+      "x": 296,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:5",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:6",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:7",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 489
+    },
+    {
+      "height": 200.140625,
+      "title": ".ant-list-item:8",
+      "width": 220.25,
+      "x": 296,
+      "y": 705.140625
+    }
+  ],
+  "content": "列表页\n/\n卡片列表\n卡片列表\n\n段落示意：蚂蚁集团设计平台 ant.design，用最小的工作量，无缝接入蚂蚁集团生态， 提供跨越设计与开发的体验解决方案。\n\n快速开始\n产品简介\n产品文档\n新增产品\nAlipay\n在中台产品的研发过程中，会出现不同的设计规范和实现方式，但其中往往存在很多类似的共通点和组成部分，该专案即是致力于归纳和吸收各种产品的各自优势，致力于打造成中后台产品的根底\n操作一\n操作二\nAngular\n在中台产品的研发过程中，会出现不同的设计规范和实现方式，但其中往往存在很多类似",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}

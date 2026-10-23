@@ -1,0 +1,28 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 853,
+    "height": 480,
+    "dpr": 1.5,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 853,
+    "height": 480,
+    "dpr": 1.5,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 6,
+  "candidateAnchors": 6,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": true,
+  "scrollMatches": true,
+  "classification": "matched_geometry",
+  "reviewNote": "同视口、字体、滚动；关键锚点在2px内。截图已审阅，动态值/页脚/版本主色仍独立记录。 认证页无后台侧栏/内容主题，dark与collapsed记不适用。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "path": "/form/basic-form",
+    "reference": {
+      "primary": "rgb(24, 144, 255)",
+      "token": "#1890ff"
+    },
+    "candidate": {
+      "primary": "rgb(24, 144, 255)",
+      "token": "#1890ff"
+    }
+  },
+  {
+    "path": "/user/login",
+    "reference": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    },
+    "candidate": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    }
+  },
+  {
+    "path": "/user/register",
+    "reference": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    },
+    "candidate": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    }
+  },
+  {
+    "path": "/user/register-result",
+    "reference": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    },
+    "candidate": {
+      "primary": "rgb(22, 119, 255)",
+      "token": "#1677ff"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 8,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": true,
+  "reviewNote": "相同固定SSE，35/150ms流式定时器在隔离浏览器暂停并同步推进8次回调；真实流式中间态8锚点一致，不代表生产时延。",
+  "classification": "measured_geometry_aligned"
+}

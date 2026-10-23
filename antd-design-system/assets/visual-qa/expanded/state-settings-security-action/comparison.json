@@ -1,0 +1,28 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 7,
+  "candidateAnchors": 7,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": true,
+  "scrollMatches": true,
+  "classification": "local_extension",
+  "reviewNote": "官方修改没有处理函数；本地反馈演示边界。",
+  "humanAcceptance": "pending"
+}

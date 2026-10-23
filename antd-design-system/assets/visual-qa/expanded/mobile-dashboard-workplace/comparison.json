@@ -1,0 +1,164 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 19,
+  "candidateAnchors": 19,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 0,
+        "height": 576
+      }
+    },
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:2",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:3",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:4",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:1",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:2",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:3",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:4",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:0",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:1",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:2",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:3",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:4",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "listItem:5",
+      "delta": {
+        "x": 0,
+        "y": 576.0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机项目Card.Grid改单列，保留可读的标题/描述；官方仍显示三列窄卡。",
+  "humanAcceptance": "pending"
+}

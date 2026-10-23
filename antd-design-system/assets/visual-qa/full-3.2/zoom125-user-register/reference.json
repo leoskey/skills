@@ -1,0 +1,109 @@
+{
+  "url": "https://preview.pro.ant.design/user/register",
+  "title": "登录 - Ant Design Pro",
+  "viewport": {
+    "width": 1024,
+    "height": 576,
+    "dpr": 1.25,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 576,
+  "documentWidth": 1024,
+  "fontLoaded": true,
+  "content": "注册\n+86\n获取验证码\n注 册\n使用已有账户登录",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 576,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "formItem:0",
+      "x": 328,
+      "y": 45.141,
+      "width": 368,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "formItem:1",
+      "x": 328,
+      "y": 109.141,
+      "width": 368,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "formItem:2",
+      "x": 328,
+      "y": 173.141,
+      "width": 368,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "formItem:3",
+      "x": 328,
+      "y": 237.141,
+      "width": 368,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "+86"
+    },
+    {
+      "key": "formItem:4",
+      "x": 328,
+      "y": 301.141,
+      "width": 242.656,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "formItem:5",
+      "x": 328,
+      "y": 365.141,
+      "width": 368,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "注 册 使用已有账户登录"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

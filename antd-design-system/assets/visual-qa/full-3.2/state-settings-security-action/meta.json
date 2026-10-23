@@ -1,0 +1,16 @@
+{
+  "id": "state-settings-security-action",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "first security Modify action; local feedback vs official no handler",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "canonical public mock; official UI/CSS unchanged",
+  "difference": "Official Modify has no handler; local feedback describes demo boundary. Geometry alone does not imply identical behavior.",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "官方修改入口无处理；本地提示演示边界，无真实安全设置变化。几何一致，行为不同。"
+}

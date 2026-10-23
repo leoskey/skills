@@ -1,0 +1,26 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 7,
+  "candidateAnchors": 7,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": true,
+  "reviewNote": "官方修改入口无处理；本地提示演示边界，无真实安全设置变化。几何一致，行为不同。",
+  "classification": "same_geometry_with_behavior_difference"
+}

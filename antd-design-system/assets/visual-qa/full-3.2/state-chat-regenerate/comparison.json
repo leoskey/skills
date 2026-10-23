@@ -1,0 +1,57 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 10,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:1",
+      "delta": {
+        "x": 0,
+        "y": -105,
+        "width": -10,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "chat:2",
+      "delta": {
+        "x": 0,
+        "y": -105,
+        "width": -10,
+        "height": 40
+      }
+    },
+    {
+      "anchor": "chat:3",
+      "delta": {
+        "x": 8,
+        "y": -261,
+        "width": -26,
+        "height": -36
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [
+    "chat:4",
+    "chat:5"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": false,
+  "reviewNote": "保留本地实际功能。官方文章仍5条、标准列表仍5条、卡片两个入口无处理、AI没有重新生成入口；无法得到相同完成态，原始差异继续保留。",
+  "classification": "retained_behavior_difference"
+}

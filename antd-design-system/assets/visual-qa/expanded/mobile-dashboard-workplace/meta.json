@@ -1,0 +1,11 @@
+{
+  "id": "mobile-dashboard-workplace",
+  "path": "/dashboard/workplace",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机项目Card.Grid改单列，保留可读的标题/描述；官方仍显示三列窄卡。",
+  "humanAcceptance": "pending"
+}

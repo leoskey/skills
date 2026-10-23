@@ -1,0 +1,12 @@
+{
+  "id": "state-resource-retry",
+  "mode": "state",
+  "path": "/account/settings",
+  "state": "retry-after-resource-error",
+  "classification": "official_retry",
+  "difference": "Official lazy module remains failed after retry; local fixture loader recovers.",
+  "referenceTransport": "one blocked official lazy chunk; local fixture failure released before retry",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "分别保存相同错误态、点击重试后的真实不同状态、移除故障完整刷新后的相同恢复态。保留本地恢复能力，不构造官方成功截图。"
+}

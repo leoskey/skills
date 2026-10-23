@@ -1,0 +1,12 @@
+{
+  "id": "state-settings-avatar",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "same synthetic QA avatar chosen; local preview only",
+  "referenceTransport": "all POST in isolated avatar action returns local success; official Upload has no preview handler",
+  "classification": "local_extension",
+  "status": "agent_reviewed",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "选择同一合成QA头像文件；官方Upload没有头像预览处理函数，本地FileReader即时预览。官方POST仅在浏览器返回测试成功，没有实际上传。",
+  "humanAcceptance": "pending"
+}

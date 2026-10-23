@@ -1,0 +1,109 @@
+{
+  "url": "http://127.0.0.1:4176/#/result/success",
+  "title": "成功页 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 854,
+  "documentWidth": 1265,
+  "fontLoaded": true,
+  "content": "Ant Design Pro\nProUser\n提交成功\n提交结果页用于反馈一系列操作任务的处理结果， 如果仅是简单操作，使用 Message 全局提示反馈即可。 本文字区域可以展示简单的补充说明，如果有类似展示 \"单据\"的需求，下面这个灰色区域可以呈现比较复杂的内容。\n返回列表\n查看项目\n打 印\n项目名称\n项目 ID\n23421\n\t\n负责人\n曲丽丽\n\t\n生效时间\n2016-12-12 ~ 2017-12-12\n\n\n创建项目\n曲丽丽\n2016-12-12 12:32\n部门初审\n周毛毛\n催一下\n财务复核\n完成\nAnt Design Pro © 2026 · 本地演示数据",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1265,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1233,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 64,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "card:0",
+      "x": 104,
+      "y": 88,
+      "width": 1121,
+      "height": 650.688,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "提交成功 提交结果页用于反馈一系列操作任务的处理结果， 如果仅是简单操作，使用 Message 全局提示反馈即可。 本文字区域可以展示简单的补充说明，如果有类似展示 \"单据\"的需求，下面这个灰色区域可"
+    },
+    {
+      "key": "steps:0",
+      "x": 200,
+      "y": 532,
+      "width": 929,
+      "height": 94.688,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "创建项目 曲丽丽 2016-12-12 12:32 部门初审 周毛毛 催一下 财务复核 完成"
+    },
+    {
+      "key": "descriptions:0",
+      "x": 200,
+      "y": 444,
+      "width": 929,
+      "height": 66,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "项目名称 项目 ID 23421 负责人 曲丽丽 生效时间 2016-12-12 ~ 2017-12-12"
+    },
+    {
+      "key": "result:0",
+      "x": 128,
+      "y": 112,
+      "width": 1073,
+      "height": 586.688,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "提交成功 提交结果页用于反馈一系列操作任务的处理结果， 如果仅是简单操作，使用 Message 全局提示反馈即可。 本文字区域可以展示简单的补充说明，如果有类似展示 \"单据\"的需求，下面这个灰色区域可"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

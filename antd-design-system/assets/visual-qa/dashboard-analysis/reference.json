@@ -1,0 +1,165 @@
+{
+  "canvasCount": 17,
+  "cards": [
+    {
+      "height": 237,
+      "title": ".ant-card:0",
+      "width": 214.25,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 237,
+      "title": ".ant-card:1",
+      "width": 214.25,
+      "x": 534.25,
+      "y": 88
+    },
+    {
+      "height": 237,
+      "title": ".ant-card:2",
+      "width": 214.25,
+      "x": 772.5,
+      "y": 88
+    },
+    {
+      "height": 237,
+      "title": ".ant-card:3",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 88
+    },
+    {
+      "height": 412,
+      "title": ".ant-card:4",
+      "width": 929,
+      "x": 296,
+      "y": 349
+    },
+    {
+      "height": 501.140625,
+      "title": ".ant-card:5",
+      "width": 452.5,
+      "x": 296,
+      "y": 785
+    },
+    {
+      "height": 501.140625,
+      "title": ".ant-card:6",
+      "width": 452.5,
+      "x": 772.5,
+      "y": 785
+    },
+    {
+      "height": 600,
+      "title": ".ant-card:7",
+      "width": 929,
+      "x": 296,
+      "y": 1318.140625
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:0",
+      "width": 214.25,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:1",
+      "width": 214.25,
+      "x": 534.25,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:2",
+      "width": 214.25,
+      "x": 772.5,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:3",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:4",
+      "width": 452.5,
+      "x": 296,
+      "y": 785
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:5",
+      "width": 452.5,
+      "x": 772.5,
+      "y": 785
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-thead tr:0",
+      "width": 404.5,
+      "x": 320,
+      "y": 988.140625
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):0",
+      "width": 404.5,
+      "x": 320,
+      "y": 1027.140625
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):1",
+      "width": 404.5,
+      "x": 320,
+      "y": 1066.140625
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):2",
+      "width": 404.5,
+      "x": 320,
+      "y": 1105.140625
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):3",
+      "width": 404.5,
+      "x": 320,
+      "y": 1144.140625
+    },
+    {
+      "height": 39,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):4",
+      "width": 404.5,
+      "x": 320,
+      "y": 1183.140625
+    }
+  ],
+  "content": "总销售额\n总销售额\n¥ 126,560\n周同比12%\n日同比11%\n日销售额￥12,423\n访问量\n访问量\n8,846\n日访问量1,234\n支付笔数\n支付笔数\n6,560\n转化率60%\n运营活动效果\n运营活动效果\n78%\n78%\n周同比12%\n日同比11%\n销售额\n访问量\n今日\n本周\n本月\n本年\n门店销售额排名\n1\n工专路 0 号店\n323,234\n2\n工专路 1 号店\n323,234\n3\n工专路 2 号店\n323,234\n4\n工专路 3 号店\n323,234\n5\n工专路 4 号店\n323,23",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "state-chat-stop",
+  "path": "/chatbot",
+  "mode": "state",
+  "state": "aborted partial message",
+  "referenceTransport": "local SSE fixture",
+  "candidateClock": "1000ms QA sampling",
+  "status": "agent_reviewed",
+  "classification": "controlled_official_renderer",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "两边均实际中止流式请求；官方部分Think闭合标签可能残留，本地解析器裁掉未闭合标签并提供重新生成。流式时钟放慢到1000ms便于采样，消息长度不是逐字同步。",
+  "humanAcceptance": "pending"
+}

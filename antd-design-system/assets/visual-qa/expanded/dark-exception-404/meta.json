@@ -1,0 +1,10 @@
+{
+  "id": "dark-exception-404",
+  "path": "/exception/404",
+  "mode": "dark",
+  "status": "agent_reviewed",
+  "classification": "matched_geometry",
+  "referenceKind": "live_official",
+  "reviewNote": "同视口、字体、滚动；关键锚点在2px内。截图已审阅，动态值/页脚/版本主色仍独立记录。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,38 @@
+{
+  "version": "3.2.0",
+  "revision": "full-301",
+  "current": "expanded-acceptance.json",
+  "summary": {
+    "pages": 27,
+    "pairedCases": 306,
+    "originalCases": 301,
+    "originalCasesWith32Evidence": 301,
+    "originalCasesPending32Evidence": 0,
+    "newlyCompletedOriginalCasesThisPass": 199,
+    "additionalRegressionCases": 5,
+    "matrixCases": 210,
+    "originalRawGeometryPassedCases": 294,
+    "rawGeometryPassedCases": 299,
+    "retainedGeometryDifferenceCases": 7,
+    "sameGeometryWithBehaviorDifferenceCases": 3,
+    "originalDifferences": 77,
+    "originalCasesAligned": 70,
+    "originalCasesRetained": 7,
+    "measuredReferenceAnchors": 5990,
+    "allScreenshotsAgentReviewed": true,
+    "humanAcceptance": "pending"
+  },
+  "scope": "原301组完整3.2.0配对覆盖；另5组回归。当前证据不再沿用3.1.0。",
+  "boundaries": [
+    "原301个ID全部有3.2.0配对证据；102项来自此前3.2.0复核（受本轮样式影响的已重拍），其余199项本轮补齐；5项额外回归单列，不抵充原范围。",
+    "294/301组原始几何在2px内；7组本地扩展/停止区/官方重试差异保留。头像/安全/绑定另3组几何一致仍有真实图像或行为差异。",
+    "几何、截图审阅、业务行为与用户认可分开维护；不承诺随机图表、地图、时间、CDN及本地页脚逐像素一致。",
+    "390px为固定CSS视口，无mobile自动缩放；本地保留可访问缩放，官方meta禁缩放。125/150%为等效CSS视口+DPR，非浏览器菜单原生缩放。",
+    "公开mock、类别过滤、空列表、固定SSE及故障通过隔离浏览器测试传输驱动官方原UI/CSS；条件逐例披露。没有真实上传、注册、短信/邮件、转账或模型请求。",
+    "原301组3.1.0证据保留历史；当前覆盖不再依赖3.1.0旧证据。实体设备、真实服务与用户最终视觉认可未纳入代理结论。"
+  ],
+  "historicalOnly": [
+    "archive/3.1.0/full-acceptance.json",
+    "archive/3.2.0-refinement.json"
+  ]
+}

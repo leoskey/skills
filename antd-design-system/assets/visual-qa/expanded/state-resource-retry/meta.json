@@ -1,0 +1,12 @@
+{
+  "id": "state-resource-retry",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "click retry: candidate restores; official route lazy cache keeps error",
+  "referenceTransport": "one failed chunk; subsequent Retry still shows ChunkLoadError",
+  "classification": "official_retry_difference",
+  "status": "agent_reviewed",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "相同资源失败界面点击重试：本地数据恢复，线上被拒绝的lazy模块仍停留错误。线上移除故障并刷新后恢复，另有独立恢复截图。",
+  "humanAcceptance": "pending"
+}

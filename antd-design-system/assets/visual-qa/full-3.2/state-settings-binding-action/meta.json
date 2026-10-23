@@ -1,0 +1,16 @@
+{
+  "id": "state-settings-binding-action",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "first binding action; local feedback vs official no handler",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "canonical public mock; official UI/CSS unchanged",
+  "difference": "Official binding has no handler; local displays demo feedback, no real account change.",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "官方绑定入口无处理；本地提示演示边界，无真实账号绑定。几何一致，行为不同。"
+}

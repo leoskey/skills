@@ -1,0 +1,121 @@
+{
+  "url": "https://preview.pro.ant.design/account/settings/",
+  "title": "个人设置 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 720,
+  "documentWidth": 1280,
+  "fontLoaded": true,
+  "content": "欢迎\n管理页\nDashboard\n表单页\n列表页\n详情页\n结果页\n异常页\n个人页\n个人中心\n个人设置\nAI 助手\nAnt Design Pro\nProUser\n基本设置\n安全设置\n账号绑定\n新消息通知\n安全设置\n账户密码\n当前密码强度：强\n修改\n密保手机\n已绑定手机：138****8293\n修改\n密保问题\n未设置密保问题，密保问题可有效保护账户安全\n设置\n备用邮箱\n已绑定邮箱：ant***sign.com\n修改\nMFA 设备\n未绑定 MFA 设备，绑定后，可以进行二次确认\n绑定\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1248,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 256,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎 管理页 Dashboard 表单页 列表页 详情页 结果页 异常页 个人页 个人中心 个人设置 AI 助手"
+    },
+    {
+      "key": "listItem:0",
+      "x": 560,
+      "y": 152,
+      "width": 640,
+      "height": 77,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "账户密码 当前密码强度：强 修改"
+    },
+    {
+      "key": "listItem:1",
+      "x": 560,
+      "y": 229,
+      "width": 640,
+      "height": 77,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "密保手机 已绑定手机：138****8293 修改"
+    },
+    {
+      "key": "listItem:2",
+      "x": 560,
+      "y": 306,
+      "width": 640,
+      "height": 77,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "密保问题 未设置密保问题，密保问题可有效保护账户安全 设置"
+    },
+    {
+      "key": "listItem:3",
+      "x": 560,
+      "y": 383,
+      "width": 640,
+      "height": 77,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "备用邮箱 已绑定邮箱：ant***sign.com 修改"
+    },
+    {
+      "key": "listItem:4",
+      "x": 560,
+      "y": 460,
+      "width": 640,
+      "height": 77,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "MFA 设备 未绑定 MFA 设备，绑定后，可以进行二次确认 绑定"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

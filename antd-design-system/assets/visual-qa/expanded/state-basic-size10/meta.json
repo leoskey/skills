@@ -1,0 +1,11 @@
+{
+  "id": "state-basic-size10",
+  "path": "/list/basic-list",
+  "mode": "state",
+  "state": "10 rows per page; pagination updated",
+  "status": "agent_reviewed",
+  "classification": "local_extension",
+  "referenceKind": "live_official",
+  "reviewNote": "同样选择下一档页容量；官方paginationProps固定pageSize=5，界面仍5条；本地切换至10条。不是10条状态的零差异比较。",
+  "humanAcceptance": "pending"
+}

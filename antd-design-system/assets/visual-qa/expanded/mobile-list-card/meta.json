@@ -1,0 +1,11 @@
+{
+  "id": "mobile-list-card",
+  "path": "/list/card-list",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机文档链接取消官方1000px绝对定位，改为容器内可换行链接；页头比参考短4px，后续卡片同偏移，未作零差异声明。",
+  "humanAcceptance": "pending"
+}

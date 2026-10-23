@@ -1,0 +1,24 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 9,
+  "candidateAnchors": 9,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry only. Screenshot review and semantic differences are recorded separately; no pixel-perfect claim.",
+  "rawGeometryPassed": true
+}

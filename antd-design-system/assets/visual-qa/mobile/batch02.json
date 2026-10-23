@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/form/step-form",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "分步表单 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/form/advanced-form",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "高级表单 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/profile/basic",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "基础详情页 - Ant Design Pro",
+    "problematic": []
+  }
+]

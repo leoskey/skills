@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ant Design System"
+  short_description: "按官方页面模式构建企业后台，提供可运行模板与同视口视觉验收"
+  default_prompt: "使用 $antd-design-system 为当前任务选择官方页面模式，实现后台并完成视觉对照。"

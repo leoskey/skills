@@ -1,0 +1,48 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 4,
+  "candidateAnchors": 10,
+  "geometryDifferences": [
+    {
+      "anchor": "header:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": -15,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [
+    "card:0",
+    "result:0"
+  ],
+  "extraCandidate": [
+    "formItem:0",
+    "formItem:1",
+    "formItem:2",
+    "formItem:3",
+    "formItem:4",
+    "formItem:5",
+    "formItem:6",
+    "formItem:7"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": false,
+  "reviewNote": "Official lazy module remains failed after retry; local fixture loader recovers.",
+  "classification": "retained_behavior_difference"
+}

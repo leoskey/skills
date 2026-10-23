@@ -1,0 +1,78 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 40,
+      "title": ".ant-form-item:0",
+      "width": 328,
+      "x": 476,
+      "y": 236
+    },
+    {
+      "height": 40,
+      "title": ".ant-form-item:1",
+      "width": 328,
+      "x": 476,
+      "y": 300
+    },
+    {
+      "height": 118,
+      "title": ".ant-pro-form-login-top:0",
+      "width": 1216,
+      "x": 32,
+      "y": 56
+    },
+    {
+      "height": 44,
+      "title": ".ant-pro-form-login-header:0",
+      "width": 1216,
+      "x": 32,
+      "y": 56
+    },
+    {
+      "height": 44,
+      "title": ".ant-pro-form-login-logo:0",
+      "width": 44,
+      "x": 522.03125,
+      "y": 56
+    },
+    {
+      "height": 44,
+      "title": ".ant-pro-form-login-title:0",
+      "width": 175.9375,
+      "x": 582.03125,
+      "y": 58
+    },
+    {
+      "height": 22,
+      "title": ".ant-pro-form-login-desc:0",
+      "width": 1216,
+      "x": 32,
+      "y": 112
+    },
+    {
+      "height": 325.21875,
+      "title": ".ant-pro-form-login-main:0",
+      "width": 328,
+      "x": 476,
+      "y": 174
+    },
+    {
+      "height": 276,
+      "title": "form:0",
+      "width": 328,
+      "x": 476,
+      "y": 174
+    }
+  ],
+  "content": "Ant Design\nAnt Design 是西湖区最具影响力的 Web 设计规范\n账户密码登录\n手机号登录\n获取验证码\n自动登录\n忘记密码 ?\n登 录\n其他登录方式 :\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "fontLoaded": true,
+  "header": null,
+  "scrollY": 0,
+  "sider": null,
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "standalone"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "state-settings-security-action",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "first security Modify action; local feedback vs official no handler",
+  "classification": "local_extension",
+  "status": "agent_reviewed",
+  "referenceKind": "live_official",
+  "reviewNote": "官方修改没有处理函数；本地反馈演示边界。",
+  "humanAcceptance": "pending"
+}

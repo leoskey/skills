@@ -1,0 +1,14 @@
+{
+  "id": "state-resource-retry",
+  "mode": "state",
+  "path": "/account/settings",
+  "state": "retry-after-resource-error",
+  "classification": "official_retry",
+  "difference": "Official lazy module remains failed after retry; local fixture loader recovers.",
+  "referenceTransport": "one blocked official lazy chunk; local fixture failure released before retry",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "Official lazy module remains failed after retry; local fixture loader recovers.",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

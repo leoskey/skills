@@ -1,0 +1,12 @@
+{
+  "id": "state-card-details",
+  "path": "/list/card-list",
+  "mode": "state",
+  "state": "details-action",
+  "referenceCapability": "official action is a no-op; local details modal is an extension",
+  "status": "agent_reviewed",
+  "classification": "local_extension",
+  "referenceKind": "live_official",
+  "reviewNote": "官方操作一没有处理函数；本地打开产品信息弹窗。",
+  "humanAcceptance": "pending"
+}

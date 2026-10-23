@@ -1,0 +1,146 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 19,
+  "candidateAnchors": 19,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 30
+      }
+    },
+    {
+      "anchor": "tableHead:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableHead:1",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:1",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:3",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:4",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:5",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:6",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:7",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:8",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 134,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "toolbar:1",
+      "delta": {
+        "x": 0,
+        "y": 15,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "商品与进度表保留列宽并在容器内滚动；官方在平板/窄屏强制压缩换行，因此表宽、行高不同。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "state-articles-empty",
+  "path": "/list/search/articles",
+  "mode": "state",
+  "state": "same keyword NO_MATCH_QA_2026; empty result",
+  "referenceTransport": "GET /api/fake_list returns empty list; official search has no client keyword filtering",
+  "status": "agent_reviewed",
+  "classification": "controlled_official_renderer",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "同视口、字体、滚动；关键锚点在2px内。截图已审阅，动态值/页脚/版本主色仍独立记录。",
+  "humanAcceptance": "pending"
+}

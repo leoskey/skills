@@ -1,0 +1,60 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 77,
+      "title": ".ant-list-item:0",
+      "width": 640,
+      "x": 560,
+      "y": 152
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:1",
+      "width": 640,
+      "x": 560,
+      "y": 229
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:2",
+      "width": 640,
+      "x": 560,
+      "y": 306
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:3",
+      "width": 640,
+      "x": 560,
+      "y": 383
+    },
+    {
+      "height": 77,
+      "title": ".ant-list-item:4",
+      "width": 640,
+      "x": 560,
+      "y": 460
+    }
+  ],
+  "content": "基本设置\n安全设置\n账号绑定\n新消息通知\n安全设置\n账户密码\n当前密码强度：强\n修改\n密保手机\n已绑定手机：138****8293\n修改\n密保问题\n未设置密保问题，密保问题可有效保护账户安全\n设置\n备用邮箱\n已绑定邮箱：ant***sign.com\n修改\nMFA 设备\n未绑定 MFA 设备，绑定后，可以进行二次确认\n绑定",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1248,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

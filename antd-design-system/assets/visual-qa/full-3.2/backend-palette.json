@@ -1,0 +1,11 @@
+{
+  "url": "https://preview.pro.ant.design/form/basic-form",
+  "officialCSSVariables": {
+    "primary": "#1890ff",
+    "primary-hover": "#40a9ff",
+    "primary-active": "#096dd9",
+    "primary-bg": "#e6f7ff",
+    "primary-border": "#91d5ff",
+    "info": "#1677ff"
+  }
+}

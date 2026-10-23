@@ -1,0 +1,11 @@
+{
+  "id": "mobile-account-settings",
+  "path": "/account/settings",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机使用四项可见的横向导航、受控宽度字段；官方纵向导航和固定宽表单挤压内容。默认省市数据不同；同为空的4项必填校验已配对通过。",
+  "humanAcceptance": "pending"
+}

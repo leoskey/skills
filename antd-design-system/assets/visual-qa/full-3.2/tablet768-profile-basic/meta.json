@@ -1,0 +1,11 @@
+{
+  "id": "tablet768-profile-basic",
+  "path": "/profile/basic",
+  "mode": "tablet768",
+  "referenceTransport": "canonical public list responses",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "移除默认手机改版、固定表格宽度和额外滚动；恢复官方栅格、字段宽、导航与样式。注册结果恢复800px容器和操作间距，保留本地演示的诚实语义。",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

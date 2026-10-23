@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/dashboard/monitor",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "监控页 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/account/center",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "个人中心 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/account/settings",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "个人设置 - Ant Design Pro",
+    "problematic": []
+  }
+]

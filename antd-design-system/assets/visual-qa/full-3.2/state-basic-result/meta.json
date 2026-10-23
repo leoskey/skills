@@ -1,0 +1,15 @@
+{
+  "id": "state-basic-result",
+  "path": "/list/basic-list",
+  "mode": "state",
+  "state": "edit success; matching vertical padding and preserved id",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "Browser-only POST success; candidate actually updates local row; no server write",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "实际修改负责人并提交成功；本地仍5行、Alipay仅1条，结果13锚点一致。官方POST仅浏览器返回成功，无服务器写入。"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "state-applications-filter",
+  "path": "/list/search/applications",
+  "mode": "state",
+  "state": "category-selected",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "Full public mock filtered by category cat1 before taking 8 results, matching local API. Official UI selected category1 by visible control; no DOM/CSS changes.",
+  "dataStandardization": true,
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "类别1已实际选中。参考传输使用公开完整mock按cat1过滤后取8条，与本地同数据；这是取证数据标准化，非CSS修复。"
+}

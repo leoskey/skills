@@ -1,0 +1,26 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 6,
+  "candidateAnchors": 6,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": true,
+  "reviewNote": "以实际线上6.0.1提交的中英文Cheatsheet为视觉基线，替换正文。",
+  "classification": "measured_geometry_aligned"
+}

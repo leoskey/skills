@@ -1,0 +1,13 @@
+{
+  "id": "state-resource-error",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "resource loading failure with retry",
+  "referenceTransport": "one failed route chunk; official ChunkLoadError",
+  "candidateTransport": "fixture fetch rejected until recovery; resource error",
+  "status": "agent_reviewed",
+  "classification": "controlled_official_renderer",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "同视口、字体、滚动；关键锚点在2px内。截图已审阅，动态值/页脚/版本主色仍独立记录。",
+  "humanAcceptance": "pending"
+}

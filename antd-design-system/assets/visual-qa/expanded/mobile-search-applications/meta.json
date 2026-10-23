@@ -1,0 +1,11 @@
+{
+  "id": "mobile-search-applications",
+  "path": "/list/search/applications",
+  "mode": "mobile",
+  "referenceTransport": "canonical metrics",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "手机作者/好评度筛选占满可用宽度；官方控件过窄。相同指标下筛选区相差80px，后续卡片随之平移。其余7种环境已同指标比较通过。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,121 @@
+{
+  "url": "http://127.0.0.1:4176/#/welcome",
+  "title": "欢迎 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 14594,
+  "documentWidth": 1265,
+  "fontLoaded": true,
+  "content": "欢迎\n管理页\nDashboard\n表单页\n列表页\n详情页\n结果页\n异常页\n个人页\nAI 助手\nAnt Design Pro\nProUser\n欢迎使用 Ant Design Pro V6🎉\n#\nAnt Design Pro Cheatsheet\n\n#\n🎉 v6 新特性\nReact 19 + antd 6 + Umi Max 4：全面升级到最新技术栈，utoopack（Turbopack）构建\n样式重构：Less → Tailwind CSS v4 + antd-style + CSS Modules，启用 CSS 变量主题\nAI 助手页面：基于 Ant Design X 的聊天界面示例\nReact Query：从 useRequest 迁移到 @tanstack/react-query\nBiome：替代 ESLint + Prettier，统一 lint 和格式化\nCloudflare Worker 后端：演示 API 独立部署，基于 Hono 框架\n更多：路由预加载、骨架屏 Loading、D3 地图、Cheatsheet 速查文档、moment → dayjs、Class → 函数式组件\n\n→ 查看完整更新日志\n\n#\n快速开始\n\n创建项目：\n\ngit clone --depth 1 https://github.com/ant-design/ant-design-pro.git my-project\ncd my-project\nnpm install\n\n\n项目提供两种模式：\n\n完整模式：包含所有示例页面（Dashboard、表单、列表、权限等），适合参考学习\n精简模式：仅保留登录页和基础布局，适合从零开发\n\n切换精简模式：\n\ngit add -A && git commit -m \"chore: save before simple\"  # 先提交，以便回退\nnpm run simple                                             # 删除示例页面和多余依赖\nnpm install                                                # 更新依赖\n\n\n💡 建议先用完整模式熟悉项目结构，再切换精简模式开始开发。\n\n目录结构：\n\n├── config/           # 配置文件（路由、代理、主题）\n│   ├── config.ts     # 主配置\n│   ├── routes.ts     # 路由配置\n│   ├── defaultSettings.ts  # 布局主题设置\n│   └── proxy.ts      # 开发代理配置\n├── mock/             # Mock 数据\n├── src/\n│   ├── components/   # 公共组件\n│   ├── locales/      # 国际化资源\n│   ├── models/       # 全局数据模型\n│   ├── services/     # API 服务层\n│   ├── utils/        # 工具函数\n│   ├── access.ts     # 权限定义\n│   └── app.tsx       # 运行时配置\n├── docs/             # 项目文档\n└── types/            # 类型声明\n\n\n常用命令：\n\n命令\t说明\nnpm start\t启动开发服务器（UMI_ENV=dev，带 Mock）\nnpm run dev\t启动开发服务器（UMI_ENV=dev，无 Mock）\nnpm run start:no-mock\t无 Mock 启动\nnpm run start:pre\t预发布环境启动\nnpm run start:test\t测试环境启动\nnpm run build\t构建生产产物\nnpm run preview\t预览已构建产物（需先 npm run build，端口 8000）\nnpm run preview:build\t构建并本地预览（端口 8000）\nnpm run deploy\t构建并部署到 GitHub Pages\nnpm run analyze\t构建产物体积分析\nnpm run lint\t代码检查（Biome + TypeScript）\nnpm run biome\tBiome 自动修复\nnpm test\t运行测试\nnpm run test:coverage\t测试覆盖率\nnpm run test:update\t更新测试快照\nnpm run tsc\t类型检查（不生成文件）\nnpm run i18n-remove\t移除国际化（locale=zh-CN）\nnpm run ",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1265,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1233,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 256,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎 管理页 Dashboard 表单页 列表页 详情页 结果页 异常页 个人页 AI 助手"
+    },
+    {
+      "key": "pageHeader:0",
+      "x": 296,
+      "y": 64,
+      "width": 929,
+      "height": 48,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎使用 Ant Design Pro V6🎉"
+    },
+    {
+      "key": "card:0",
+      "x": 296,
+      "y": 128,
+      "width": 603.328,
+      "height": 14351.281,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "# Ant Design Pro Cheatsheet # 🎉 v6 新特性 React 19 + antd 6 + Umi Max 4：全面升级到最新技术栈，utoopack（Turbopack）"
+    },
+    {
+      "key": "card:1",
+      "x": 923.328,
+      "y": 128,
+      "width": 301.672,
+      "height": 97,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "1 了解 umi umi 是一个可扩展的企业级前端应用框架，以路由为基础，支持配置式路由和约定式路由。"
+    },
+    {
+      "key": "card:2",
+      "x": 923.328,
+      "y": 241,
+      "width": 301.672,
+      "height": 97,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "2 了解 Ant Design antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。"
+    },
+    {
+      "key": "card:3",
+      "x": 923.328,
+      "y": 354,
+      "width": 301.672,
+      "height": 97,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "3 了解 Pro Components ProComponents 是基于 Ant Design 的高抽象模板组件，以一个组件就是一个页面为开发理念。"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

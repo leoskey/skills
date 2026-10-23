@@ -1,0 +1,12 @@
+{
+  "id": "state-basic-size10",
+  "path": "/list/basic-list",
+  "mode": "state",
+  "state": "same next page-size option: official controlled5, local10",
+  "classification": "local_extension",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "保留本地实际功能。官方文章仍5条、标准列表仍5条、卡片两个入口无处理、AI没有重新生成入口；无法得到相同完成态，原始差异继续保留。",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

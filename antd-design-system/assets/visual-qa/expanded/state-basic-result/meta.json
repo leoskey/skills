@@ -1,0 +1,12 @@
+{
+  "id": "state-basic-result",
+  "path": "/list/basic-list",
+  "mode": "state",
+  "state": "edit success; matching vertical padding and preserved id",
+  "referenceTransport": "POST stub success",
+  "status": "agent_reviewed",
+  "classification": "controlled_official_renderer",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "相同编辑提交成功结果，弹窗布局已对齐。官方写入仅返回测试成功，不改变背景列表；本地实际保留负责人/日期。修复了编辑丢失id导致重复新增及请求未成功便显示结果的问题。",
+  "humanAcceptance": "pending"
+}

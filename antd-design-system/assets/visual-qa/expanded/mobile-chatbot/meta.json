@@ -1,0 +1,11 @@
+{
+  "id": "mobile-chatbot",
+  "path": "/chatbot",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机会话列表位于消息区上方；官方固定侧栏挤压消息和发送器。流式回复采用披露的本地SSE数据，异步采样字数可能略有不同。",
+  "humanAcceptance": "pending"
+}

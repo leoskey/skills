@@ -1,0 +1,83 @@
+{
+  "url": "http://127.0.0.1:4176/?qa-render=32#/list/basic-list",
+  "title": "标准列表 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 720,
+  "documentWidth": 1280,
+  "fontLoaded": true,
+  "content": "欢迎\n管理页\nDashboard\n表单页\n列表页\n搜索列表\n查询表格\n标准列表\n卡片列表\n详情页\n结果页\n异常页\n个人页\nAI 助手\nAnt Design Pro\nProUser\n页面出现错误\n抱歉，页面遇到了一些问题，请刷新页面或返回首页。\n刷新页面\n返回首页\nAnt Design Pro © 2026 · 本地演示数据",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1280,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1248,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 256,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎 管理页 Dashboard 表单页 列表页 搜索列表 查询表格 标准列表 卡片列表 详情页 结果页 异常页 个人页 AI 助手"
+    },
+    {
+      "key": "card:0",
+      "x": 280,
+      "y": 80,
+      "width": 976,
+      "height": 358,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "页面出现错误 抱歉，页面遇到了一些问题，请刷新页面或返回首页。 刷新页面 返回首页"
+    },
+    {
+      "key": "result:0",
+      "x": 304,
+      "y": 104,
+      "width": 928,
+      "height": 310,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "页面出现错误 抱歉，页面遇到了一些问题，请刷新页面或返回首页。 刷新页面 返回首页"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

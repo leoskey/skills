@@ -1,0 +1,16 @@
+{
+  "id": "state-advanced-submit",
+  "path": "/form/advanced-form",
+  "mode": "state",
+  "state": "submit success feedback",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "POST advancedForm browser-only success; both actual Form validation succeeds after 12 visible controls filled",
+  "assertion": "提交成功 visible on both",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "12项表单通过实际校验，两边均观察到提交成功；官方POST浏览器拦截，本地演示API，无真实业务写入。"
+}

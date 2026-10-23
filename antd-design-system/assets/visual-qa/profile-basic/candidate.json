@@ -1,0 +1,207 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 1038,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 176
+    },
+    {
+      "height": 104,
+      "title": ".ant-descriptions:0",
+      "width": 881,
+      "x": 320,
+      "y": 200
+    },
+    {
+      "height": 104,
+      "title": ".ant-descriptions:1",
+      "width": 881,
+      "x": 320,
+      "y": 353
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:0",
+      "width": 293.65625,
+      "x": 320,
+      "y": 244
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:1",
+      "width": 293.65625,
+      "x": 613.65625,
+      "y": 244
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:2",
+      "width": 293.6875,
+      "x": 907.3125,
+      "y": 244
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:3",
+      "width": 881,
+      "x": 320,
+      "y": 282
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:4",
+      "width": 293.65625,
+      "x": 320,
+      "y": 397
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:5",
+      "width": 293.65625,
+      "x": 613.65625,
+      "y": 397
+    },
+    {
+      "height": 38,
+      "title": ".ant-descriptions-item:6",
+      "width": 293.6875,
+      "x": 907.3125,
+      "y": 397
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:7",
+      "width": 293.65625,
+      "x": 320,
+      "y": 435
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:8",
+      "width": 587.34375,
+      "x": 613.65625,
+      "y": 435
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-thead tr:0",
+      "width": 881,
+      "x": 320,
+      "y": 554
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-thead tr:1",
+      "width": 881,
+      "x": 320,
+      "y": 908
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):0",
+      "width": 881,
+      "x": 320,
+      "y": 601
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):1",
+      "width": 881,
+      "x": 320,
+      "y": 648
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):2",
+      "width": 881,
+      "x": 320,
+      "y": 695
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):3",
+      "width": 881,
+      "x": 320,
+      "y": 742
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):4",
+      "width": 881,
+      "x": 320,
+      "y": 955
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):5",
+      "width": 881,
+      "x": 320,
+      "y": 1002
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):6",
+      "width": 881,
+      "x": 320,
+      "y": 1049
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):7",
+      "width": 881,
+      "x": 320,
+      "y": 1096
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):8",
+      "width": 881,
+      "x": 320,
+      "y": 1143
+    },
+    {
+      "height": 48,
+      "title": ".ant-pro-table-list-toolbar:0",
+      "width": 881,
+      "x": 320,
+      "y": 506
+    },
+    {
+      "height": 48,
+      "title": ".ant-pro-table-list-toolbar:1",
+      "width": 881,
+      "x": 320,
+      "y": 860
+    }
+  ],
+  "content": "详情页\n/\n基础详情页\n基础详情页\n退款申请\n取货单号\n1000000000\n\t\n状态\n已取货\n\t\n销售单号\n1234123421\n\n\n子订单\n3214321432\n用户信息\n用户姓名\n付小小\n\t\n联系电话\n18100000000\n\t\n常用快递\n菜鸟仓储\n\n\n取货地址\n浙江省杭州市西湖区万塘路18号\n\t\n备注\n无\n退货商品\n商品编号\t商品名称\t商品条码\t单价\t数量（件）\t金额\n\n商品编号\n\t\n商品名称\n\t\n商品条码\n\t\n单价\n\t\n数量（件）\n\t\n金额\n\n1234561\t矿泉水 550ml\t124",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

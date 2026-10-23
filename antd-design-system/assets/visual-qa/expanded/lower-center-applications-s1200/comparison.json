@@ -1,0 +1,569 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 65,
+  "candidateAnchors": 65,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 147.656
+      }
+    },
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 12.0
+      }
+    },
+    {
+      "anchor": "card:10",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:11",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:12",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:13",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:14",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:15",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "card:16",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "card:17",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:18",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:19",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "card:20",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:21",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:22",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:23",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:24",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:25",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:26",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:27",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:28",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:29",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": -4.0
+      }
+    },
+    {
+      "anchor": "card:30",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:31",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "card:4",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:5",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:6",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:7",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:8",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:9",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:0",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "listItem:10",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:11",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:12",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:13",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "listItem:14",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "listItem:15",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:16",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:17",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:18",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:19",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:2",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:20",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:21",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:22",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:23",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:24",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:25",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:26",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:27",
+      "delta": {
+        "x": 0.0,
+        "y": 12.0,
+        "width": 0.0,
+        "height": -4.0
+      }
+    },
+    {
+      "anchor": "listItem:28",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:29",
+      "delta": {
+        "x": 0.0,
+        "y": 8.0,
+        "width": 0.0,
+        "height": 4.0
+      }
+    },
+    {
+      "anchor": "listItem:3",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:4",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:5",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:6",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:7",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:8",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:9",
+      "delta": {
+        "x": 0.0,
+        "y": 4.0,
+        "width": 0.0,
+        "height": 0.0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "线上团队为空，本地保留6个团队；窄屏两栏改为纵向后团队高度会影响后续位置。6.0.3头像居中，线上窄屏头像靠左。应用随机指标中“万”的自然行高也影响列表位置；controlled-center-applications及其5段同数据对照均为0偏移。",
+  "humanAcceptance": "pending"
+}

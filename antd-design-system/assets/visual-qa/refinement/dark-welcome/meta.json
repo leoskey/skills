@@ -1,0 +1,9 @@
+{
+  "id": "dark-welcome",
+  "path": "/welcome",
+  "mode": "dark",
+  "referenceTransport": "canonical public lists",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "以实际线上6.0.1提交的中英文Cheatsheet为视觉基线，替换正文。"
+}

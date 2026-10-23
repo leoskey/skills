@@ -1,0 +1,50 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 4,
+  "candidateAnchors": 10,
+  "geometryDifferences": [
+    {
+      "anchor": "header:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": -15,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [
+    "card:0",
+    "result:0"
+  ],
+  "extraCandidate": [
+    "formItem:0",
+    "formItem:1",
+    "formItem:2",
+    "formItem:3",
+    "formItem:4",
+    "formItem:5",
+    "formItem:6",
+    "formItem:7"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "official_retry_difference",
+  "reviewNote": "相同资源失败界面点击重试：本地数据恢复，线上被拒绝的lazy模块仍停留错误。线上移除故障并刷新后恢复，另有独立恢复截图。",
+  "humanAcceptance": "pending"
+}

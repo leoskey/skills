@@ -1,0 +1,200 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 23,
+  "candidateAnchors": 23,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 80
+      }
+    },
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0,
+        "y": 80,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:2",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:3",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:4",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:5",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:6",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:7",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "card:8",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "formItem:1",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 40
+      }
+    },
+    {
+      "anchor": "formItem:2",
+      "delta": {
+        "x": 0,
+        "y": 40,
+        "width": 0,
+        "height": 40
+      }
+    },
+    {
+      "anchor": "listItem:0",
+      "delta": {
+        "x": 0,
+        "y": 80,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:1",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:2",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:3",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:4",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:5",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:6",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    },
+    {
+      "anchor": "listItem:7",
+      "delta": {
+        "x": 0,
+        "y": 80.0,
+        "width": 0,
+        "height": 0.0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机作者/好评度筛选占满可用宽度；官方控件过窄。相同指标下筛选区相差80px，后续卡片随之平移。其余7种环境已同指标比较通过。",
+  "humanAcceptance": "pending"
+}

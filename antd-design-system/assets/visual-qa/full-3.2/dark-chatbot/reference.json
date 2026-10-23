@@ -1,0 +1,109 @@
+{
+  "url": "https://preview.pro.ant.design/chatbot",
+  "title": "AI 助手 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 762,
+  "documentWidth": 1265,
+  "fontLoaded": true,
+  "content": "欢迎\n管理页\nDashboard\n表单页\n列表页\n详情页\n结果页\n异常页\n个人页\nAI 助手\nAnt Design Pro\nProUser\nAI 助手\n新建对话\n今天\n💬 新对话\n🧩 Ant Design 的 Form 表单如何做联动校验？\n📋 ProTable 如何自定义工具栏按钮？\n昨天\n🎨 如何用 antd-style 实现暗色主题切换？\n🗂️ ProLayout 侧边菜单如何动态生成？\n📊 Ant Design Charts 折线图数据格式\n更早\n🚀 Ant Design Pro 如何接入后端权限系统？\n🔍 ProForm 中 Select 远程搜索怎么实现？\n⚙️ Ant Design Token 定制主题最佳实践\n🤖 你好，有什么可以帮你？\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1265,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1233,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 256,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎 管理页 Dashboard 表单页 列表页 详情页 结果页 异常页 个人页 AI 助手"
+    },
+    {
+      "key": "pageHeader:0",
+      "x": 296,
+      "y": 64,
+      "width": 929,
+      "height": 48,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "AI 助手"
+    },
+    {
+      "key": "card:0",
+      "x": 296,
+      "y": 128,
+      "width": 929,
+      "height": 560,
+      "background": "rgb(20, 20, 20)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "新建对话 今天 💬 新对话 🧩 Ant Design 的 Form 表单如何做联动校验？ 📋 ProTable 如何自定义工具栏按钮？ 昨天 🎨 如何用 antd-style 实现暗色主题切换"
+    },
+    {
+      "key": "chat:0",
+      "x": 296,
+      "y": 128,
+      "width": 259,
+      "height": 560,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "新建对话 今天 💬 新对话 🧩 Ant Design 的 Form 表单如何做联动校验？ 📋 ProTable 如何自定义工具栏按钮？ 昨天 🎨 如何用 antd-style 实现暗色主题切换"
+    },
+    {
+      "key": "chat:1",
+      "x": 580,
+      "y": 358.688,
+      "width": 621,
+      "height": 114,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "12px",
+      "text": ""
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

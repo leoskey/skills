@@ -1,0 +1,333 @@
+{
+  "passed": false,
+  "tolerancePx": 2,
+  "deltas": [
+    {
+      "anchor": "header",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "sider",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 147.6562
+      }
+    },
+    {
+      "anchor": "card:.ant-card:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card-head:0",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:0",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:3",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:4",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:5",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:6",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:7",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:8",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:9",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:10",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:11",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:12",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:13",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:14",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:15",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:16",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:17",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:18",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:19",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:20",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:21",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:22",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:23",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:24",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:25",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:26",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:27",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:28",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-list-item:29",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    }
+  ],
+  "failures": [
+    {
+      "anchor": "card:.ant-card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 147.6562
+      }
+    }
+  ],
+  "scope": "Geometry only; screenshots and interaction need separate review."
+}

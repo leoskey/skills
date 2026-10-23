@@ -1,0 +1,11 @@
+{
+  "id": "mobile-user-register-result",
+  "path": "/user/register-result",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "本地结果宽度随视口收缩；官方固定800px在窄屏溢出。本地明确没有创建真实账号或发邮件，查看账户弹窗替代官方查看邮箱。 认证页无后台侧栏/内容主题，dark与collapsed记不适用。",
+  "humanAcceptance": "pending"
+}

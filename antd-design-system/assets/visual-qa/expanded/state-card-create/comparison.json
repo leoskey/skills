@@ -1,0 +1,42 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 21,
+  "candidateAnchors": 24,
+  "geometryDifferences": [
+    {
+      "anchor": "header:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 15,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [
+    "formItem:0",
+    "formItem:1",
+    "modal:0"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "local_extension",
+  "reviewNote": "官方新增产品按钮没有处理函数；本地打开新增产品表单。",
+  "humanAcceptance": "pending"
+}

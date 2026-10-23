@@ -1,0 +1,65 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 6,
+  "candidateAnchors": 6,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1887.0
+      }
+    },
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0,
+        "y": 1887.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:2",
+      "delta": {
+        "x": 0,
+        "y": 1887.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:3",
+      "delta": {
+        "x": 0,
+        "y": 1887.0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "代码6.0.3比线上6.0.1多AI Skills等文档；长文高度和目录锚点随内容变化，保留新版文档。",
+  "humanAcceptance": "pending"
+}

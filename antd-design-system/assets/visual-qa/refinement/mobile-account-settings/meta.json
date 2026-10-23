@@ -1,0 +1,10 @@
+{
+  "id": "mobile-account-settings",
+  "path": "/account/settings",
+  "mode": "mobile",
+  "viewportMethod": "390px desktop CSS viewport, no mobile autoscaling",
+  "revision": "official vertical menu and field widths",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "移除默认手机改版、固定表格宽度和额外滚动；恢复官方栅格、字段宽、导航与样式。注册结果恢复800px容器和操作间距，保留本地演示的诚实语义。"
+}

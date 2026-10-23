@@ -1,0 +1,11 @@
+{
+  "id": "lower-center-applications-s600",
+  "path": "/account/center",
+  "mode": "lower",
+  "state": "applications tab lower segment",
+  "keepScroll": true,
+  "referenceTransport": "identical public mock team/metrics",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "默认团队改为空、头像恢复官方左对齐；完整公开mock数据在隔离参考浏览器匹配。随机数据对齐属于标准化取证，另与CSS修正区分。"
+}

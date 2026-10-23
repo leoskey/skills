@@ -1,0 +1,11 @@
+{
+  "id": "tablet768-dashboard-analysis",
+  "path": "/dashboard/analysis",
+  "mode": "tablet768",
+  "revision": "retested line wrapping and search table fix",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "搜索表保持单行字段并在必要时表内滚动；768px表头/行宽比参考多15px，卡片和行高一致，为组件滚动条保留宽度差。",
+  "humanAcceptance": "pending"
+}

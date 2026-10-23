@@ -1,0 +1,10 @@
+{
+  "id": "desktop-result-fail",
+  "path": "/result/fail",
+  "mode": "desktop",
+  "purpose": "shared theme and layout regression",
+  "referenceTransport": "canonical public lists when requested",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "受影响页面回归；构图、组件、密度与细节已审阅。动态曲线/地图、CDN图片和本地页脚不代表像素一致。"
+}

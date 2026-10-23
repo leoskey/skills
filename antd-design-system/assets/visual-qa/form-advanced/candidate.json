@@ -1,0 +1,200 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 34,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 275,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 210
+    },
+    {
+      "height": 275,
+      "title": ".ant-card:1",
+      "width": 929,
+      "x": 296,
+      "y": 509
+    },
+    {
+      "height": 367,
+      "title": ".ant-card:2",
+      "width": 929,
+      "x": 296,
+      "y": 808
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:0",
+      "width": 929,
+      "x": 296,
+      "y": 210
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:1",
+      "width": 929,
+      "x": 296,
+      "y": 509
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:2",
+      "width": 929,
+      "x": 296,
+      "y": 808
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:0",
+      "width": 208.25,
+      "x": 320,
+      "y": 289
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:1",
+      "width": 208.25,
+      "x": 618.984375,
+      "y": 289
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:2",
+      "width": 282.984375,
+      "x": 917.96875,
+      "y": 289
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:3",
+      "width": 208.25,
+      "x": 320,
+      "y": 375
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:4",
+      "width": 208.25,
+      "x": 618.984375,
+      "y": 375
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:5",
+      "width": 282.984375,
+      "x": 917.96875,
+      "y": 375
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:6",
+      "width": 208.25,
+      "x": 320,
+      "y": 588
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:7",
+      "width": 208.25,
+      "x": 618.984375,
+      "y": 588
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:8",
+      "width": 282.984375,
+      "x": 917.96875,
+      "y": 588
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:9",
+      "width": 208.25,
+      "x": 320,
+      "y": 674
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:10",
+      "width": 208.25,
+      "x": 618.984375,
+      "y": 674
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:11",
+      "width": 282.984375,
+      "x": 917.96875,
+      "y": 674
+    },
+    {
+      "height": 240,
+      "title": ".ant-form-item:12",
+      "width": 881,
+      "x": 320,
+      "y": 887
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-thead tr:0",
+      "width": 881,
+      "x": 320,
+      "y": 887
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):0",
+      "width": 881,
+      "x": 320,
+      "y": 934
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):1",
+      "width": 881,
+      "x": 320,
+      "y": 981
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):2",
+      "width": 881,
+      "x": 320,
+      "y": 1028
+    }
+  ],
+  "content": "表单页\n/\n高级表单\n高级表单\n高级表单常见于一次性输入和提交大批量数据的场景。\n仓库管理\n仓库名\n仓库域名\nhttp://\t\n.com\n仓库管理员\n请选择管理员\n审批人\n请选择审批员\n生效日期\n仓库类型\n请选择仓库类型\n任务管理\n任务名\n任务描述\n执行人\n请选择\n责任人\n请选择审批员\n生效日期\n任务类型\n请选择仓库类型\n成员管理\n成员姓名\t工号\t所属部门\t操作\n\n成员姓名\n\t\n工号\n\t\n所属部门\n\t\n操作\n\nJohn Brown\t00001\tNew York No. 1 Lake Park\t\n",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

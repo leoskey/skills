@@ -1,0 +1,14 @@
+{
+  "id": "collapsed-form-advanced",
+  "mode": "collapsed",
+  "path": "/form/advanced-form",
+  "state": "default",
+  "release": "3.2.0",
+  "round": "full-301",
+  "recaptureReason": "Recheck footer surface after screenshot review",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "同视口、字体、滚动及页面状态；已审阅构图、组件、密度、颜色与表面。随机图表/时间/页脚与诚实演示文案独立记录，非像素一致承诺。"
+}

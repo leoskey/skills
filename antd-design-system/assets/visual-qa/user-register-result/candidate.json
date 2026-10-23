@@ -1,0 +1,22 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 402,
+      "title": ".ant-result:0",
+      "width": 800,
+      "x": 240,
+      "y": 0
+    }
+  ],
+  "content": "你的账户：demo@example.com 注册成功\n本地演示注册已完成，不会创建真实账户或发送邮件。可查看演示信息或返回首页。\n查看账户\n返回首页",
+  "fontLoaded": true,
+  "header": null,
+  "scrollY": 0,
+  "sider": null,
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "standalone"
+}

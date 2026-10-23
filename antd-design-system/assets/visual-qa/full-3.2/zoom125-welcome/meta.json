@@ -1,0 +1,12 @@
+{
+  "id": "zoom125-welcome",
+  "path": "/welcome",
+  "mode": "zoom125",
+  "referenceTransport": "canonical public list responses",
+  "zoomMethod": "equivalent CSS viewport and DPR",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "以实际线上6.0.1提交的中英文Cheatsheet为视觉基线，替换正文。",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

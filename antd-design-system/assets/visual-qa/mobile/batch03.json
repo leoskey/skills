@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/list/basic-list",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "标准列表 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/list/card-list",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "卡片列表 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/list/search/articles",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "搜索列表（文章） - Ant Design Pro",
+    "problematic": []
+  }
+]

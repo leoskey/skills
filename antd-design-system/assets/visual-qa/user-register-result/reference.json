@@ -1,0 +1,22 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 402,
+      "title": ".ant-result:0",
+      "width": 800,
+      "x": 240,
+      "y": 0
+    }
+  ],
+  "content": "你的账户：demo@example.com 注册成功\n激活邮件已发送到你的邮箱中，邮件有效期为24小时。请及时登录邮箱，点击邮件中的链接激活帐户。\n查看邮箱\n返回首页",
+  "fontLoaded": true,
+  "header": null,
+  "scrollY": 0,
+  "sider": null,
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "standalone"
+}

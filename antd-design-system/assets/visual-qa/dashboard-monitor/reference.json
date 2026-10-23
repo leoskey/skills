@@ -1,0 +1,109 @@
+{
+  "canvasCount": 4,
+  "cards": [
+    {
+      "height": 640.40625,
+      "title": ".ant-card:0",
+      "width": 690.75,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 312.703125,
+      "title": ".ant-card:1",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 88
+    },
+    {
+      "height": 283,
+      "title": ".ant-card:2",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 424.703125
+    },
+    {
+      "height": 260,
+      "title": ".ant-card:3",
+      "width": 452.5,
+      "x": 296,
+      "y": 752.40625
+    },
+    {
+      "height": 265,
+      "title": ".ant-card:4",
+      "width": 214.25,
+      "x": 772.5,
+      "y": 752.40625
+    },
+    {
+      "height": 263,
+      "title": ".ant-card:5",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 752.40625
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:0",
+      "width": 690.75,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:1",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 88
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:2",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 424.703125
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:3",
+      "width": 452.5,
+      "x": 296,
+      "y": 752.40625
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:4",
+      "width": 214.25,
+      "x": 772.5,
+      "y": 752.40625
+    },
+    {
+      "height": 56,
+      "title": ".ant-card-head:5",
+      "width": 214.25,
+      "x": 1010.75,
+      "y": 752.40625
+    }
+  ],
+  "content": "活动实时交易情况\n今日交易总额\n124,543,233元\n销售目标完成率\n92%\n活动剩余时间\n48:00:21:829\n每秒交易总额\n234元\n活动情况预测\n目标评估\n有望达到预期\n\n1465 亿元\n\n688 亿元\n\n00:0012:0023:00\n券核效率\n各品类占比\n75%\n48%\n33%\n热门搜索\n资源剩余",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

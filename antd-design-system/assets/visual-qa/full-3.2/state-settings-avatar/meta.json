@@ -1,0 +1,16 @@
+{
+  "id": "state-settings-avatar",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "same synthetic QA avatar chosen; local preview only",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "Same synthetic QA.svg File created in each browser and dispatched through real file input (MCP path access unavailable); official POST local stub; no file transmitted.",
+  "difference": "Official no preview handler; local FileReader previews QA image. Matching geometry does not imply matching avatar.",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "相同合成QA文件通过实际file input change流程：官方没有预览处理，本地FileReader显示QA头像；原图不同，不能因几何一致判视觉完全匹配。无真实上传。"
+}

@@ -1,0 +1,39 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 581,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 533,
+      "title": ".ant-result:0",
+      "width": 881,
+      "x": 320,
+      "y": 112
+    }
+  ],
+  "content": "404\n抱歉，您访问的页面不存在。\n返回首页",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

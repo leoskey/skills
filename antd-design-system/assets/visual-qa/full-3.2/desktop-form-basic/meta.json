@@ -1,0 +1,14 @@
+{
+  "id": "desktop-form-basic",
+  "mode": "desktop",
+  "path": "/form/basic-form",
+  "state": "default",
+  "release": "3.2.0",
+  "round": "shared-style-regression",
+  "reason": "Actual control sizes added to form anchors",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "受影响页面回归；构图、组件、密度与细节已审阅。动态曲线/地图、CDN图片和本地页脚不代表像素一致。"
+}

@@ -1,0 +1,39 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 595.140625,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 483.140625,
+      "title": ".ant-result:0",
+      "width": 881,
+      "x": 320,
+      "y": 160
+    }
+  ],
+  "content": "提交失败\n请核对并修改以下信息后，再重新提交。\n返回修改\n您提交的内容有如下错误：\n您的账户已被冻结立即解冻\n您的账户还不具备申请资格立即升级",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

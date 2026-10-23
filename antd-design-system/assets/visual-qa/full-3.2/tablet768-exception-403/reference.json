@@ -1,0 +1,83 @@
+{
+  "url": "https://preview.pro.ant.design/exception/403",
+  "title": "403 - Ant Design Pro",
+  "viewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 1024,
+  "documentWidth": 768,
+  "fontLoaded": true,
+  "content": "Ant Design Pro\nProUser\n403\nSorry, you are not authorized to access this page.\nBack to home\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 768,
+    "height": 1024,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 736,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 64,
+      "height": 968,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "card:0",
+      "x": 104,
+      "y": 88,
+      "width": 624,
+      "height": 581,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "403 Sorry, you are not authorized to access this page. Back to home"
+    },
+    {
+      "key": "result:0",
+      "x": 128,
+      "y": 112,
+      "width": 576,
+      "height": 533,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "403 Sorry, you are not authorized to access this page. Back to home"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

@@ -1,0 +1,82 @@
+{
+  "url": "http://127.0.0.1:4176/#/admin/sub-page",
+  "title": "二级管理页 - Ant Design Pro",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 844,
+  "documentWidth": 390,
+  "fontLoaded": true,
+  "content": "ProUser\n管理页\n/\n二级管理页\n二级管理页\n这个页面只有 admin 权限才能查看\n更快更强的重型组件，已经发布。\n Ant Design Pro \n You\n\nWant to add more pages? Please refer to use block。\n\nAnt Design Pro © 2026 · 本地演示数据",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 844,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 358,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "ProUser"
+    },
+    {
+      "key": "pageHeader:0",
+      "x": 40,
+      "y": 112,
+      "width": 310,
+      "height": 48,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "二级管理页"
+    },
+    {
+      "key": "pageDescription:0",
+      "x": 40,
+      "y": 160,
+      "width": 310,
+      "height": 34,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "这个页面只有 admin 权限才能查看"
+    },
+    {
+      "key": "card:0",
+      "x": 40,
+      "y": 210,
+      "width": 310,
+      "height": 215,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "更快更强的重型组件，已经发布。 Ant Design Pro You"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

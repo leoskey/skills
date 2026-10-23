@@ -1,0 +1,207 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:0",
+      "width": 277.65625,
+      "x": 320,
+      "y": 200
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:1",
+      "width": 277.65625,
+      "x": 621.65625,
+      "y": 200
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:2",
+      "width": 277.65625,
+      "x": 923.3125,
+      "y": 200
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-thead tr:0",
+      "width": 881,
+      "x": 320,
+      "y": 336
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):0",
+      "width": 881,
+      "x": 320,
+      "y": 383
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):1",
+      "width": 881,
+      "x": 320,
+      "y": 430
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):2",
+      "width": 881,
+      "x": 320,
+      "y": 477
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):3",
+      "width": 881,
+      "x": 320,
+      "y": 524
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):4",
+      "width": 881,
+      "x": 320,
+      "y": 571
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):5",
+      "width": 881,
+      "x": 320,
+      "y": 618
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):6",
+      "width": 881,
+      "x": 320,
+      "y": 665
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):7",
+      "width": 881,
+      "x": 320,
+      "y": 712
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):8",
+      "width": 881,
+      "x": 320,
+      "y": 759
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):9",
+      "width": 881,
+      "x": 320,
+      "y": 806
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):10",
+      "width": 881,
+      "x": 320,
+      "y": 853
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):11",
+      "width": 881,
+      "x": 320,
+      "y": 900
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):12",
+      "width": 881,
+      "x": 320,
+      "y": 947
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):13",
+      "width": 881,
+      "x": 320,
+      "y": 994
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):14",
+      "width": 881,
+      "x": 320,
+      "y": 1041
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):15",
+      "width": 881,
+      "x": 320,
+      "y": 1088
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):16",
+      "width": 881,
+      "x": 320,
+      "y": 1135
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):17",
+      "width": 881,
+      "x": 320,
+      "y": 1182
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):18",
+      "width": 881,
+      "x": 320,
+      "y": 1229
+    },
+    {
+      "height": 47,
+      "title": ".ant-table-tbody tr:not(.ant-table-measure-row):19",
+      "width": 881,
+      "x": 320,
+      "y": 1276
+    },
+    {
+      "height": 64,
+      "title": ".ant-pro-table-list-toolbar:0",
+      "width": 881,
+      "x": 320,
+      "y": 272
+    }
+  ],
+  "content": "列表页\n/\n查询表格\n查询表格\n规则名称\n描述\n重 置\n查 询\n展开\n查询表格\n新建\n\t规则名称\t描述\t\n服务调用次数\n\t状态\t\n上次调度时间\n\t操作\n\n\t\n规则名称\n\t\n描述\n\t\n服务调用次数\n\t\n状态\n\t\n上次调度时间\n\t\n操作\n\n\n\tTradeCode 99\t这是一段描述\t340万\t已上线\t1970-01-01 00:00:00\t\n配置\n订阅警报\n\n\n\tTradeCode 98\t这是一段描述\t477万\t异常\t1970-01-01 00:00:00\t\n配置\n订阅警报\n\n\n\tTradeCode",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

@@ -1,0 +1,36 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 8,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 40
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": false,
+  "reviewNote": "两边用相同固定SSE并将35/150ms定时器放慢至1200ms后实际停止；仍有40px操作区差，重新归因为本地扩展。",
+  "classification": "retained_behavior_difference"
+}

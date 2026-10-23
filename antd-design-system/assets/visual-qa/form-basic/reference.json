@@ -1,0 +1,158 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 34,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 920,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 210
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:0",
+      "width": 600,
+      "x": 460.5,
+      "y": 242
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:1",
+      "width": 600,
+      "x": 460.5,
+      "y": 328
+    },
+    {
+      "height": 106,
+      "title": ".ant-form-item:2",
+      "width": 600,
+      "x": 460.5,
+      "y": 414
+    },
+    {
+      "height": 106,
+      "title": ".ant-form-item:3",
+      "width": 600,
+      "x": 460.5,
+      "y": 544
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:4",
+      "width": 600,
+      "x": 460.5,
+      "y": 674
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:5",
+      "width": 600,
+      "x": 460.5,
+      "y": 760
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:6",
+      "width": 600,
+      "x": 460.5,
+      "y": 846
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:7",
+      "width": 600,
+      "x": 460.5,
+      "y": 932
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:8",
+      "width": 600,
+      "x": 460.5,
+      "y": 1018
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:0",
+      "width": 328,
+      "x": 460.5,
+      "y": 272
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:1",
+      "width": 328,
+      "x": 460.5,
+      "y": 358
+    },
+    {
+      "height": 76,
+      "title": ".ant-pro-form .pro-field:2",
+      "width": 552,
+      "x": 460.5,
+      "y": 444
+    },
+    {
+      "height": 76,
+      "title": ".ant-pro-form .pro-field:3",
+      "width": 552,
+      "x": 460.5,
+      "y": 574
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:4",
+      "width": 328,
+      "x": 460.5,
+      "y": 704
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:5",
+      "width": 328,
+      "x": 460.5,
+      "y": 790
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:6",
+      "width": 104,
+      "x": 460.5,
+      "y": 876
+    }
+  ],
+  "content": "表单页\n/\n基础表单\n基础表单\n表单页用于向用户收集或验证信息，基础表单常见于数据项较少的表单场景。\n标题\n起止日期\n目标描述\n衡量标准\n客户（选填）\n邀评人（选填）\n权重（选填）\n目标公开\n公开\n部分公开\n不公开\n重 置\n提 交",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

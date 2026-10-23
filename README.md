@@ -4,6 +4,7 @@
 
 | Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
+| [antd-design-system](antd-design-system/SKILL.md) | Ant Design Pro 官方页面模式与视觉验收：27 页模板、ProLayout、主题 Token 和同视口同状态对照 | 明确指定 Ant Design Pro 风格的后台设计、实现与改造；包含本地演示模板和差异记录 | [页面模式](antd-design-system/references/page-patterns.md) · [主题 Token](antd-design-system/assets/tokens.json) · [视觉验收](antd-design-system/references/visual-acceptance.md) · [验收范围与差异](antd-design-system/references/expanded-acceptance.md) |
 | [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情与预测页面；可适配不同技术栈 | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
 | [game-sutdio](game-sutdio/SKILL.md) | 游戏全流程交付：需求与设计确认、可玩原型、完整体验样段、内容扩充、测试试玩与反馈迭代 | 新游戏策划、已有游戏阶段推进与单项修复；按目标选择引擎和平台 | [阶段交付与验收](game-sutdio/references/lifecycle.md) |
 | [adobe-spectrum-design-system](adobe-spectrum-design-system/SKILL.md) | Adobe Spectrum 2 设计与实现指南：官方 token、组件状态、应用布局与桌面信息密度 | 用户明确指定 Spectrum 的产品设计、实现与界面审查；适配既有技术栈 | [官方资源与 Demo](adobe-spectrum-design-system/references/official-resources.md) · [布局与验收](adobe-spectrum-design-system/references/desktop-and-quality.md) |
@@ -48,6 +49,10 @@ npx skills add leoskey/skills --skill varlive-design-system --agent codex --glob
 ## 使用
 
 在支持 skill 调用的 Agent 中，明确指定名称和任务：
+
+```text
+使用 $antd-design-system，参照 Ant Design Pro 构建后台查询表格页，保留现有业务和技术栈，按同视口、同状态做视觉验收。
+```
 
 ```text
 使用 $adobe-spectrum-design-system 设计一个数据管理工作台，保留现有技术栈并验证桌面布局与键盘交互。

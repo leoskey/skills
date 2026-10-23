@@ -1,0 +1,96 @@
+{
+  "url": "https://preview.pro.ant.design/admin/sub-page",
+  "title": "二级管理页 - Ant Design Pro",
+  "viewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 1024,
+  "documentWidth": 768,
+  "fontLoaded": true,
+  "content": "Ant Design Pro\nProUser\n管理页\n/\n二级管理页\n二级管理页\n这个页面只有 admin 权限才能查看\n更快更强的重型组件，已经发布。\n Ant Design Pro \n You\n\nWant to add more pages? Please refer to use block。\n\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 768,
+    "height": 1024,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 736,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 64,
+      "height": 968,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "pageHeader:0",
+      "x": 104,
+      "y": 112,
+      "width": 624,
+      "height": 48,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "二级管理页"
+    },
+    {
+      "key": "pageDescription:0",
+      "x": 104,
+      "y": 160,
+      "width": 624,
+      "height": 34,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "这个页面只有 admin 权限才能查看"
+    },
+    {
+      "key": "card:0",
+      "x": 104,
+      "y": 210,
+      "width": 624,
+      "height": 177,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "更快更强的重型组件，已经发布。 Ant Design Pro You"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

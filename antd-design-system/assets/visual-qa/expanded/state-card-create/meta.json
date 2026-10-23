@@ -1,0 +1,12 @@
+{
+  "id": "state-card-create",
+  "path": "/list/card-list",
+  "mode": "state",
+  "state": "create-action",
+  "referenceCapability": "official button has no create handler; local form is an extension",
+  "status": "agent_reviewed",
+  "classification": "local_extension",
+  "referenceKind": "live_official",
+  "reviewNote": "官方新增产品按钮没有处理函数；本地打开新增产品表单。",
+  "humanAcceptance": "pending"
+}

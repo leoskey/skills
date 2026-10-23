@@ -1,0 +1,27 @@
+{
+  "version": "3.1.0",
+  "current": "expanded-acceptance.json",
+  "summary": {
+    "pages": 27,
+    "pairedCases": 301,
+    "matrixCases": 210,
+    "interactionCases": 46,
+    "lowerPageCases": 37,
+    "controlledDiagnosticCases": 7,
+    "additionalMobileLowerCases": 1,
+    "rawGeometryPassedCases": 224,
+    "reviewedWithDocumentedDifference": 77,
+    "measuredReferenceAnchors": 5783,
+    "humanAcceptance": "pending"
+  },
+  "scope": "Agent visual review of the explicitly enumerated paired cases; not pixel identity, native zoom or physical device acceptance.",
+  "boundaries": [
+    "125%/150%为等效CSS视口与DPR采样（1024×576@1.25、853×480@1.5），未验证浏览器菜单原生缩放。",
+    "390/768/1024为实际浏览器CSS视口，不是iframe；未做实体设备验收。",
+    "官方UI的测试传输只控制随机指标/团队、空结果、错误、成功写入或SSE流；不替换页面DOM/CSS或合成参考截图。",
+    "图表随机值、倒计时、头像/封面CDN、6.0.1与6.0.3版本主色及本地页脚可能不同。",
+    "同数据的应用页/个人中心诊断单独保存，现场随机数据配对的原始失败仍保留。",
+    "最终用户视觉认可待确认；真实后端、短信、转账、注册、资料上传、付费模型及实体打印未执行。"
+  ],
+  "previousEvidence": "full-acceptance-3.0.0.json"
+}

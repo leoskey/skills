@@ -1,0 +1,101 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 9,
+  "candidateAnchors": 9,
+  "geometryDifferences": [
+    {
+      "anchor": "formItem:0",
+      "delta": {
+        "x": -16,
+        "y": -150,
+        "width": 32,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:1",
+      "delta": {
+        "x": -16,
+        "y": -150,
+        "width": 32,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:2",
+      "delta": {
+        "x": -16,
+        "y": -150,
+        "width": 32,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:3",
+      "delta": {
+        "x": -16,
+        "y": -150,
+        "width": 32,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:4",
+      "delta": {
+        "x": -16,
+        "y": -150,
+        "width": -116,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:5",
+      "delta": {
+        "x": 92,
+        "y": -206,
+        "width": -116,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:6",
+      "delta": {
+        "x": -16,
+        "y": -206,
+        "width": 32,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:7",
+      "delta": {
+        "x": -16,
+        "y": -206,
+        "width": 32,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机使用四项可见的横向导航、受控宽度字段；官方纵向导航和固定宽表单挤压内容。默认省市数据不同；同为空的4项必填校验已配对通过。",
+  "humanAcceptance": "pending"
+}

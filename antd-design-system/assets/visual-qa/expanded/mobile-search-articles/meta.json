@@ -1,0 +1,11 @@
+{
+  "id": "mobile-search-articles",
+  "path": "/list/search/articles",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机筛选控件按可用宽度堆叠；官方固定宽控件拥挤。筛选区相差16px，后续列表随之平移。",
+  "humanAcceptance": "pending"
+}

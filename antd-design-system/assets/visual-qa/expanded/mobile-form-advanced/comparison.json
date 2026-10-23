@@ -1,0 +1,65 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 26,
+  "candidateAnchors": 26,
+  "geometryDifferences": [
+    {
+      "anchor": "tableHead:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 345.031,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 345.031,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:1",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 345.031,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 345.031,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "窄屏成员表在自身容器滚动，保留字段可读性；部分平板表宽差15px为组件滚动条保留宽度差。",
+  "humanAcceptance": "pending"
+}

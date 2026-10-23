@@ -1,0 +1,59 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 10,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:1",
+      "delta": {
+        "x": 0,
+        "y": -37,
+        "width": -10,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "chat:2",
+      "delta": {
+        "x": 0,
+        "y": -37,
+        "width": -10,
+        "height": 40
+      }
+    },
+    {
+      "anchor": "chat:3",
+      "delta": {
+        "x": 8,
+        "y": -193,
+        "width": -26,
+        "height": -36
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [
+    "chat:4",
+    "chat:5"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "local_extension",
+  "reviewNote": "官方停止后没有重新生成按钮；本地提供重新生成，截图保留双方真实状态。",
+  "humanAcceptance": "pending"
+}

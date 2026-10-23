@@ -1,0 +1,74 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 10,
+  "candidateAnchors": 10,
+  "geometryDifferences": [
+    {
+      "anchor": "card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 56
+      }
+    },
+    {
+      "anchor": "formItem:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": -158,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:2",
+      "delta": {
+        "x": -108,
+        "y": 56,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:3",
+      "delta": {
+        "x": 0,
+        "y": 56,
+        "width": -158,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "formItem:4",
+      "delta": {
+        "x": 0,
+        "y": 56,
+        "width": -158,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机收款方式与账号按可用宽度堆叠，固定宽字段收进卡片；官方并列字段超出内容宽度。",
+  "humanAcceptance": "pending"
+}

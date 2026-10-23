@@ -1,0 +1,74 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 13,
+  "candidateAnchors": 13,
+  "geometryDifferences": [
+    {
+      "anchor": "card:3",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 0,
+        "height": 282
+      }
+    },
+    {
+      "anchor": "card:4",
+      "delta": {
+        "x": 0,
+        "y": 282.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:5",
+      "delta": {
+        "x": 0,
+        "y": 282.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:4",
+      "delta": {
+        "x": 0,
+        "y": 282.0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "cardHead:5",
+      "delta": {
+        "x": 0,
+        "y": 282.0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机分类进度竖排，避免三项挤在同一行；实时数值、倒计时和图表采样不同。",
+  "humanAcceptance": "pending"
+}

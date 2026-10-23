@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/exception/404",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "404 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/exception/500",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "500 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/dashboard/workplace",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 375,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "工作台 - Ant Design Pro",
+    "problematic": []
+  }
+]

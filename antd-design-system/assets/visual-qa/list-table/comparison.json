@@ -1,0 +1,260 @@
+{
+  "passed": true,
+  "tolerancePx": 2,
+  "deltas": [
+    {
+      "anchor": "header",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "sider",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-page-header-heading:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-thead tr:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):1",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):3",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):4",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):5",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):6",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):7",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):8",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):9",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):10",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):11",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):12",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):13",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):14",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):15",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):16",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):17",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):18",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-table-tbody tr:not(.ant-table-measure-row):19",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-table-list-toolbar:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Geometry only; screenshots and interaction need separate review."
+}

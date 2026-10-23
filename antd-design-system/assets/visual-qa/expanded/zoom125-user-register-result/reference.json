@@ -1,0 +1,43 @@
+{
+  "url": "https://preview.pro.ant.design/user/register-result?account=demo%40example.com",
+  "title": "登录 - Ant Design Pro",
+  "viewport": {
+    "width": 1024,
+    "height": 576,
+    "dpr": 1.25,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 576,
+  "documentWidth": 1024,
+  "fontLoaded": true,
+  "content": "你的账户：demo@example.com 注册成功\n激活邮件已发送到你的邮箱中，邮件有效期为24小时。请及时登录邮箱，点击邮件中的链接激活帐户。\n查看邮箱\n返回首页",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 576,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "result:0",
+      "x": 112,
+      "y": 0,
+      "width": 800,
+      "height": 402,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "你的账户：demo@example.com 注册成功 激活邮件已发送到你的邮箱中，邮件有效期为24小时。请及时登录邮箱，点击邮件中的链接激活帐户。 查看邮箱 返回首页"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

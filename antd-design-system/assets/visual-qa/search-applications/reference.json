@@ -1,0 +1,179 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 52,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 188,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 298
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:1",
+      "width": 220.25,
+      "x": 296,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:2",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:3",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:4",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:5",
+      "width": 220.25,
+      "x": 296,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:6",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:7",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-card:8",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 707.890625
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:0",
+      "width": 787,
+      "x": 414,
+      "y": 322
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:1",
+      "width": 251.65625,
+      "x": 414,
+      "y": 406
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:2",
+      "width": 251.65625,
+      "x": 681.65625,
+      "y": 406
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:0",
+      "width": 220.25,
+      "x": 296,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:1",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:2",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:3",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 508
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:4",
+      "width": 220.25,
+      "x": 296,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:5",
+      "width": 220.25,
+      "x": 532.25,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:6",
+      "width": 220.25,
+      "x": 768.5,
+      "y": 707.890625
+    },
+    {
+      "height": 183.890625,
+      "title": ".ant-list-item:7",
+      "width": 220.25,
+      "x": 1004.75,
+      "y": 707.890625
+    }
+  ],
+  "content": "列表页\n/\n搜索列表\n/\n搜索列表（应用）\n搜索列表（应用）\n搜 索\n文章\n项目\n应用\n所属类目\n全部类目1类目2类目3类目4类目5类目6类目7类目8类目9类目10类目11类目12\n展开\n其它选项\n作者\n不限\n好评度\n不限\n\n\nAlipay\n\n活跃用户\n\n9819\n\n新增用户\n\n203\n\nAngular\n\n活跃用户\n\n6863\n\n新增用户\n\n410\n\nAnt Design\n\n活跃用户\n\n9811\n\n新增用户\n\n1,044\n\nAnt Design Pro\n\n活跃用户\n\n9291\n\n新增用户\n\n30",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

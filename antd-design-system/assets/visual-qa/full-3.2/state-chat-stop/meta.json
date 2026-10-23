@@ -1,0 +1,13 @@
+{
+  "id": "state-chat-stop",
+  "path": "/chatbot",
+  "mode": "state",
+  "state": "same stream aborted; local regeneration action retained",
+  "referenceTransport": "local SSE;1200ms sampling clock; no model API request",
+  "classification": "stream_sampling_and_local_extension",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "两边用相同固定SSE并将35/150ms定时器放慢至1200ms后实际停止；仍有40px操作区差，重新归因为本地扩展。",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301"
+}

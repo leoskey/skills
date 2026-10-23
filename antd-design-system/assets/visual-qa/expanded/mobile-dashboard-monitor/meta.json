@@ -1,0 +1,11 @@
+{
+  "id": "mobile-dashboard-monitor",
+  "path": "/dashboard/monitor",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "手机分类进度竖排，避免三项挤在同一行；实时数值、倒计时和图表采样不同。",
+  "humanAcceptance": "pending"
+}

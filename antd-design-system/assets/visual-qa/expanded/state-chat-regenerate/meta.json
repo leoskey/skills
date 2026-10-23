@@ -1,0 +1,13 @@
+{
+  "id": "state-chat-regenerate",
+  "path": "/chatbot",
+  "mode": "state",
+  "state": "candidate regenerate; official stopped UI has no regenerate action",
+  "allowBusy": true,
+  "referenceTransport": "local SSE fixture",
+  "classification": "local_extension",
+  "status": "agent_reviewed",
+  "referenceKind": "official_ui_with_disclosed_transport_fixture",
+  "reviewNote": "官方停止后没有重新生成按钮；本地提供重新生成，截图保留双方真实状态。",
+  "humanAcceptance": "pending"
+}

@@ -1,0 +1,74 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 650.6875,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 88
+    },
+    {
+      "height": 94.6875,
+      "title": ".ant-steps:0",
+      "width": 737,
+      "x": 392,
+      "y": 532
+    },
+    {
+      "height": 66,
+      "title": ".ant-descriptions:0",
+      "width": 737,
+      "x": 392,
+      "y": 444
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:0",
+      "width": 245.65625,
+      "x": 392,
+      "y": 488
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:1",
+      "width": 245.65625,
+      "x": 637.65625,
+      "y": 488
+    },
+    {
+      "height": 22,
+      "title": ".ant-descriptions-item:2",
+      "width": 245.6875,
+      "x": 883.3125,
+      "y": 488
+    },
+    {
+      "height": 586.6875,
+      "title": ".ant-result:0",
+      "width": 881,
+      "x": 320,
+      "y": 112
+    }
+  ],
+  "content": "提交成功\n提交结果页用于反馈一系列操作任务的处理结果， 如果仅是简单操作，使用 Message 全局提示反馈即可。 本文字区域可以展示简单的补充说明，如果有类似展示 “单据”的需求，下面这个灰色区域可以呈现比较复杂的内容。\n返回列表\n查看项目\n打 印\n项目名称\n项目 ID\n23421\n\t\n负责人\n曲丽丽\n\t\n生效时间\n2016-12-12 ~ 2017-12-12\n\n\n创建项目\n曲丽丽\n2016-12-12 12:32\n部门初审\n周毛毛\n催一下\n财务复核\n完成",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

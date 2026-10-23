@@ -1,0 +1,46 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 944,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 34,
+      "title": ".ant-page-header-content:0",
+      "width": 944,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 177,
+      "title": ".ant-card:0",
+      "width": 944,
+      "x": 296,
+      "y": 210
+    }
+  ],
+  "content": "管理页\n/\n二级管理页\n二级管理页\n这个页面只有 admin 权限才能查看\n更快更强的重型组件，已经发布。\n Ant Design Pro \n You\n\nWant to add more pages? Please refer to use block。",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1248,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

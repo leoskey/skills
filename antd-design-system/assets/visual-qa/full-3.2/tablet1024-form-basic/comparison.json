@@ -1,0 +1,26 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1024,
+    "height": 768,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1024,
+    "height": 768,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 21,
+  "candidateAnchors": 21,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry is separate from image/semantic/behavior review; raw differences preserved.",
+  "rawGeometryPassed": true,
+  "reviewNote": "同视口、字体、滚动及页面状态；已审阅构图、组件、密度、颜色与表面。随机图表/时间/页脚与诚实演示文案独立记录，非像素一致承诺。",
+  "classification": "measured_geometry_aligned"
+}

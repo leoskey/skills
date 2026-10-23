@@ -1,0 +1,81 @@
+{
+  "passed": false,
+  "tolerancePx": 2,
+  "deltas": [
+    {
+      "anchor": "header",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "sider",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-page-header-heading:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 1293.6094
+      }
+    },
+    {
+      "anchor": "card:.ant-card:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card:3",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0.0,
+        "height": 0
+      }
+    }
+  ],
+  "failures": [
+    {
+      "anchor": "card:.ant-card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0.0,
+        "height": 1293.6094
+      }
+    }
+  ],
+  "scope": "Geometry only; screenshots and interaction need separate review."
+}

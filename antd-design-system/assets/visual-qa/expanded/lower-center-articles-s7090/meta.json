@@ -1,0 +1,13 @@
+{
+  "id": "lower-center-articles-s7090",
+  "path": "/account/center",
+  "mode": "lower",
+  "state": "long-page-segment",
+  "keepScroll": true,
+  "tab": "articles",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "线上团队为空，本地保留6个团队；窄屏两栏改为纵向后团队高度会影响后续位置。6.0.3头像居中，线上窄屏头像靠左。应用随机指标中“万”的自然行高也影响列表位置；controlled-center-applications及其5段同数据对照均为0偏移。",
+  "humanAcceptance": "pending"
+}

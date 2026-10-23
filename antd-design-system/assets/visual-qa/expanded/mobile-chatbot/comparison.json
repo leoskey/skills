@@ -1,0 +1,47 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 5,
+  "candidateAnchors": 5,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 51,
+        "height": -433
+      }
+    },
+    {
+      "anchor": "chat:1",
+      "delta": {
+        "x": -268,
+        "y": -107.281,
+        "width": 276,
+        "height": 56
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "手机会话列表位于消息区上方；官方固定侧栏挤压消息和发送器。流式回复采用披露的本地SSE数据，异步采样字数可能略有不同。",
+  "humanAcceptance": "pending"
+}

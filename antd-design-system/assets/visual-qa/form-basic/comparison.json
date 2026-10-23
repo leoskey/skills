@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "tolerancePx": 2,
+  "deltas": [
+    {
+      "anchor": "header",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "sider",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-page-header-heading:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-page-header-content:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-card:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:0",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:3",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:4",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:5",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:6",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:7",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-form-item:8",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:0",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:1",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:2",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:3",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:4",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:5",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "card:.ant-pro-form .pro-field:6",
+      "delta": {
+        "x": 0.0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Geometry only; screenshots and interaction need separate review."
+}

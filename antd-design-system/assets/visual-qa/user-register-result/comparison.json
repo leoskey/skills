@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tolerancePx": 2,
+  "deltas": [
+    {
+      "anchor": "card:.ant-result:0",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Geometry only; screenshots and interaction need separate review."
+}

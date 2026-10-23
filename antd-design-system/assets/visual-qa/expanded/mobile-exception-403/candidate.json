@@ -1,0 +1,69 @@
+{
+  "url": "http://127.0.0.1:4176/#/exception/403",
+  "title": "403 - Ant Design Pro",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 844,
+  "documentWidth": 390,
+  "fontLoaded": true,
+  "content": "ProUser\n403\nSorry, you are not authorized to access this page.\nBack to home\nAnt Design Pro © 2026 · 本地演示数据",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 844,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 358,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "ProUser"
+    },
+    {
+      "key": "card:0",
+      "x": 40,
+      "y": 88,
+      "width": 310,
+      "height": 603,
+      "background": "rgb(255, 255, 255)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "403 Sorry, you are not authorized to access this page. Back to home"
+    },
+    {
+      "key": "result:0",
+      "x": 64,
+      "y": 112,
+      "width": 262,
+      "height": 555,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "403 Sorry, you are not authorized to access this page. Back to home"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

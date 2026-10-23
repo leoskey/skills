@@ -1,0 +1,87 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 106,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 176
+    },
+    {
+      "height": 778,
+      "title": ".ant-card:1",
+      "width": 929,
+      "x": 296,
+      "y": 306
+    },
+    {
+      "height": 80,
+      "title": ".ant-card-head:0",
+      "width": 929,
+      "x": 296,
+      "y": 306
+    },
+    {
+      "height": 125,
+      "title": ".ant-list-item:0",
+      "width": 865,
+      "x": 328,
+      "y": 385
+    },
+    {
+      "height": 125,
+      "title": ".ant-list-item:1",
+      "width": 865,
+      "x": 328,
+      "y": 510
+    },
+    {
+      "height": 103,
+      "title": ".ant-list-item:2",
+      "width": 865,
+      "x": 328,
+      "y": 635
+    },
+    {
+      "height": 125,
+      "title": ".ant-list-item:3",
+      "width": 865,
+      "x": 328,
+      "y": 738
+    },
+    {
+      "height": 125,
+      "title": ".ant-list-item:4",
+      "width": 865,
+      "x": 328,
+      "y": 863
+    }
+  ],
+  "content": "列表页\n/\n标准列表\n标准列表\n我的待办\n\n8个任务\n\n本周任务平均处理时间\n\n32分钟\n\n本周完成任务数\n\n24个任务\n\n基本列表\n全部\n进行中\n等待中\nAlipay\n那是一种内在的东西， 他们到达不了，也无法触及的\nOwner\n\n付小小\n\n开始时间\n\n2026-10-20 12:42\n\n55%\n编辑\n更多 \nAngular\n希望是一个好东西，也许是最好的，好东西是不会消亡的\nOwner\n\n曲丽丽\n\n开始时间\n\n2026-10-14 18:18\n\n编辑\n更多 \nAnt Design\n生命就像一",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 10,
+  "candidateAnchors": 10,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": true,
+  "scrollMatches": true,
+  "classification": "local_extension",
+  "reviewNote": "选择同一合成QA头像文件；官方Upload没有头像预览处理函数，本地FileReader即时预览。官方POST仅在浏览器返回测试成功，没有实际上传。",
+  "humanAcceptance": "pending"
+}

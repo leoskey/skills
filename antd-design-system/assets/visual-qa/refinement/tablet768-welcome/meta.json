@@ -1,0 +1,9 @@
+{
+  "id": "tablet768-welcome",
+  "path": "/welcome",
+  "mode": "tablet768",
+  "referenceTransport": "canonical public list responses",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "以实际线上6.0.1提交的中英文Cheatsheet为视觉基线，替换正文。"
+}

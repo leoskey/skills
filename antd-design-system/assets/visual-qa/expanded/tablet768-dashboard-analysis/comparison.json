@@ -1,0 +1,83 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 22,
+  "candidateAnchors": 22,
+  "geometryDifferences": [
+    {
+      "anchor": "tableHead:0",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:0",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:1",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:2",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:3",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    },
+    {
+      "anchor": "tableRow:4",
+      "delta": {
+        "x": 0,
+        "y": 0.0,
+        "width": 15,
+        "height": 0
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "documented_difference",
+  "reviewNote": "搜索表保持单行字段并在必要时表内滚动；768px表头/行宽比参考多15px，卡片和行高一致，为组件滚动条保留宽度差。",
+  "humanAcceptance": "pending"
+}

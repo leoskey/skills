@@ -1,0 +1,123 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 62,
+      "title": ".ant-form-item:0",
+      "width": 377,
+      "x": 560,
+      "y": 164
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:1",
+      "width": 377,
+      "x": 560,
+      "y": 250
+    },
+    {
+      "height": 106,
+      "title": ".ant-form-item:2",
+      "width": 377,
+      "x": 560,
+      "y": 336
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:3",
+      "width": 377,
+      "x": 560,
+      "y": 466
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:4",
+      "width": 216,
+      "x": 560,
+      "y": 606
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:5",
+      "width": 216,
+      "x": 560,
+      "y": 662
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:6",
+      "width": 377,
+      "x": 560,
+      "y": 718
+    },
+    {
+      "height": 62,
+      "title": ".ant-form-item:7",
+      "width": 377,
+      "x": 560,
+      "y": 804
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:0",
+      "width": 328,
+      "x": 560,
+      "y": 194
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:1",
+      "width": 328,
+      "x": 560,
+      "y": 280
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:2",
+      "width": 216,
+      "x": 560,
+      "y": 496
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:3",
+      "width": 216,
+      "x": 560,
+      "y": 606
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:4",
+      "width": 216,
+      "x": 560,
+      "y": 662
+    },
+    {
+      "height": 32,
+      "title": ".ant-pro-form .pro-field:5",
+      "width": 328,
+      "x": 560,
+      "y": 748
+    }
+  ],
+  "content": "基本设置\n安全设置\n账号绑定\n新消息通知\n基本设置\n邮箱\n昵称\n个人简介\n国家/地区\n中国\n所在省市\n浙江省\n杭州市\n街道地址\n联系电话\n更新基本信息\n头像\n更换头像",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

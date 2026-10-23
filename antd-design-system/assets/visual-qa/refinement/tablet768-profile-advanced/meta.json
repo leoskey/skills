@@ -1,0 +1,9 @@
+{
+  "id": "tablet768-profile-advanced",
+  "path": "/profile/advanced",
+  "mode": "tablet768",
+  "referenceTransport": "canonical public list responses",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "迁移官方global.less在max-width:768px下的表格overflow、white-space:pre和单元格span规则，重新核对实际宽度。"
+}

@@ -1,0 +1,83 @@
+{
+  "url": "https://preview.pro.ant.design/result/fail",
+  "title": "失败页 - Ant Design Pro",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 789,
+  "documentWidth": 1265,
+  "fontLoaded": true,
+  "content": "欢迎\n管理页\nDashboard\n表单页\n列表页\n详情页\n结果页\n成功页\n失败页\n异常页\n个人页\nAI 助手\nAnt Design Pro\nProUser\n提交失败\n请核对并修改以下信息后，再重新提交。\n返回修改\n您提交的内容有如下错误：\n您的账户已被冻结立即解冻\n您的账户还不具备申请资格立即升级\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1265,
+    "height": 720,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "header:0",
+      "x": 16,
+      "y": 0,
+      "width": 1233,
+      "height": 56,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "56px",
+      "borderRadius": "0px",
+      "text": "Ant Design Pro ProUser"
+    },
+    {
+      "key": "sider:0",
+      "x": 0,
+      "y": 56,
+      "width": 256,
+      "height": 664,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "欢迎 管理页 Dashboard 表单页 列表页 详情页 结果页 成功页 失败页 异常页 个人页 AI 助手"
+    },
+    {
+      "key": "card:0",
+      "x": 296,
+      "y": 88,
+      "width": 929,
+      "height": 595.141,
+      "background": "rgb(20, 20, 20)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "8px",
+      "text": "提交失败 请核对并修改以下信息后，再重新提交。 返回修改 您提交的内容有如下错误： 您的账户已被冻结立即解冻 您的账户还不具备申请资格立即升级"
+    },
+    {
+      "key": "result:0",
+      "x": 320,
+      "y": 160,
+      "width": 881,
+      "height": 483.141,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(255, 255, 255, 0.85)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "提交失败 请核对并修改以下信息后，再重新提交。 返回修改 您提交的内容有如下错误： 您的账户已被冻结立即解冻 您的账户还不具备申请资格立即升级"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

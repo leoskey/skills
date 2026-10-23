@@ -1,0 +1,728 @@
+{
+  "version": "3.0.0",
+  "date": "2026-10-22",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "tolerancePx": 2,
+  "pages": [
+    {
+      "path": "/user/login",
+      "name": "登录",
+      "id": "user-login",
+      "comparison": "../assets/visual-qa/user-login/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 9,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch08",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 390,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "账号/手机切换；验证码错误与1234成功；普通user登录、刷新后管理页403且菜单隐藏；退出并恢复admin"
+      ],
+      "declaredDifference": null,
+      "variants": [
+        {
+          "id": "user-login-mobile",
+          "rawGeometryPassed": true,
+          "anchors": 9
+        }
+      ]
+    },
+    {
+      "path": "/user/register-result",
+      "name": "注册结果",
+      "id": "user-register-result",
+      "comparison": "../assets/visual-qa/user-register-result/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 1,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch08",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 390,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "邮箱参数展示、查看账户本地弹窗与登录入口"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/user/register",
+      "name": "注册",
+      "id": "user-register",
+      "comparison": "../assets/visual-qa/user-register/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 8,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch08",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 390,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "必填及确认密码不匹配；验证码/注册成功进入结果；不创建真实账号"
+      ],
+      "declaredDifference": null,
+      "variants": [
+        {
+          "id": "user-register-result",
+          "rawGeometryPassed": true,
+          "anchors": 1
+        }
+      ]
+    },
+    {
+      "path": "/welcome",
+      "name": "欢迎",
+      "id": "welcome",
+      "comparison": "../assets/visual-qa/welcome/comparison.json",
+      "rawGeometryPassed": false,
+      "measuredAnchors": 7,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch09",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "官方Markdown/代码块/目录、首屏与下半页视觉；6.0.3新增AI Skills内容保留"
+      ],
+      "declaredDifference": "源码6.0.3文档比线上6.0.1多AI Skills等内容；主文档Card高1293.6094px，其余锚点通过。共同内容的字体与代码块密度已对照。",
+      "variants": []
+    },
+    {
+      "path": "/admin/sub-page",
+      "name": "管理页",
+      "id": "admin",
+      "comparison": "../assets/visual-qa/admin/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 5,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch09",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 390,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "admin页面；user刷新后权限403；旧/admin/permissions别名正确重定向"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/dashboard/analysis",
+      "name": "分析页",
+      "id": "dashboard-analysis",
+      "comparison": "../assets/visual-qa/dashboard-analysis/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 22,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch01",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "日期/指标Tabs、渠道切换及原有分析页回归；图表实际渲染"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/dashboard/monitor",
+      "name": "监控页",
+      "id": "dashboard-monitor",
+      "comparison": "../assets/visual-qa/dashboard-monitor/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 14,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch07",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "地图、四类实时图表实际渲染；地图悬停提示；手机分类进度堆叠"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/dashboard/workplace",
+      "name": "工作台",
+      "id": "dashboard-workplace",
+      "comparison": "../assets/visual-qa/dashboard-workplace/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 20,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch06",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "项目/团队链接、全部项目、添加快捷入口；新入口通过hash路由到查询表格；手机项目单列"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/form/basic-form",
+      "name": "基础表单",
+      "id": "form-basic",
+      "comparison": "../assets/visual-qa/form-basic/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 21,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch01",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "必填校验、部分公开、提交/重置与数值边界；原有表单回归"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/form/step-form",
+      "name": "分步表单",
+      "id": "form-step",
+      "comparison": "../assets/visual-qa/form-step/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 14,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch02",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "填写→确认→完成；支付密码必填；查看账单弹窗；再转一笔重置"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/form/advanced-form",
+      "name": "高级表单",
+      "id": "form-advanced",
+      "comparison": "../assets/visual-qa/form-advanced/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 27,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch02",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "12项必填与错误摘要；成员编辑/新增/保存；填完提交；失败页返回保留草稿"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/search/articles",
+      "name": "搜索列表·文章",
+      "id": "search-articles",
+      "comparison": "../assets/visual-qa/search-articles/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 14,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch03",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "分类/自己/关键词筛选、空结果、加载更多5→10条"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/search/projects",
+      "name": "搜索列表·项目",
+      "id": "search-projects",
+      "comparison": "../assets/visual-qa/search-projects/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 24,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch04",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "共享搜索头与项目筛选；卡片封面和团队信息"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/search/applications",
+      "name": "搜索列表·应用",
+      "id": "search-applications",
+      "comparison": "../assets/visual-qa/search-applications/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 24,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch04",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "应用筛选、重命名、分享弹窗、下载反馈与更多菜单详情"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/table-list",
+      "name": "查询表格",
+      "id": "list-table",
+      "comparison": "../assets/visual-qa/list-table/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 28,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch01",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "筛选、排序/分页、选择、创建/配置/删除、详情抽屉与原有查询表格回归"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/basic-list",
+      "name": "标准列表",
+      "id": "list-basic",
+      "comparison": "../assets/visual-qa/list-basic/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 11,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch03",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "状态/关键词筛选、空结果、编辑/提交结果；创建/删除临时任务；保留所选负责人/创建时间；分页及10条/页"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/list/card-list",
+      "name": "卡片列表",
+      "id": "list-card",
+      "comparison": "../assets/visual-qa/list-card/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 21,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch03",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "新增产品与操作详情；加载失败→恢复数据→点击重试恢复卡片"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/profile/basic",
+      "name": "基础详情页",
+      "id": "profile-basic",
+      "comparison": "../assets/visual-qa/profile-basic/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 28,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch02",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "退款与用户说明、商品合计10件/61.5、5条进度及窄屏表内滚动"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/profile/advanced",
+      "name": "高级详情页",
+      "id": "profile-advanced",
+      "comparison": "../assets/visual-qa/profile-advanced/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 50,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch04",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "主操作/催办反馈、详情与规则切换、三组操作日志、基础详情链接"
+      ],
+      "declaredDifference": null,
+      "variants": [
+        {
+          "id": "profile-advanced-log3",
+          "rawGeometryPassed": true,
+          "anchors": 46
+        }
+      ]
+    },
+    {
+      "path": "/result/success",
+      "name": "成功页",
+      "id": "result-success",
+      "comparison": "../assets/visual-qa/result-success/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 9,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch05",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "查看项目导航；催办为本地反馈；打印入口调用浏览器，未执行实体打印"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/result/fail",
+      "name": "失败页",
+      "id": "result-fail",
+      "comparison": "../assets/visual-qa/result-fail/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 4,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch05",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "立即解冻/升级进入安全设置；返回修改恢复高级表单草稿"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/exception/403",
+      "name": "403",
+      "id": "exception-403",
+      "comparison": "../assets/visual-qa/exception-403/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 4,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch05",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "403结果/原因/返回首页"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/exception/404",
+      "name": "404",
+      "id": "exception-404",
+      "comparison": "../assets/visual-qa/exception-404/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 4,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch06",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "404布局；全局及/user/未知路径均实际显示404"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/exception/500",
+      "name": "500",
+      "id": "exception-500",
+      "comparison": "../assets/visual-qa/exception-500/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 4,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch06",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "500结果/原因/返回入口"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    },
+    {
+      "path": "/account/center",
+      "name": "个人中心",
+      "id": "account-center",
+      "comparison": "../assets/visual-qa/account-center/comparison.json",
+      "rawGeometryPassed": false,
+      "measuredAnchors": 35,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch07",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "文章/应用/项目三Tab；完整6项团队；新增/删除标签；应用操作与共享组件一致"
+      ],
+      "declaredDifference": "源码fixture保留6个团队，线上个人中心团队为空；左侧Card高147.6562px，右侧全部内容锚点通过。",
+      "variants": [
+        {
+          "id": "account-center-applications",
+          "rawGeometryPassed": false,
+          "anchors": 65
+        },
+        {
+          "id": "account-center-projects",
+          "rawGeometryPassed": false,
+          "anchors": 65
+        }
+      ]
+    },
+    {
+      "path": "/account/settings",
+      "name": "个人设置",
+      "id": "account-settings",
+      "comparison": "../assets/visual-qa/account-settings/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 16,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch07",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "基础/安全/绑定/通知四视图；必填及保存反馈；头像本地DataURL预览；通知开关跨Tab保留"
+      ],
+      "declaredDifference": null,
+      "variants": [
+        {
+          "id": "account-settings-binding",
+          "rawGeometryPassed": true,
+          "anchors": 5
+        },
+        {
+          "id": "account-settings-notification",
+          "rawGeometryPassed": true,
+          "anchors": 5
+        },
+        {
+          "id": "account-settings-security",
+          "rawGeometryPassed": true,
+          "anchors": 7
+        }
+      ]
+    },
+    {
+      "path": "/chatbot",
+      "name": "AI助手",
+      "id": "chatbot",
+      "comparison": "../assets/visual-qa/chatbot/comparison.json",
+      "rawGeometryPassed": true,
+      "measuredAnchors": 16,
+      "screenshotReviewed": true,
+      "mobile": {
+        "batch": "batch09",
+        "viewport": [
+          390,
+          640
+        ],
+        "documentWidth": 375,
+        "passed": true,
+        "physicalDevice": false
+      },
+      "checkedInteractions": [
+        "本地流式、Think/Markdown、停止/重新生成；新建/切换隔离、删除临时会话；手机输入发送"
+      ],
+      "declaredDifference": null,
+      "variants": []
+    }
+  ],
+  "summary": {
+    "pages": 27,
+    "implemented": 27,
+    "agentVisualReviewed": 27,
+    "rawGeometryPassedPages": 25,
+    "pagesWithDocumentedDifference": 2,
+    "responsiveReviewedPages": 27,
+    "remainingImplementationAndAcceptance": 0,
+    "humanAcceptance": "pending"
+  },
+  "sharedChecks": [
+    "精确路由；/list/search重定向；全局和/user/未知路由404；管理旧别名",
+    "页面数据失败与重试恢复实际UI通过",
+    "手机导航抽屉、筛选真实宽度、表内滚动、表单操作与弹层位置检查",
+    "原有4页全部重新截图与几何回归"
+  ],
+  "boundaries": [
+    "本地模拟API、认证、短信、转账、资料/安全设置和AI；没有真实服务动作",
+    "390px为iframe CSS视口证据，不代表真机验收",
+    "地图/监控倒计时等动态内容不要求逐像素一致；线上随机数据取快照固定",
+    "实体打印未执行；后端持久化/权限、安全和性能不属于演示验收",
+    "生产JS约5.25MB，gzip约1.65MB；为预览稳定保留单包，产品接入应按路由优化",
+    "字体与若干官方封面/头像依赖官方CDN，离线需另行替换"
+  ]
+}

@@ -1,0 +1,2836 @@
+{
+  "schemaVersion": 1,
+  "skillVersion": "3.2.0",
+  "capturedAt": "2026-10-23",
+  "sourceCommit": "52506486ea134486937043c5fb677d89bbcd07f2",
+  "sourceVersion": "6.0.3",
+  "visualReferenceVersion": "6.0.1",
+  "runtimeTemplateVersion": "3.2.0",
+  "summary": {
+    "pages": 27,
+    "pairedCases": 306,
+    "originalCases": 301,
+    "originalCasesWith32Evidence": 301,
+    "originalCasesPending32Evidence": 0,
+    "newlyCompletedOriginalCasesThisPass": 199,
+    "additionalRegressionCases": 5,
+    "matrixCases": 210,
+    "originalRawGeometryPassedCases": 294,
+    "rawGeometryPassedCases": 299,
+    "retainedGeometryDifferenceCases": 7,
+    "sameGeometryWithBehaviorDifferenceCases": 3,
+    "originalDifferences": 77,
+    "originalCasesAligned": 70,
+    "originalCasesRetained": 7,
+    "measuredReferenceAnchors": 5990,
+    "allScreenshotsAgentReviewed": true,
+    "humanAcceptance": "pending"
+  },
+  "scope": "原301组完整3.2.0配对覆盖；另5组回归。当前证据不再沿用3.1.0。",
+  "sharedRoutes": [
+    {
+      "path": "/list/search",
+      "purpose": "Shared search header and three tabs; inspect once as a wrapper and with all three child pages."
+    },
+    {
+      "path": "/user/*",
+      "purpose": "Authentication-area unmatched route to 404."
+    },
+    {
+      "path": "/*",
+      "purpose": "Application unmatched route to 404."
+    }
+  ],
+  "pages": [
+    {
+      "path": "/user/login",
+      "name": "登录",
+      "batch": "P5",
+      "source": "src/pages/user/login/index.tsx",
+      "sourceSha256": "67cac5e32bd35bd66f5d57e0dd36fd3e0804f3737cc7ec17c67d2d20ae45a2cc",
+      "referenceUrl": "https://preview.pro.ant.design/user/login/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "独立登录容器、品牌/副标题、账户/手机号Tabs、验证码与底部入口"
+      ],
+      "states": [
+        "账号/手机号切换",
+        "必填与错误反馈",
+        "本地演示登录/退出，不调用真实认证"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-user-login/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "desktop-user-login",
+          "mobile-user-login",
+          "tablet1024-user-login",
+          "tablet768-user-login",
+          "zoom125-user-login",
+          "zoom150-user-login"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 6,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "user-login",
+        "comparison": "../assets/visual-qa/user-login/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 9,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch08",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 390,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "账号/手机切换；验证码错误与1234成功；普通user登录、刷新后管理页403且菜单隐藏；退出并恢复admin"
+        ],
+        "declaredDifference": null,
+        "variants": [
+          {
+            "id": "user-login-mobile",
+            "rawGeometryPassed": true,
+            "anchors": 9
+          }
+        ]
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "desktop-user-login",
+            "mobile-user-login",
+            "tablet1024-user-login",
+            "tablet768-user-login",
+            "zoom125-user-login",
+            "zoom150-user-login"
+          ],
+          "matrixModes": [
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": [
+            "dark",
+            "collapsed"
+          ]
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-user-login/pair.jpg"
+      }
+    },
+    {
+      "path": "/user/register-result",
+      "name": "注册结果",
+      "batch": "P5",
+      "source": "src/pages/user/register-result/index.tsx",
+      "sourceSha256": "f0539b657b84ca29106819110d744195630f094c89b0e6435a4574cd366cb7f1",
+      "referenceUrl": "https://preview.pro.ant.design/user/register-result/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "独立结果布局、成功图标、邮箱信息与主次操作"
+      ],
+      "states": [
+        "演示邮箱展示",
+        "返回/查看邮箱按钮使用本地反馈"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-user-register-result/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "desktop-user-register-result",
+          "mobile-user-register-result",
+          "tablet1024-user-register-result",
+          "tablet768-user-register-result",
+          "zoom125-user-register-result",
+          "zoom150-user-register-result"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 6,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "user-register-result",
+        "comparison": "../assets/visual-qa/user-register-result/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 1,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch08",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 390,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "邮箱参数展示、查看账户本地弹窗与登录入口"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "desktop-user-register-result",
+            "mobile-user-register-result",
+            "tablet1024-user-register-result",
+            "tablet768-user-register-result",
+            "zoom125-user-register-result",
+            "zoom150-user-register-result"
+          ],
+          "matrixModes": [
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": [
+            "dark",
+            "collapsed"
+          ]
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-user-register-result/pair.jpg"
+      }
+    },
+    {
+      "path": "/user/register",
+      "name": "注册",
+      "batch": "P5",
+      "source": "src/pages/user/register/index.tsx",
+      "sourceSha256": "52c73caae2e1d4b98ba59396b137dbd1487cae24d0e85904eb0141be011fe0ab",
+      "referenceUrl": "https://preview.pro.ant.design/user/register/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "注册字段、密码强度提示、手机号前缀/验证码、提交与登录链接"
+      ],
+      "states": [
+        "密码强度与确认密码",
+        "验证码倒计时",
+        "必填/成功转结果；仅模拟注册"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-user-register/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "desktop-user-register",
+          "mobile-user-register",
+          "tablet1024-user-register",
+          "tablet768-user-register",
+          "zoom125-user-register",
+          "zoom150-user-register"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 6,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "user-register",
+        "comparison": "../assets/visual-qa/user-register/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 8,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch08",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 390,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "必填及确认密码不匹配；验证码/注册成功进入结果；不创建真实账号"
+        ],
+        "declaredDifference": null,
+        "variants": [
+          {
+            "id": "user-register-result",
+            "rawGeometryPassed": true,
+            "anchors": 1
+          }
+        ]
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "desktop-user-register",
+            "mobile-user-register",
+            "tablet1024-user-register",
+            "tablet768-user-register",
+            "zoom125-user-register",
+            "zoom150-user-register"
+          ],
+          "matrixModes": [
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": [
+            "dark",
+            "collapsed"
+          ]
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-user-register/pair.jpg"
+      }
+    },
+    {
+      "path": "/welcome",
+      "name": "欢迎",
+      "batch": "P6",
+      "source": "src/pages/Welcome.tsx",
+      "sourceSha256": "0474ad33ccb823b3ff0aea625d8a7caed5631542f29978127c0a599f6ef53c8f",
+      "referenceUrl": "https://preview.pro.ant.design/welcome/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "PageContainer标题、官方信息卡与文档区域；先确认6.0.1/6.0.3构图差异"
+      ],
+      "states": [
+        "卡片链接",
+        "长文与窄屏",
+        "版本差异单独说明"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-welcome/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-welcome",
+          "dark-welcome",
+          "desktop-welcome",
+          "mobile-welcome",
+          "tablet1024-welcome",
+          "tablet768-welcome",
+          "zoom125-welcome",
+          "zoom150-welcome"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "welcome",
+        "comparison": "../assets/visual-qa/welcome/comparison.json",
+        "rawGeometryPassed": false,
+        "measuredAnchors": 7,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch09",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "官方Markdown/代码块/目录、首屏与下半页视觉；6.0.3新增AI Skills内容保留"
+        ],
+        "declaredDifference": "源码6.0.3文档比线上6.0.1多AI Skills等内容；主文档Card高1293.6094px，其余锚点通过。共同内容的字体与代码块密度已对照。",
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-welcome",
+            "dark-welcome",
+            "desktop-welcome",
+            "mobile-welcome",
+            "tablet1024-welcome",
+            "tablet768-welcome",
+            "zoom125-welcome",
+            "zoom150-welcome"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": false,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-welcome/pair.jpg"
+      }
+    },
+    {
+      "path": "/admin/sub-page",
+      "name": "管理页",
+      "batch": "P6",
+      "source": "src/pages/Admin.tsx",
+      "sourceSha256": "093dcacade66ff8519bf657e30fb143f75c0d3fb36df01808be5a4b4aab34c07",
+      "referenceUrl": "https://preview.pro.ant.design/admin/sub-page/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "官方标题说明、提示条、Card中的管理内容"
+      ],
+      "states": [
+        "演示管理/普通角色可见性",
+        "保留旧/admin/permissions为兼容重定向"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-admin/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-admin",
+          "dark-admin",
+          "desktop-admin",
+          "mobile-admin",
+          "tablet1024-admin",
+          "tablet768-admin",
+          "zoom125-admin",
+          "zoom150-admin"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "admin",
+        "comparison": "../assets/visual-qa/admin/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 5,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch09",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 390,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "admin页面；user刷新后权限403；旧/admin/permissions别名正确重定向"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-admin",
+            "dark-admin",
+            "desktop-admin",
+            "mobile-admin",
+            "tablet1024-admin",
+            "tablet768-admin",
+            "zoom125-admin",
+            "zoom150-admin"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-admin/pair.jpg"
+      }
+    },
+    {
+      "path": "/dashboard/analysis",
+      "name": "分析页",
+      "batch": "P0",
+      "source": "src/pages/dashboard/analysis/index.tsx",
+      "sourceSha256": "f6e72a13c1891602b2016ba24d2875862051ef851c0e9f73e1a187bbd226cc4d",
+      "referenceUrl": "https://preview.pro.ant.design/dashboard/analysis/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "四张ChartCard、趋势/排名、搜索/占比、门店时序区域"
+      ],
+      "states": [
+        "日期/Tabs/渠道",
+        "分页排序",
+        "窄屏与数据失败重试"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-dashboard-analysis/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-dashboard-analysis",
+          "dark-dashboard-analysis",
+          "desktop-dashboard-analysis",
+          "mobile-analysis-search-lower",
+          "mobile-dashboard-analysis",
+          "tablet1024-dashboard-analysis",
+          "tablet768-dashboard-analysis",
+          "zoom125-dashboard-analysis",
+          "zoom150-dashboard-analysis"
+        ],
+        "additionalCases": [
+          "regression-mobile-dashboard-analysis"
+        ],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 10,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "dashboard-analysis",
+        "comparison": "../assets/visual-qa/dashboard-analysis/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 22,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch01",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "日期/指标Tabs、渠道切换及原有分析页回归；图表实际渲染"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-dashboard-analysis",
+            "dark-dashboard-analysis",
+            "desktop-dashboard-analysis",
+            "mobile-analysis-search-lower",
+            "mobile-dashboard-analysis",
+            "tablet1024-dashboard-analysis",
+            "tablet768-dashboard-analysis",
+            "zoom125-dashboard-analysis",
+            "zoom150-dashboard-analysis"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-dashboard-analysis/pair.jpg"
+      }
+    },
+    {
+      "path": "/dashboard/monitor",
+      "name": "监控页",
+      "batch": "P4",
+      "source": "src/pages/dashboard/monitor/index.tsx",
+      "sourceSha256": "9fa9340dfc3ed8c452493e8abf77feeea86be78e5449dac7663f9933f3ab55cd",
+      "referenceUrl": "https://preview.pro.ant.design/dashboard/monitor/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "交易主区/地图、顶栏指标、预测图、Gauge/Liquid、品类图、词云与资源指标"
+      ],
+      "states": [
+        "倒计时固定时钟",
+        "图表完整渲染/加载与失败",
+        "地图缩放与窄屏；记录渲染能力差异"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-dashboard-monitor/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-dashboard-monitor",
+          "dark-dashboard-monitor",
+          "desktop-dashboard-monitor",
+          "mobile-dashboard-monitor",
+          "tablet1024-dashboard-monitor",
+          "tablet768-dashboard-monitor",
+          "zoom125-dashboard-monitor",
+          "zoom150-dashboard-monitor"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "dashboard-monitor",
+        "comparison": "../assets/visual-qa/dashboard-monitor/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 14,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch07",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "地图、四类实时图表实际渲染；地图悬停提示；手机分类进度堆叠"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-dashboard-monitor",
+            "dark-dashboard-monitor",
+            "desktop-dashboard-monitor",
+            "mobile-dashboard-monitor",
+            "tablet1024-dashboard-monitor",
+            "tablet768-dashboard-monitor",
+            "zoom125-dashboard-monitor",
+            "zoom150-dashboard-monitor"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-dashboard-monitor/pair.jpg"
+      }
+    },
+    {
+      "path": "/dashboard/workplace",
+      "name": "工作台",
+      "batch": "P4",
+      "source": "src/pages/dashboard/workplace/index.tsx",
+      "sourceSha256": "71cc83afe1ffc30574fe84f4a69252d1e4fba442fa270c88977f496bf7d616d2",
+      "referenceUrl": "https://preview.pro.ant.design/dashboard/workplace/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "头像/问候/三项统计、项目网格/动态主列、快捷导航/雷达/团队侧列"
+      ],
+      "states": [
+        "项目/快捷入口",
+        "动态加载",
+        "雷达图与响应式列序"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-dashboard-workplace/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-dashboard-workplace",
+          "dark-dashboard-workplace",
+          "desktop-dashboard-workplace",
+          "mobile-dashboard-workplace",
+          "tablet1024-dashboard-workplace",
+          "tablet768-dashboard-workplace",
+          "zoom125-dashboard-workplace",
+          "zoom150-dashboard-workplace"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "dashboard-workplace",
+        "comparison": "../assets/visual-qa/dashboard-workplace/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 20,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch06",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "项目/团队链接、全部项目、添加快捷入口；新入口通过hash路由到查询表格；手机项目单列"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-dashboard-workplace",
+            "dark-dashboard-workplace",
+            "desktop-dashboard-workplace",
+            "mobile-dashboard-workplace",
+            "tablet1024-dashboard-workplace",
+            "tablet768-dashboard-workplace",
+            "zoom125-dashboard-workplace",
+            "zoom150-dashboard-workplace"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-dashboard-workplace/pair.jpg"
+      }
+    },
+    {
+      "path": "/form/basic-form",
+      "name": "基础表单",
+      "batch": "P0",
+      "source": "src/pages/form/basic-form/index.tsx",
+      "sourceSha256": "3c5a7a4d1887dadc0d0039bc128ad18deb94f37b47929ee84201b578ead5b18e",
+      "referenceUrl": "https://preview.pro.ant.design/form/basic-form/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "600px居中表单、四项必填、客户/邀评人/权重、目标公开"
+      ],
+      "states": [
+        "四项校验",
+        "部分公开",
+        "提交/重置、0–100%边界"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-form-basic/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-form-basic",
+          "dark-form-basic",
+          "desktop-form-basic",
+          "mobile-form-basic",
+          "tablet1024-form-basic",
+          "tablet768-form-basic",
+          "zoom125-form-basic",
+          "zoom150-form-basic"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "form-basic",
+        "comparison": "../assets/visual-qa/form-basic/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 21,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch01",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "必填校验、部分公开、提交/重置与数值边界；原有表单回归"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-form-basic",
+            "dark-form-basic",
+            "desktop-form-basic",
+            "mobile-form-basic",
+            "tablet1024-form-basic",
+            "tablet768-form-basic",
+            "zoom125-form-basic",
+            "zoom150-form-basic"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-form-basic/pair.jpg"
+      }
+    },
+    {
+      "path": "/form/step-form",
+      "name": "分步表单",
+      "batch": "P1",
+      "source": "src/pages/form/step-form/index.tsx",
+      "sourceSha256": "75bc1750967de0d67581d81947821e85c50cfa1ab24e8634b3850a6a12ea609a",
+      "referenceUrl": "https://preview.pro.ant.design/form/step-form/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "Steps三步、填写与确认区域、结果与下方说明"
+      ],
+      "states": [
+        "必填/格式",
+        "确认与返回保值",
+        "成功/再转一笔；全程本地模拟，不执行真实转账"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-form-step/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-form-step",
+          "dark-form-step",
+          "desktop-form-step",
+          "mobile-form-step",
+          "tablet1024-form-step",
+          "tablet768-form-step",
+          "zoom125-form-step",
+          "zoom150-form-step"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "form-step",
+        "comparison": "../assets/visual-qa/form-step/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 14,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch02",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "填写→确认→完成；支付密码必填；查看账单弹窗；再转一笔重置"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-form-step",
+            "dark-form-step",
+            "desktop-form-step",
+            "mobile-form-step",
+            "tablet1024-form-step",
+            "tablet768-form-step",
+            "zoom125-form-step",
+            "zoom150-form-step"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-form-step/pair.jpg"
+      }
+    },
+    {
+      "path": "/form/advanced-form",
+      "name": "高级表单",
+      "batch": "P1",
+      "source": "src/pages/form/advanced-form/index.tsx",
+      "sourceSha256": "eae1692b59d1d7089a55799b39b455d6f09862eda56acff749a429ade7db463d",
+      "referenceUrl": "https://preview.pro.ant.design/form/advanced-form/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "仓库/任务/成员三Card、响应式字段列、EditableProTable与底部工具栏"
+      ],
+      "states": [
+        "成员添加/编辑/删除",
+        "字段校验/错误摘要定位",
+        "提交和表格横向滚动"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-form-advanced/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-form-advanced",
+          "dark-form-advanced",
+          "desktop-form-advanced",
+          "mobile-form-advanced",
+          "state-advanced-filled",
+          "state-advanced-member-add",
+          "state-advanced-member-edit",
+          "state-advanced-required",
+          "state-advanced-submit",
+          "tablet1024-form-advanced",
+          "tablet768-form-advanced",
+          "zoom125-form-advanced",
+          "zoom150-form-advanced"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 13,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "form-advanced",
+        "comparison": "../assets/visual-qa/form-advanced/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 27,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch02",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "12项必填与错误摘要；成员编辑/新增/保存；填完提交；失败页返回保留草稿"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-form-advanced",
+            "dark-form-advanced",
+            "desktop-form-advanced",
+            "mobile-form-advanced",
+            "state-advanced-filled",
+            "state-advanced-member-add",
+            "state-advanced-member-edit",
+            "state-advanced-required",
+            "state-advanced-submit",
+            "tablet1024-form-advanced",
+            "tablet768-form-advanced",
+            "zoom125-form-advanced",
+            "zoom150-form-advanced"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-form-advanced/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/search/articles",
+      "name": "搜索列表·文章",
+      "batch": "P2",
+      "source": "src/pages/list/search/articles/index.tsx",
+      "sourceSha256": "3c41570b21344600fbce469c1822125b53405345bcf6b9601bb46a3a40d4e84c",
+      "referenceUrl": "https://preview.pro.ant.design/list/search/articles/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed_with_documented_difference",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "共享搜索Header/Tabs、分类/owner/其他筛选、文章行/标签/摘要/作者/统计"
+      ],
+      "states": [
+        "搜索/分类/owner筛选",
+        "加载更多/空结果",
+        "Tab切换及状态保留"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-search-articles/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-search-articles",
+          "dark-search-articles",
+          "desktop-search-articles",
+          "lower-search-articles",
+          "lower-search-articles-s1200",
+          "lower-search-articles-s1256",
+          "lower-search-articles-s600",
+          "mobile-search-articles",
+          "state-articles-empty",
+          "state-articles-more",
+          "state-articles-own",
+          "tablet1024-search-articles",
+          "tablet768-search-articles",
+          "zoom125-search-articles",
+          "zoom150-search-articles"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 14,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "search-articles",
+        "comparison": "../assets/visual-qa/search-articles/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 14,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch03",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "分类/自己/关键词筛选、空结果、加载更多5→10条"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-search-articles",
+            "dark-search-articles",
+            "desktop-search-articles",
+            "lower-search-articles",
+            "lower-search-articles-s1200",
+            "lower-search-articles-s1256",
+            "lower-search-articles-s600",
+            "mobile-search-articles",
+            "state-articles-empty",
+            "state-articles-more",
+            "state-articles-own",
+            "tablet1024-search-articles",
+            "tablet768-search-articles",
+            "zoom125-search-articles",
+            "zoom150-search-articles"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-search-articles/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/search/projects",
+      "name": "搜索列表·项目",
+      "batch": "P2",
+      "source": "src/pages/list/search/projects/index.tsx",
+      "sourceSha256": "7944808fd349eaeffe37e3b6a3524a7641ff689f20bd5ef0ceb8ce68b2ea4916",
+      "referenceUrl": "https://preview.pro.ant.design/list/search/projects/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "共享搜索Header/Tabs、分类/其他筛选、项目封面Card/时间/头像组"
+      ],
+      "states": [
+        "筛选/排序",
+        "项目入口",
+        "图片比例、卡片堆叠/长标题"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-search-projects/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-search-projects",
+          "dark-search-projects",
+          "desktop-search-projects",
+          "lower-search-projects",
+          "lower-search-projects-s445",
+          "mobile-search-projects",
+          "state-projects-filter",
+          "tablet1024-search-projects",
+          "tablet768-search-projects",
+          "zoom125-search-projects",
+          "zoom150-search-projects"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 11,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "search-projects",
+        "comparison": "../assets/visual-qa/search-projects/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 24,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch04",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "共享搜索头与项目筛选；卡片封面和团队信息"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-search-projects",
+            "dark-search-projects",
+            "desktop-search-projects",
+            "lower-search-projects",
+            "lower-search-projects-s445",
+            "mobile-search-projects",
+            "state-projects-filter",
+            "tablet1024-search-projects",
+            "tablet768-search-projects",
+            "zoom125-search-projects",
+            "zoom150-search-projects"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-search-projects/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/search/applications",
+      "name": "搜索列表·应用",
+      "batch": "P2",
+      "source": "src/pages/list/search/applications/index.tsx",
+      "sourceSha256": "814b0455f7d1d832ac891c8d1536206e420002275ebc3f5649e3c0a7e1d5d99e",
+      "referenceUrl": "https://preview.pro.ant.design/list/search/applications/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "共享搜索Header/Tabs、分类筛选、应用CardInfo指标与操作栏"
+      ],
+      "states": [
+        "分类筛选",
+        "本地编辑/下载/分享反馈",
+        "加载/空结果与操作焦点"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-search-applications/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-search-applications",
+          "controlled-search-applications",
+          "dark-search-applications",
+          "desktop-search-applications",
+          "lower-search-applications",
+          "lower-search-applications-s298",
+          "mobile-search-applications",
+          "state-applications-filter",
+          "tablet1024-search-applications",
+          "tablet768-search-applications",
+          "zoom125-search-applications",
+          "zoom150-search-applications"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 12,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "search-applications",
+        "comparison": "../assets/visual-qa/search-applications/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 24,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch04",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "应用筛选、重命名、分享弹窗、下载反馈与更多菜单详情"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-search-applications",
+            "controlled-search-applications",
+            "dark-search-applications",
+            "desktop-search-applications",
+            "lower-search-applications",
+            "lower-search-applications-s298",
+            "mobile-search-applications",
+            "state-applications-filter",
+            "tablet1024-search-applications",
+            "tablet768-search-applications",
+            "zoom125-search-applications",
+            "zoom150-search-applications"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-search-applications/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/table-list",
+      "name": "查询表格",
+      "batch": "P0",
+      "source": "src/pages/table-list/index.tsx",
+      "sourceSha256": "5ccea9cd2464a9a9c54f4cb39b86269d0209f8399f86f377ee0123aab09bb471",
+      "referenceUrl": "https://preview.pro.ant.design/list/table-list/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "搜索/工具栏/47px表格、选择摘要/底栏、400px新建/640px配置/600px抽屉"
+      ],
+      "states": [
+        "过滤总数/全量排序分页",
+        "CRUD/批量审批",
+        "空状态与弹层键盘操作"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-list-table/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-list-table",
+          "dark-list-table",
+          "desktop-list-table",
+          "mobile-list-table",
+          "state-table-config1",
+          "state-table-config2",
+          "state-table-config3",
+          "state-table-create",
+          "state-table-create-errors",
+          "state-table-drawer",
+          "state-table-expanded",
+          "state-table-selection",
+          "tablet1024-list-table",
+          "tablet768-list-table",
+          "zoom125-list-table",
+          "zoom150-list-table"
+        ],
+        "additionalCases": [
+          "regression-mobile-list-table"
+        ],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 17,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "list-table",
+        "comparison": "../assets/visual-qa/list-table/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 28,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch01",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "筛选、排序/分页、选择、创建/配置/删除、详情抽屉与原有查询表格回归"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-list-table",
+            "dark-list-table",
+            "desktop-list-table",
+            "mobile-list-table",
+            "state-table-config1",
+            "state-table-config2",
+            "state-table-config3",
+            "state-table-create",
+            "state-table-create-errors",
+            "state-table-drawer",
+            "state-table-expanded",
+            "state-table-selection",
+            "tablet1024-list-table",
+            "tablet768-list-table",
+            "zoom125-list-table",
+            "zoom150-list-table"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-list-table/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/basic-list",
+      "name": "标准列表",
+      "batch": "P2",
+      "source": "src/pages/list/basic-list/index.tsx",
+      "sourceSha256": "9f864a11076f9cf1606d6a8f558faf8c89b7d7aa2f8e57052eedc0d3a851583f",
+      "referenceUrl": "https://preview.pro.ant.design/list/basic-list/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed_with_documented_difference",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "三项任务统计、列表标题/筛选、进度/负责人/时间、添加入口和操作弹层"
+      ],
+      "states": [
+        "状态/关键词筛选",
+        "新建/编辑/确认删除",
+        "分页、进度状态与弹窗反馈"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-list-basic/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-list-basic",
+          "dark-list-basic",
+          "desktop-list-basic",
+          "lower-list-basic",
+          "lower-list-basic-s510",
+          "mobile-list-basic",
+          "state-basic-create",
+          "state-basic-create-errors",
+          "state-basic-delete",
+          "state-basic-edit",
+          "state-basic-page2",
+          "state-basic-result",
+          "state-basic-size10",
+          "state-render-error",
+          "state-render-recovered",
+          "tablet1024-list-basic",
+          "tablet768-list-basic",
+          "zoom125-list-basic",
+          "zoom150-list-basic"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 18,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "list-basic",
+        "comparison": "../assets/visual-qa/list-basic/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 11,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch03",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "状态/关键词筛选、空结果、编辑/提交结果；创建/删除临时任务；保留所选负责人/创建时间；分页及10条/页"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-list-basic",
+            "dark-list-basic",
+            "desktop-list-basic",
+            "lower-list-basic",
+            "lower-list-basic-s510",
+            "mobile-list-basic",
+            "state-basic-create",
+            "state-basic-create-errors",
+            "state-basic-delete",
+            "state-basic-edit",
+            "state-basic-page2",
+            "state-basic-result",
+            "state-basic-size10",
+            "state-render-error",
+            "state-render-recovered",
+            "tablet1024-list-basic",
+            "tablet768-list-basic",
+            "zoom125-list-basic",
+            "zoom150-list-basic"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-list-basic/pair.jpg"
+      }
+    },
+    {
+      "path": "/list/card-list",
+      "name": "卡片列表",
+      "batch": "P2",
+      "source": "src/pages/list/card-list/index.tsx",
+      "sourceSha256": "fb8e82f43a878a3715eba778772ace7ad16f71bbf965c1718f22a17e692b5199",
+      "referenceUrl": "https://preview.pro.ant.design/list/card-list/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed_with_documented_difference",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "页头说明/插图、创建卡与内容卡网格、图标/描述/底部操作"
+      ],
+      "states": [
+        "创建/详情/操作入口",
+        "悬停/焦点",
+        "空数据与卡片等高/窄屏列数"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-list-card/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-list-card",
+          "dark-list-card",
+          "desktop-list-card",
+          "lower-list-card",
+          "lower-list-card-s307",
+          "mobile-list-card",
+          "state-card-create",
+          "state-card-details",
+          "tablet1024-list-card",
+          "tablet768-list-card",
+          "zoom125-list-card",
+          "zoom150-list-card"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 10,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "list-card",
+        "comparison": "../assets/visual-qa/list-card/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 21,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch03",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "新增产品与操作详情；加载失败→恢复数据→点击重试恢复卡片"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-list-card",
+            "dark-list-card",
+            "desktop-list-card",
+            "lower-list-card",
+            "lower-list-card-s307",
+            "mobile-list-card",
+            "state-card-create",
+            "state-card-details",
+            "tablet1024-list-card",
+            "tablet768-list-card",
+            "zoom125-list-card",
+            "zoom150-list-card"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-list-card/pair.jpg"
+      }
+    },
+    {
+      "path": "/profile/basic",
+      "name": "基础详情页",
+      "batch": "P0",
+      "source": "src/pages/profile/basic/index.tsx",
+      "sourceSha256": "47ed67f328674b73009b768527b09b0bfa05b8d0fbc9475a6b9ffd43da5cce43",
+      "referenceUrl": "https://preview.pro.ant.design/profile/basic/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "退款/用户三列说明、商品Summary与五条进度"
+      ],
+      "states": [
+        "10件/61.5合计",
+        "状态Badge",
+        "窄屏堆叠与表内横向滚动"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-profile-basic/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-profile-basic",
+          "dark-profile-basic",
+          "desktop-profile-basic",
+          "mobile-profile-basic",
+          "tablet1024-profile-basic",
+          "tablet768-profile-basic",
+          "zoom125-profile-basic",
+          "zoom150-profile-basic"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "profile-basic",
+        "comparison": "../assets/visual-qa/profile-basic/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 28,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch02",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "退款与用户说明、商品合计10件/61.5、5条进度及窄屏表内滚动"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-profile-basic",
+            "dark-profile-basic",
+            "desktop-profile-basic",
+            "mobile-profile-basic",
+            "tablet1024-profile-basic",
+            "tablet768-profile-basic",
+            "zoom125-profile-basic",
+            "zoom150-profile-basic"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-profile-basic/pair.jpg"
+      }
+    },
+    {
+      "path": "/profile/advanced",
+      "name": "高级详情页",
+      "batch": "P3",
+      "source": "src/pages/profile/advanced/index.tsx",
+      "sourceSha256": "721e68866460fca275144b72472ce44324e42e753e45f66ca1c9da1cd91c4044",
+      "referenceUrl": "https://preview.pro.ant.design/profile/advanced/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "单号/操作/状态金额页头、流程进度、嵌套信息、来电记录与操作记录Tabs"
+      ],
+      "states": [
+        "操作按钮/更多菜单",
+        "记录Tabs",
+        "步骤状态、长内容与空记录"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-profile-advanced/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-profile-advanced",
+          "dark-profile-advanced",
+          "desktop-profile-advanced",
+          "mobile-profile-advanced",
+          "tablet1024-profile-advanced",
+          "tablet768-profile-advanced",
+          "zoom125-profile-advanced",
+          "zoom150-profile-advanced"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "profile-advanced",
+        "comparison": "../assets/visual-qa/profile-advanced/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 50,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch04",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "主操作/催办反馈、详情与规则切换、三组操作日志、基础详情链接"
+        ],
+        "declaredDifference": null,
+        "variants": [
+          {
+            "id": "profile-advanced-log3",
+            "rawGeometryPassed": true,
+            "anchors": 46
+          }
+        ]
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-profile-advanced",
+            "dark-profile-advanced",
+            "desktop-profile-advanced",
+            "mobile-profile-advanced",
+            "tablet1024-profile-advanced",
+            "tablet768-profile-advanced",
+            "zoom125-profile-advanced",
+            "zoom150-profile-advanced"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-profile-advanced/pair.jpg"
+      }
+    },
+    {
+      "path": "/result/success",
+      "name": "成功页",
+      "batch": "P3",
+      "source": "src/pages/result/success/index.tsx",
+      "sourceSha256": "7418728499b372a7e4bd154d07cb916f3c0137fe50ae9d2223bd25cee4cd9774",
+      "referenceUrl": "https://preview.pro.ant.design/result/success/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "GridContent内Result、项目描述区、步骤进度与返回/查看操作"
+      ],
+      "states": [
+        "返回/查看/打印等参考入口的本地行为",
+        "步骤连接线/状态",
+        "窄屏描述布局"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-result-success/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-result-success",
+          "dark-result-success",
+          "desktop-result-success",
+          "mobile-result-success",
+          "tablet1024-result-success",
+          "tablet768-result-success",
+          "zoom125-result-success",
+          "zoom150-result-success"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "result-success",
+        "comparison": "../assets/visual-qa/result-success/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 9,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch05",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "查看项目导航；催办为本地反馈；打印入口调用浏览器，未执行实体打印"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-result-success",
+            "dark-result-success",
+            "desktop-result-success",
+            "mobile-result-success",
+            "tablet1024-result-success",
+            "tablet768-result-success",
+            "zoom125-result-success",
+            "zoom150-result-success"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-result-success/pair.jpg"
+      }
+    },
+    {
+      "path": "/result/fail",
+      "name": "失败页",
+      "batch": "P3",
+      "source": "src/pages/result/fail/index.tsx",
+      "sourceSha256": "e6090de4fdf2d3a5d2c4765f12d27c9143d8d87f74873b8db4fc0ce0d9e79922",
+      "referenceUrl": "https://preview.pro.ant.design/result/fail/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "Result失败图标/说明、错误清单/定位链接、返回修改操作"
+      ],
+      "states": [
+        "错误项定位",
+        "返回修改保留输入",
+        "长错误与键盘焦点"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-result-fail/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-result-fail",
+          "dark-result-fail",
+          "desktop-result-fail",
+          "mobile-result-fail",
+          "tablet1024-result-fail",
+          "tablet768-result-fail",
+          "zoom125-result-fail",
+          "zoom150-result-fail"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "result-fail",
+        "comparison": "../assets/visual-qa/result-fail/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 4,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch05",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "立即解冻/升级进入安全设置；返回修改恢复高级表单草稿"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-result-fail",
+            "dark-result-fail",
+            "desktop-result-fail",
+            "mobile-result-fail",
+            "tablet1024-result-fail",
+            "tablet768-result-fail",
+            "zoom125-result-fail",
+            "zoom150-result-fail"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-result-fail/pair.jpg"
+      }
+    },
+    {
+      "path": "/exception/403",
+      "name": "403",
+      "batch": "P3",
+      "source": "src/pages/exception/403/index.tsx",
+      "sourceSha256": "4ff127b15a7b10fc3a6533b64c21e6083ac69f7043469d91a722db97fbe39696",
+      "referenceUrl": "https://preview.pro.ant.design/exception/403/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "官方Card内403 Result、说明与返回首页；不套多余PageContainer标题"
+      ],
+      "states": [
+        "返回首页",
+        "权限演示状态",
+        "窄屏图标与文案"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-exception-403/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-exception-403",
+          "dark-exception-403",
+          "desktop-exception-403",
+          "mobile-exception-403",
+          "tablet1024-exception-403",
+          "tablet768-exception-403",
+          "zoom125-exception-403",
+          "zoom150-exception-403"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "exception-403",
+        "comparison": "../assets/visual-qa/exception-403/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 4,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch05",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "403结果/原因/返回首页"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-exception-403",
+            "dark-exception-403",
+            "desktop-exception-403",
+            "mobile-exception-403",
+            "tablet1024-exception-403",
+            "tablet768-exception-403",
+            "zoom125-exception-403",
+            "zoom150-exception-403"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-exception-403/pair.jpg"
+      }
+    },
+    {
+      "path": "/exception/404",
+      "name": "404",
+      "batch": "P3",
+      "source": "src/pages/exception/404/index.tsx",
+      "sourceSha256": "64b05d21e142c9cf5c82fb628b2aca149decf216ff261a37e73b2575104df1e4",
+      "referenceUrl": "https://preview.pro.ant.design/exception/404/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "404插图/标题/说明/返回首页"
+      ],
+      "states": [
+        "未匹配路由到404",
+        "/user/*回退",
+        "返回首页与窄屏"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-exception-404/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-exception-404",
+          "dark-exception-404",
+          "desktop-exception-404",
+          "mobile-exception-404",
+          "tablet1024-exception-404",
+          "tablet768-exception-404",
+          "zoom125-exception-404",
+          "zoom150-exception-404"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "exception-404",
+        "comparison": "../assets/visual-qa/exception-404/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 4,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch06",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "404布局；全局及/user/未知路径均实际显示404"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-exception-404",
+            "dark-exception-404",
+            "desktop-exception-404",
+            "mobile-exception-404",
+            "tablet1024-exception-404",
+            "tablet768-exception-404",
+            "zoom125-exception-404",
+            "zoom150-exception-404"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-exception-404/pair.jpg"
+      }
+    },
+    {
+      "path": "/exception/500",
+      "name": "500",
+      "batch": "P3",
+      "source": "src/pages/exception/500/index.tsx",
+      "sourceSha256": "dd89467dd1f32cf0426f2a3c2e44d5aa620f205f0da9256f18bccc43cf98ecbe",
+      "referenceUrl": "https://preview.pro.ant.design/exception/500/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "500插图/标题/说明/返回首页"
+      ],
+      "states": [
+        "返回/重试本地反馈",
+        "服务错误状态",
+        "窄屏对齐"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-exception-500/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-exception-500",
+          "dark-exception-500",
+          "desktop-exception-500",
+          "mobile-exception-500",
+          "tablet1024-exception-500",
+          "tablet768-exception-500",
+          "zoom125-exception-500",
+          "zoom150-exception-500"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 8,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "exception-500",
+        "comparison": "../assets/visual-qa/exception-500/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 4,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch06",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "500结果/原因/返回入口"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-exception-500",
+            "dark-exception-500",
+            "desktop-exception-500",
+            "mobile-exception-500",
+            "tablet1024-exception-500",
+            "tablet768-exception-500",
+            "zoom125-exception-500",
+            "zoom150-exception-500"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": true,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-exception-500/pair.jpg"
+      }
+    },
+    {
+      "path": "/account/center",
+      "name": "个人中心",
+      "batch": "P4",
+      "source": "src/pages/account/center/index.tsx",
+      "sourceSha256": "52413d41f93e75eb8950aea05cc24f9f8ccfe5c26dc0c1ba167033a3fbb1b235",
+      "referenceUrl": "https://preview.pro.ant.design/account/center/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "左侧头像/个人资料/标签/团队，右侧文章/应用/项目Tabs"
+      ],
+      "states": [
+        "三个Tab内容分别验收",
+        "标签增删/团队入口",
+        "左右列比例与窄屏顺序"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-account-center/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-account-center",
+          "controlled-center-applications",
+          "controlled-center-applications-s1200",
+          "controlled-center-applications-s1800",
+          "controlled-center-applications-s2400",
+          "controlled-center-applications-s2567",
+          "controlled-center-applications-s600",
+          "dark-account-center",
+          "desktop-account-center",
+          "lower-center-applications-s1200",
+          "lower-center-applications-s1800",
+          "lower-center-applications-s2400",
+          "lower-center-applications-s2555",
+          "lower-center-applications-s600",
+          "lower-center-articles-s1200",
+          "lower-center-articles-s1800",
+          "lower-center-articles-s2400",
+          "lower-center-articles-s3000",
+          "lower-center-articles-s3600",
+          "lower-center-articles-s4200",
+          "lower-center-articles-s4800",
+          "lower-center-articles-s5400",
+          "lower-center-articles-s600",
+          "lower-center-articles-s6000",
+          "lower-center-articles-s6600",
+          "lower-center-articles-s7090",
+          "lower-center-projects-s1200",
+          "lower-center-projects-s1800",
+          "lower-center-projects-s2400",
+          "lower-center-projects-s3000",
+          "lower-center-projects-s3600",
+          "lower-center-projects-s4200",
+          "lower-center-projects-s4681",
+          "lower-center-projects-s600",
+          "mobile-account-center",
+          "state-center-applications",
+          "state-center-articles",
+          "state-center-projects",
+          "tablet1024-account-center",
+          "tablet768-account-center",
+          "zoom125-account-center",
+          "zoom150-account-center"
+        ],
+        "additionalCases": [
+          "regression-center-applications-bottom"
+        ],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 43,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "account-center",
+        "comparison": "../assets/visual-qa/account-center/comparison.json",
+        "rawGeometryPassed": false,
+        "measuredAnchors": 35,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch07",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "文章/应用/项目三Tab；完整6项团队；新增/删除标签；应用操作与共享组件一致"
+        ],
+        "declaredDifference": "源码fixture保留6个团队，线上个人中心团队为空；左侧Card高147.6562px，右侧全部内容锚点通过。",
+        "variants": [
+          {
+            "id": "account-center-applications",
+            "rawGeometryPassed": false,
+            "anchors": 65
+          },
+          {
+            "id": "account-center-projects",
+            "rawGeometryPassed": false,
+            "anchors": 65
+          }
+        ]
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-account-center",
+            "controlled-center-applications",
+            "controlled-center-applications-s1200",
+            "controlled-center-applications-s1800",
+            "controlled-center-applications-s2400",
+            "controlled-center-applications-s2567",
+            "controlled-center-applications-s600",
+            "dark-account-center",
+            "desktop-account-center",
+            "lower-center-applications-s1200",
+            "lower-center-applications-s1800",
+            "lower-center-applications-s2400",
+            "lower-center-applications-s2555",
+            "lower-center-applications-s600",
+            "lower-center-articles-s1200",
+            "lower-center-articles-s1800",
+            "lower-center-articles-s2400",
+            "lower-center-articles-s3000",
+            "lower-center-articles-s3600",
+            "lower-center-articles-s4200",
+            "lower-center-articles-s4800",
+            "lower-center-articles-s5400",
+            "lower-center-articles-s600",
+            "lower-center-articles-s6000",
+            "lower-center-articles-s6600",
+            "lower-center-articles-s7090",
+            "lower-center-projects-s1200",
+            "lower-center-projects-s1800",
+            "lower-center-projects-s2400",
+            "lower-center-projects-s3000",
+            "lower-center-projects-s3600",
+            "lower-center-projects-s4200",
+            "lower-center-projects-s4681",
+            "lower-center-projects-s600",
+            "mobile-account-center",
+            "state-center-applications",
+            "state-center-articles",
+            "state-center-projects",
+            "tablet1024-account-center",
+            "tablet768-account-center",
+            "zoom125-account-center",
+            "zoom150-account-center"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": false,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-account-center/pair.jpg"
+      }
+    },
+    {
+      "path": "/account/settings",
+      "name": "个人设置",
+      "batch": "P4",
+      "source": "src/pages/account/settings/index.tsx",
+      "sourceSha256": "659ec4edcb1b2d052517ae373fda3d05c9ff0fbc686c8c32da210b31e3f9f155",
+      "referenceUrl": "https://preview.pro.ant.design/account/settings/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed_with_documented_difference",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "左侧设置导航；基本设置/安全设置/账号绑定/新消息通知四子视图"
+      ],
+      "states": [
+        "资料校验/头像本地预览",
+        "绑定/安全仅演示反馈",
+        "通知开关、子视图选中与窄屏导航"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-account-settings/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-account-settings",
+          "dark-account-settings",
+          "desktop-account-settings",
+          "mobile-account-settings",
+          "state-resource-error",
+          "state-resource-recovered",
+          "state-resource-retry",
+          "state-settings-avatar",
+          "state-settings-binding-action",
+          "state-settings-profile-required",
+          "state-settings-security-action",
+          "tablet1024-account-settings",
+          "tablet768-account-settings",
+          "zoom125-account-settings",
+          "zoom150-account-settings"
+        ],
+        "additionalCases": [
+          "regression-resource-error",
+          "regression-resource-recovered"
+        ],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 16,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "account-settings",
+        "comparison": "../assets/visual-qa/account-settings/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 16,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch07",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "基础/安全/绑定/通知四视图；必填及保存反馈；头像本地DataURL预览；通知开关跨Tab保留"
+        ],
+        "declaredDifference": null,
+        "variants": [
+          {
+            "id": "account-settings-binding",
+            "rawGeometryPassed": true,
+            "anchors": 5
+          },
+          {
+            "id": "account-settings-notification",
+            "rawGeometryPassed": true,
+            "anchors": 5
+          },
+          {
+            "id": "account-settings-security",
+            "rawGeometryPassed": true,
+            "anchors": 7
+          }
+        ]
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-account-settings",
+            "dark-account-settings",
+            "desktop-account-settings",
+            "mobile-account-settings",
+            "state-resource-error",
+            "state-resource-recovered",
+            "state-resource-retry",
+            "state-settings-avatar",
+            "state-settings-binding-action",
+            "state-settings-profile-required",
+            "state-settings-security-action",
+            "tablet1024-account-settings",
+            "tablet768-account-settings",
+            "zoom125-account-settings",
+            "zoom150-account-settings"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-account-settings/pair.jpg"
+      }
+    },
+    {
+      "path": "/chatbot",
+      "name": "AI助手",
+      "batch": "P6",
+      "source": "src/pages/chatbot/index.tsx",
+      "sourceSha256": "274c4419f7ed2f1993d33b1be66bd597c020fa2052e683eef9f7d31659e7e48a",
+      "referenceUrl": "https://preview.pro.ant.design/chatbot/",
+      "implementation": "complete",
+      "visualAcceptance": "agent_reviewed_with_documented_difference",
+      "humanAcceptance": "pending",
+      "anchors": [
+        "Conversations侧栏、Bubble消息、Think过程/Markdown、Sender输入与停止状态"
+      ],
+      "states": [
+        "本地fixture的发送/流式/停止/重试",
+        "会话切换/空会话",
+        "长代码/长消息/窄屏；不连接付费模型"
+      ],
+      "evidence": "../assets/visual-qa/full-3.2/desktop-chatbot/pair.jpg",
+      "runtimeTemplateVersion": "3.2.0",
+      "acceptance": {
+        "current": "expanded-acceptance.json",
+        "evidenceRelease": "3.2.0",
+        "original301Cases": [
+          "collapsed-chatbot",
+          "dark-chatbot",
+          "desktop-chatbot",
+          "mobile-chatbot",
+          "state-chat-complete",
+          "state-chat-delete",
+          "state-chat-new",
+          "state-chat-regenerate",
+          "state-chat-stop",
+          "state-chat-streaming",
+          "state-chat-switch",
+          "tablet1024-chatbot",
+          "tablet768-chatbot",
+          "zoom125-chatbot",
+          "zoom150-chatbot"
+        ],
+        "additionalCases": [],
+        "originalCasesPending32Evidence": 0,
+        "rawGeometryPassedCases": 13,
+        "allScreenshotsAgentReviewed": true,
+        "humanAcceptance": "pending"
+      },
+      "previousAcceptance3_0_0": {
+        "id": "chatbot",
+        "comparison": "../assets/visual-qa/chatbot/comparison.json",
+        "rawGeometryPassed": true,
+        "measuredAnchors": 16,
+        "screenshotReviewed": true,
+        "mobile": {
+          "batch": "batch09",
+          "viewport": [
+            390,
+            640
+          ],
+          "documentWidth": 375,
+          "passed": true,
+          "physicalDevice": false
+        },
+        "checkedInteractions": [
+          "本地流式、Think/Markdown、停止/重新生成；新建/切换隔离、删除临时会话；手机输入发送"
+        ],
+        "declaredDifference": null,
+        "variants": []
+      },
+      "previousEvidence3_1_0": {
+        "status": "previous_evidence_3.1.0",
+        "acceptance": {
+          "current": "expanded-acceptance.json",
+          "pairedCases": [
+            "collapsed-chatbot",
+            "dark-chatbot",
+            "desktop-chatbot",
+            "mobile-chatbot",
+            "state-chat-complete",
+            "state-chat-delete",
+            "state-chat-new",
+            "state-chat-regenerate",
+            "state-chat-stop",
+            "state-chat-streaming",
+            "state-chat-switch",
+            "tablet1024-chatbot",
+            "tablet768-chatbot",
+            "zoom125-chatbot",
+            "zoom150-chatbot"
+          ],
+          "matrixModes": [
+            "collapsed",
+            "dark",
+            "desktop",
+            "mobile",
+            "tablet1024",
+            "tablet768",
+            "zoom125",
+            "zoom150"
+          ],
+          "desktopRawGeometryPassed": true,
+          "mobileRawGeometryPassed": false,
+          "rawFailuresPreserved": true,
+          "allScreenshotsAgentReviewed": true,
+          "humanAcceptance": "pending",
+          "notApplicable": []
+        },
+        "evidence": "../assets/visual-qa/expanded/desktop-chatbot/pair.jpg"
+      }
+    }
+  ]
+}

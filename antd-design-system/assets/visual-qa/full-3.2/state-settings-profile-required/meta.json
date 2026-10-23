@@ -1,0 +1,15 @@
+{
+  "id": "state-settings-profile-required",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "nickname, introduction, province, city empty; 4 required errors",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "Official native province/city empty; candidate province cleared through UI and dependent city cleared; nickname/introduction empty on both",
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "昵称、简介、省、市为空，实际4项错误；候选清省后旧城市已清空，14锚点一致。"
+}

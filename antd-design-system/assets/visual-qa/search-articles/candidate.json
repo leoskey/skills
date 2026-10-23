@@ -1,0 +1,109 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 112
+    },
+    {
+      "height": 52,
+      "title": ".ant-page-header-content:0",
+      "width": 929,
+      "x": 296,
+      "y": 160
+    },
+    {
+      "height": 205,
+      "title": ".ant-card:0",
+      "width": 929,
+      "x": 296,
+      "y": 298
+    },
+    {
+      "height": 1342,
+      "title": ".ant-card:1",
+      "width": 929,
+      "x": 296,
+      "y": 527
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:0",
+      "width": 787,
+      "x": 414,
+      "y": 322
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:1",
+      "width": 251.65625,
+      "x": 414,
+      "y": 447
+    },
+    {
+      "height": 32,
+      "title": ".ant-form-item:2",
+      "width": 251.65625,
+      "x": 681.65625,
+      "y": 447
+    },
+    {
+      "height": 251,
+      "title": ".ant-list-item:0",
+      "width": 865,
+      "x": 328,
+      "y": 535
+    },
+    {
+      "height": 251,
+      "title": ".ant-list-item:1",
+      "width": 865,
+      "x": 328,
+      "y": 786
+    },
+    {
+      "height": 251,
+      "title": ".ant-list-item:2",
+      "width": 865,
+      "x": 328,
+      "y": 1037
+    },
+    {
+      "height": 251,
+      "title": ".ant-list-item:3",
+      "width": 865,
+      "x": 328,
+      "y": 1288
+    },
+    {
+      "height": 250,
+      "title": ".ant-list-item:4",
+      "width": 865,
+      "x": 328,
+      "y": 1539
+    }
+  ],
+  "content": "列表页\n/\n搜索列表\n/\n搜索列表（文章）\n搜索列表（文章）\n搜 索\n文章\n项目\n应用\n所属类目\n全部类目1类目2类目3类目4类目5类目6类目7类目8类目9类目10类目11类目12\n展开\nowner\n吴家豪\n周星星\n只看自己的\n其它选项\n活跃用户\n不限\n好评度\n不限\nAlipay\nAnt Design\n设计语言\n蚂蚁集团\n段落示意：蚂蚁集团设计平台 ant.design，用最小的工作量，无缝接入蚂蚁集团生态，提供跨越设计与开发的体验解决方案。蚂蚁集团设计平台 ant.design，用最小的工作量",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

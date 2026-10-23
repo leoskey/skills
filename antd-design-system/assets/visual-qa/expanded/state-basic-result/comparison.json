@@ -1,0 +1,28 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 13,
+  "candidateAnchors": 13,
+  "geometryDifferences": [],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": true,
+  "scrollMatches": true,
+  "classification": "controlled_official_renderer",
+  "reviewNote": "相同编辑提交成功结果，弹窗布局已对齐。官方写入仅返回测试成功，不改变背景列表；本地实际保留负责人/日期。修复了编辑丢失id导致重复新增及请求未成功便显示结果的问题。",
+  "humanAcceptance": "pending"
+}

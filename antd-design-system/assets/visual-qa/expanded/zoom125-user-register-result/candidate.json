@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:4176/#/user/register-result?account=demo%40example.com",
+  "title": "注册结果 - Ant Design Pro",
+  "viewport": {
+    "width": 1024,
+    "height": 576,
+    "dpr": 1.25,
+    "scale": 1
+  },
+  "scrollY": 0,
+  "documentHeight": 576,
+  "documentWidth": 1024,
+  "fontLoaded": true,
+  "content": "你的账户：demo@example.com 注册成功\n本地演示注册已完成，不会创建真实账户或发送邮件。可查看演示信息或返回首页。\n查看账户\n返回首页",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 576,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "result:0",
+      "x": 112,
+      "y": 0,
+      "width": 800,
+      "height": 402,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "你的账户：demo@example.com 注册成功 本地演示注册已完成，不会创建真实账户或发送邮件。可查看演示信息或返回首页。 查看账户 返回首页"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

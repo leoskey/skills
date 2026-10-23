@@ -1,0 +1,228 @@
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:
+    AlibabaSans,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
+}
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+canvas {
+  display: block;
+}
+.demo-footer {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  padding: 32px 16px;
+}
+.settings-trigger {
+  position: fixed;
+  right: 0;
+  top: 240px;
+  height: 48px !important;
+  width: 48px !important;
+  border-radius: 6px 0 0 6px !important;
+  font-size: 20px !important;
+  z-index: 90;
+}
+.ant-pro-layout .ant-pro-layout-content {
+  min-width: 0;
+}
+.ant-pro-sider-fixed {
+  left: unset;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0958d9;
+  outline-offset: 3px;
+}
+.ant-pro-layout .ant-pro-sider .ant-menu-item a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ant-pro-layout .ant-pro-sider .ant-menu {
+  background: transparent;
+}
+@media (max-width: 767px) {
+  .ant-card {
+    min-width: 0;
+  }
+  .settings-trigger {
+    width: 48px !important;
+    height: 48px !important;
+  }
+  .ant-pro-grid-content {
+    min-width: 0;
+  }
+}
+/* Disable transitions outright: short all-property transitions corrupt popup coordinate measurements. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* Header actions use the same neutral color as the reference toolbar. */
+.ant-pro-global-header a[aria-label] {
+  color: inherit;
+}
+
+/* Match the reference Descriptions table: native td padding and auto layout differ in antd 6. */
+.basic-profile .ant-descriptions-view > table {
+  table-layout: fixed;
+  width: 100%;
+}
+.basic-profile .ant-descriptions-item {
+  padding-block-start: 0 !important;
+  padding-inline-start: 0 !important;
+}
+
+.ant-table-cell .ant-btn-link {
+  height: 22px;
+  padding: 0;
+  border: 0;
+  line-height: 22px;
+}
+
+.ant-card-actions .ant-btn-link {
+  height: 22px;
+  padding: 0;
+  border: 0;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.shared-search .ant-input-search-btn {
+  background: var(--ant-color-primary) !important;
+  color: #fff !important;
+}
+.shared-search .ant-input-search-btn:hover {
+  background: var(--ant-color-primary-hover) !important;
+}
+
+.icon-action {
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+}
+.icon-action:hover {
+  color: var(--ant-color-primary);
+}
+
+.ant-descriptions:not(.ant-descriptions-bordered)
+  > .ant-descriptions-view
+  > table {
+  table-layout: fixed;
+  width: 100%;
+}
+.ant-descriptions:not(.ant-descriptions-bordered)
+  > .ant-descriptions-view
+  .ant-descriptions-item {
+  padding-block-start: 0 !important;
+  padding-inline-start: 0 !important;
+}
+
+.step-form-description h3 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.ant-list-item-action .ant-btn-link {
+  height: 22px;
+  padding: 0;
+  border: 0;
+  line-height: 22px;
+}
+
+.advanced-profile
+  .ant-descriptions-row:not(:last-child)
+  > .ant-descriptions-item {
+  padding-bottom: 8px;
+}
+.advanced-profile .ant-steps .ant-btn-link {
+  height: 22px;
+  padding: 0;
+  border: 0;
+  line-height: 22px;
+}
+
+.result-fail .ant-btn-link {
+  height: 22px;
+  padding: 0;
+  border: 0;
+  line-height: 22px;
+}
+
+.app-metric-value {
+  line-height: 32px;
+}
+.ant-card-actions .icon-action {
+  vertical-align: top;
+}
+
+
+.application-card .ant-card-actions > li > span {
+  display: block;
+  height: 23.75px;
+}
+.result-fail .result-action {
+  color: var(--ant-color-link, #1677ff);
+}
+.rule-detail .ant-pro-field-option {
+  display: block !important;
+}
+main.ant-pro-layout-content:has(.page-boundary-fallback) {
+  padding: 0;
+}
+
+/* The visual reference's global.less applies these rules through 768px. */
+@media (max-width: 768px) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > th,
+  .ant-table-thead > tr > td,
+  .ant-table-tbody > tr > td {
+    white-space: pre;
+  }
+  .ant-table-thead > tr > th > span,
+  .ant-table-tbody > tr > th > span,
+  .ant-table-thead > tr > td > span,
+  .ant-table-tbody > tr > td > span {
+    display: block;
+  }
+}
+.search-page .ant-form-item-label {
+  padding: 0 !important;
+}

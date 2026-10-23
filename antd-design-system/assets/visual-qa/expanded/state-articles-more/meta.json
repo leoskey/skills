@@ -1,0 +1,12 @@
+{
+  "id": "state-articles-more",
+  "path": "/list/search/articles",
+  "mode": "state",
+  "state": "load-more",
+  "note": "waited for actual post-load content",
+  "status": "agent_reviewed",
+  "classification": "local_extension",
+  "referenceKind": "live_official",
+  "reviewNote": "官方源码固定pageSize=5，加载更多仅refetch并仍显示5条；本地5→10条，列表高度不同。",
+  "humanAcceptance": "pending"
+}

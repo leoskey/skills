@@ -1,0 +1,11 @@
+{
+  "id": "zoom125-list-table",
+  "path": "/list/table-list",
+  "mode": "zoom125",
+  "zoomMethod": "equivalent CSS viewport and DPR",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "平板/缩放等效视口下保留表列最小宽度与表内滚动；官方压缩规则名/操作列并换行，行高与总高度不同。",
+  "humanAcceptance": "pending"
+}

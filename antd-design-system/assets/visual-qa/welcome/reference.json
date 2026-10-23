@@ -1,0 +1,60 @@
+{
+  "canvasCount": 0,
+  "cards": [
+    {
+      "height": 48,
+      "title": ".ant-page-header-heading:0",
+      "width": 929,
+      "x": 296,
+      "y": 64
+    },
+    {
+      "height": 13057.671875,
+      "title": ".ant-card:0",
+      "width": 603.328125,
+      "x": 296,
+      "y": 128
+    },
+    {
+      "height": 97,
+      "title": ".ant-card:1",
+      "width": 301.671875,
+      "x": 923.328125,
+      "y": 128
+    },
+    {
+      "height": 97,
+      "title": ".ant-card:2",
+      "width": 301.671875,
+      "x": 923.328125,
+      "y": 241
+    },
+    {
+      "height": 97,
+      "title": ".ant-card:3",
+      "width": 301.671875,
+      "x": 923.328125,
+      "y": 354
+    }
+  ],
+  "content": "欢迎使用 Ant Design Pro V6🎉\n#\nAnt Design Pro Cheatsheet\n\n#\n🎉 v6 新特性\nReact 19 + antd 6 + Umi Max 4：全面升级到最新技术栈，utoopack（Turbopack）构建\n样式重构：Less → Tailwind CSS v4 + antd-style + CSS Modules，启用 CSS 变量主题\nAI 助手页面：基于 Ant Design X 的聊天界面示例\nReact Query：从 useReque",
+  "fontLoaded": true,
+  "header": {
+    "height": 56,
+    "width": 1233,
+    "x": 16,
+    "y": 0
+  },
+  "scrollY": 0,
+  "sider": {
+    "height": 664,
+    "width": 256,
+    "x": 0,
+    "y": 56
+  },
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  },
+  "shell": "admin"
+}

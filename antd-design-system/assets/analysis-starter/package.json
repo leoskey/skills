@@ -1,0 +1,42 @@
+{
+  "name": "ant-pro-admin-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "dev": "vite --host 127.0.0.1 --port 4175 --strictPort"
+  },
+  "dependencies": {
+    "@ant-design/icons": "6.2.2",
+    "@ant-design/plots": "2.6.8",
+    "@ant-design/pro-components": "3.1.14-2",
+    "@ant-design/x": "2.9.0",
+    "@ant-design/x-markdown": "2.9.0",
+    "@tanstack/react-query": "5.101.2",
+    "antd": "6.6.7",
+    "antd-style": "4.1.0",
+    "china-division": "2.7.0",
+    "clsx": "2.1.1",
+    "d3": "7.9.0",
+    "dayjs": "1.11.23",
+    "highlight.js": "11.11.1",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "topojson-client": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3": "7.4.3",
+    "@types/geojson": "7946.0.16",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/topojson-client": "3.1.5",
+    "@types/topojson-specification": "1.0.5",
+    "typescript": "6.0.3",
+    "vite": "8.3.5"
+  },
+  "repository": "https://github.com/ant-design/ant-design-pro",
+  "overrides": {
+    "katex": "0.18.2"
+  },
+  "version": "3.2.0"
+}

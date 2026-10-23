@@ -1,0 +1,34 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 8,
+  "candidateAnchors": 8,
+  "geometryDifferences": [
+    {
+      "anchor": "chat:2",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 40
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [],
+  "status": "agent_reviewed",
+  "scope": "Observed geometry only. Screenshot review and semantic differences are recorded separately; no pixel-perfect claim.",
+  "rawGeometryPassed": false
+}

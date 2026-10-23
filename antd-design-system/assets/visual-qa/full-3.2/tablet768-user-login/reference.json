@@ -1,0 +1,83 @@
+{
+  "url": "https://preview.pro.ant.design/user/login",
+  "title": "登录 - Ant Design Pro",
+  "viewport": {
+    "width": 768,
+    "height": 1024,
+    "dpr": 1,
+    "scale": 1
+  },
+  "scrollX": 0,
+  "scrollY": 0,
+  "documentHeight": 1024,
+  "documentWidth": 768,
+  "fontLoaded": true,
+  "content": "Ant Design\nAnt Design 是西湖区最具影响力的 Web 设计规范\n账户密码登录\n手机号登录\n自动登录\n忘记密码 ?\n登 录\n其他登录方式 :\nAnt Design Pro © 2026\nver\n6.0.1\n2db826c\nUmi\n4.6.51\nUtoo\n1.4.3\nGitHub",
+  "body": {
+    "x": 0,
+    "y": 0,
+    "width": 768,
+    "height": 1024,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "lineHeight": "18.4px",
+    "borderRadius": "0px"
+  },
+  "anchors": [
+    {
+      "key": "formItem:0",
+      "x": 220,
+      "y": 236,
+      "width": 328,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "formItem:1",
+      "x": 220,
+      "y": 300,
+      "width": 328,
+      "height": 40,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": ""
+    },
+    {
+      "key": "auth:0",
+      "x": 32,
+      "y": 56,
+      "width": 704,
+      "height": 118,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "Ant Design Ant Design 是西湖区最具影响力的 Web 设计规范"
+    },
+    {
+      "key": "auth:1",
+      "x": 220,
+      "y": 174,
+      "width": 328,
+      "height": 325.219,
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0.88)",
+      "fontSize": "14px",
+      "lineHeight": "22px",
+      "borderRadius": "0px",
+      "text": "账户密码登录 手机号登录 自动登录 忘记密码 ? 登 录 其他登录方式 :"
+    }
+  ],
+  "dialogs": [],
+  "canvases": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "state-articles-more",
+  "path": "/list/search/articles",
+  "mode": "state",
+  "state": "same load-more click: official fixed5, local10",
+  "classification": "local_extension",
+  "referenceTransport": "canonical first5 list",
+  "status": "agent_reviewed",
+  "humanAcceptance": "pending",
+  "visualReview": "保留本地实际功能。官方文章仍5条、标准列表仍5条、卡片两个入口无处理、AI没有重新生成入口；无法得到相同完成态，原始差异继续保留。"
+}

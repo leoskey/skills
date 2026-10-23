@@ -1,0 +1,11 @@
+{
+  "id": "mobile-profile-advanced",
+  "path": "/profile/advanced",
+  "mode": "mobile",
+  "revision": "native-layout-padding",
+  "status": "agent_reviewed",
+  "classification": "documented_difference",
+  "referenceKind": "live_official",
+  "reviewNote": "窄屏日志宽表使用表内滚动，保留字段和操作，官方以换行缩窄；部分平板表宽差15px为组件滚动条保留宽度差。",
+  "humanAcceptance": "pending"
+}

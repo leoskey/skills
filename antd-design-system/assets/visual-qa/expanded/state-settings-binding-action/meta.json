@@ -1,0 +1,11 @@
+{
+  "id": "state-settings-binding-action",
+  "path": "/account/settings",
+  "mode": "state",
+  "state": "first binding action; local feedback vs official no handler",
+  "classification": "local_extension",
+  "status": "agent_reviewed",
+  "referenceKind": "live_official",
+  "reviewNote": "官方绑定没有处理函数；本地反馈演示边界。",
+  "humanAcceptance": "pending"
+}

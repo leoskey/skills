@@ -1,0 +1,41 @@
+[
+  {
+    "kind": "responsive-preview",
+    "path": "/user/login",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 390,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "登录 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/user/register",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 390,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "注册 - Ant Design Pro",
+    "problematic": []
+  },
+  {
+    "kind": "responsive-preview",
+    "path": "/user/register-result",
+    "viewport": [
+      390,
+      640
+    ],
+    "documentWidth": 390,
+    "loaded": true,
+    "fontLoaded": true,
+    "title": "注册结果 - Ant Design Pro",
+    "problematic": []
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "id": "state-chat-streaming",
+  "path": "/chatbot",
+  "mode": "state",
+  "state": "streaming",
+  "matrix": false,
+  "release": "3.2.0",
+  "round": "full-301",
+  "referenceTransport": "Same local SSE fixed reply; stream timers35/150 held in each isolated browser and advanced exactly8 callbacks for deterministic partial sampling; no model request",
+  "allowBusy": true,
+  "status": "agent_reviewed",
+  "evidenceRelease": "3.2.0",
+  "evidenceRevision": "full-301",
+  "humanAcceptance": "pending",
+  "visualReview": "相同固定SSE，35/150ms流式定时器在隔离浏览器暂停并同步推进8次回调；真实流式中间态8锚点一致，不代表生产时延。"
+}

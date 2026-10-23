@@ -1,0 +1,44 @@
+{
+  "viewportMatches": true,
+  "referenceViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "candidateViewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 1,
+    "scale": 1
+  },
+  "fontLoaded": true,
+  "referenceAnchors": 14,
+  "candidateAnchors": 19,
+  "geometryDifferences": [
+    {
+      "anchor": "card:1",
+      "delta": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 1254
+      }
+    }
+  ],
+  "missingCandidate": [],
+  "extraCandidate": [
+    "listItem:5",
+    "listItem:6",
+    "listItem:7",
+    "listItem:8",
+    "listItem:9"
+  ],
+  "status": "agent_reviewed",
+  "scope": "Geometry is diagnostic; intentional version/data/usability differences need explicit review.",
+  "rawGeometryPassed": false,
+  "scrollMatches": true,
+  "classification": "local_extension",
+  "reviewNote": "官方源码固定pageSize=5，加载更多仅refetch并仍显示5条；本地5→10条，列表高度不同。",
+  "humanAcceptance": "pending"
+}
