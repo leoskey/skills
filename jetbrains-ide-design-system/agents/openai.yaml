@@ -1,0 +1,4 @@
+interface:
+  display_name: "JetBrains IDE Design System"
+  short_description: "将官方 Islands 设计规范应用于 Web 与 Flutter 界面"
+  default_prompt: "使用 $jetbrains-ide-design-system 将当前应用改为 JetBrains Islands 风格，保留业务流程，并验证明暗主题、键盘操作与响应式布局。"

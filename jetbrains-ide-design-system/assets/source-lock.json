@@ -1,0 +1,57 @@
+{
+  "checked": "2026-10-23",
+  "repository": "JetBrains/intellij-community",
+  "commit": "d8c6714c7a3c110c56994d6b0f10814f902100e7",
+  "files": [
+    {
+      "path": "assets/upstream/ManyIslandsDark.theme.json",
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/d8c6714c7a3c110c56994d6b0f10814f902100e7/platform/platform-resources/src/themes/islands/ManyIslandsDark.theme.json",
+      "sha256": "2d06faf66180e912ed03e8e22245937702bd8eea43c827b07c0175a8d83b02e2"
+    },
+    {
+      "path": "assets/upstream/ManyIslandsLight.theme.json",
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/d8c6714c7a3c110c56994d6b0f10814f902100e7/platform/platform-resources/src/themes/islands/ManyIslandsLight.theme.json",
+      "sha256": "f53f1550b0f78d07614d29eb0e5c2523477bead265d8cd24a63a280131ecff30"
+    },
+    {
+      "path": "assets/web/fonts/InterVariable.ttf",
+      "url": "https://raw.githubusercontent.com/rsms/inter/353b61b9f4430d5f420d56605a6e7993e0941470/docs/font-files/InterVariable.ttf",
+      "commit": "353b61b9f4430d5f420d56605a6e7993e0941470",
+      "sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf"
+    },
+    {
+      "path": "assets/flutter/fonts/InterVariable.ttf",
+      "url": "https://raw.githubusercontent.com/rsms/inter/353b61b9f4430d5f420d56605a6e7993e0941470/docs/font-files/InterVariable.ttf",
+      "commit": "353b61b9f4430d5f420d56605a6e7993e0941470",
+      "sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf"
+    },
+    {
+      "path": "assets/web/fonts/JetBrainsMono-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/19371302b95d218af43299bce79ddbddd0bc364d/fonts/ttf/JetBrainsMono-Regular.ttf",
+      "commit": "19371302b95d218af43299bce79ddbddd0bc364d",
+      "sha256": "e6fd0d7e91550b3ed2b735d4312474362c4716edc4fc0577a0f61ed782d5aed1"
+    },
+    {
+      "path": "assets/flutter/fonts/JetBrainsMono-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/JetBrains/JetBrainsMono/19371302b95d218af43299bce79ddbddd0bc364d/fonts/ttf/JetBrainsMono-Regular.ttf",
+      "commit": "19371302b95d218af43299bce79ddbddd0bc364d",
+      "sha256": "e6fd0d7e91550b3ed2b735d4312474362c4716edc4fc0577a0f61ed782d5aed1"
+    },
+    {
+      "path": "assets/upstream/IntUiButtonStyling.kt",
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/d8c6714c7a3c110c56994d6b0f10814f902100e7/platform/jewel/int-ui/int-ui-standalone/src/main/kotlin/org/jetbrains/jewel/intui/standalone/styling/IntUiButtonStyling.kt",
+      "sha256": "67d89341aa7f2fe0810e692a0923461d2ced1639d850d1e33ca06bc6ccb15c45"
+    },
+    {
+      "path": "assets/upstream/IntUiTextFieldStyling.kt",
+      "url": "https://raw.githubusercontent.com/JetBrains/intellij-community/d8c6714c7a3c110c56994d6b0f10814f902100e7/platform/jewel/int-ui/int-ui-standalone/src/main/kotlin/org/jetbrains/jewel/intui/standalone/styling/IntUiTextFieldStyling.kt",
+      "sha256": "24a61664f69aa5fcd7d3782140ad67f3f864f156840b1e7afbb8d75a428e619e"
+    },
+    {
+      "path": "assets/flutter/fonts/NotoSansSC.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/2894aab31764f10f29c421bdfd2340d3b382d384/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "commit": "2894aab31764f10f29c421bdfd2340d3b382d384",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    }
+  ]
+}

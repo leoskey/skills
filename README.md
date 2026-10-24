@@ -4,6 +4,7 @@
 
 | Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
+| [jetbrains-ide-design-system](jetbrains-ide-design-system/SKILL.md) | JetBrains IDE Islands 风格：官方明暗主题、语义 Token、字体与工作区组件规范 | 明确指定 JetBrains IDE 风格的 Web / Flutter 应用设计、改造与审查；保留现有业务流程 | [基础规范](jetbrains-ide-design-system/references/foundations.md)、[Web 接入](jetbrains-ide-design-system/references/web.md)、[Flutter 接入](jetbrains-ide-design-system/references/flutter.md)、[来源与维护](jetbrains-ide-design-system/references/sources.md) |
 | [antd-design-system](antd-design-system/SKILL.md) | Ant Design Pro 官方页面模式与视觉验收：27 页模板、ProLayout、主题 Token 和同视口同状态对照 | 明确指定 Ant Design Pro 风格的后台设计、实现与改造；包含本地演示模板和差异记录 | [页面模式](antd-design-system/references/page-patterns.md) · [主题 Token](antd-design-system/assets/tokens.json) · [视觉验收](antd-design-system/references/visual-acceptance.md) · [验收范围与差异](antd-design-system/references/expanded-acceptance.md) |
 | [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情与预测页面；可适配不同技术栈 | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
 | [game-sutdio](game-sutdio/SKILL.md) | 游戏全流程交付：需求与设计确认、可玩原型、完整体验样段、内容扩充、测试试玩与反馈迭代 | 新游戏策划、已有游戏阶段推进与单项修复；按目标选择引擎和平台 | [阶段交付与验收](game-sutdio/references/lifecycle.md) |
@@ -36,6 +37,12 @@ npx skills add leoskey/skills --skill varlive-design-system --agent codex --glob
 
 只查看可安装的 skill，可运行 `npx skills add leoskey/skills --list`。更多选项见 [skills CLI 安装说明](https://github.com/vercel-labs/skills/blob/main/docs/commands.md#skills-add)。
 
+安装 JetBrains IDE 设计系统到 Codex 用户目录：
+
+```bash
+npx skills add leoskey/skills --skill jetbrains-ide-design-system --agent codex --global
+```
+
 ### 通过提示词安装
 
 将下面的提示词发送给支持访问 GitHub 和写入本地文件的 Agent；需要其他 skill 时，替换名称和链接末尾的目录名：
@@ -49,6 +56,10 @@ npx skills add leoskey/skills --skill varlive-design-system --agent codex --glob
 ## 使用
 
 在支持 skill 调用的 Agent 中，明确指定名称和任务：
+
+```text
+使用 $jetbrains-ide-design-system 为当前 Web 或 Flutter 应用呈现 JetBrains Islands 风格，保留业务流程，验证明暗主题、键盘操作和响应式布局。
+```
 
 ```text
 使用 $antd-design-system，参照 Ant Design Pro 构建后台查询表格页，保留现有业务和技术栈，按同视口、同状态做视觉验收。

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JetBrains Islands 组件展示</title><link rel="stylesheet" href="jb-tokens.css"><link rel="stylesheet" href="jb.css"><script src="gallery.js" defer></script></head>
+<body class="jb-app">
+<svg style="display:none" aria-hidden="true"><defs>
+<symbol id="i-files" viewBox="0 0 16 16"><path d="M2 3h4l2 2h6v8H2z"/></symbol>
+<symbol id="i-settings" viewBox="0 0 16 16"><path d="M2 4h12M2 12h12M5 2v4M11 10v4"/></symbol>
+<symbol id="i-code" viewBox="0 0 16 16"><path d="m5 4-4 4 4 4m6-8 4 4-4 4M9 2 7 14"/></symbol>
+<symbol id="i-close" viewBox="0 0 16 16"><path d="m4 4 8 8m0-8-8 8"/></symbol>
+</defs></svg>
+<header class="jb-toolbar"><button class="jb-icon-button jb-mobile-toggle" id="open-resources" aria-label="打开资源"><svg><use href="#i-files"/></svg></button><strong>设计工作台</strong><span class="jb-muted">Islands</span><span class="jb-spacer"></span><label for="theme">外观</label><select class="jb-select" id="theme"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select><button class="jb-button" id="settings-button"><svg aria-hidden="true"><use href="#i-settings"/></svg>设置…</button></header>
+<div class="jb-workspace"><nav class="jb-rail" aria-label="工具"><button class="jb-icon-button" id="resources-button" aria-label="资源面板" aria-pressed="true" title="资源"><svg aria-hidden="true"><use href="#i-files"/></svg></button><button class="jb-icon-button" id="components-button" aria-label="打开组件" title="组件"><svg aria-hidden="true"><use href="#i-code"/></svg></button></nav>
+<aside class="jb-island jb-sidebar" id="sidebar" aria-label="资源"><div class="jb-panel-head">资源</div><div class="jb-files" id="desktop-files"></div></aside>
+<main class="jb-island jb-main"><div class="jb-tabs" role="tablist" aria-label="打开的页面" id="tabs"></div><div class="jb-view" role="tabpanel" id="view" tabindex="0"></div></main></div>
+<footer class="jb-status"><span id="status" role="status">就绪</span><span>Web 组件展示</span></footer>
+<dialog id="settings" aria-labelledby="settings-title"><form id="settings-form" novalidate><h2 id="settings-title">工作区设置</h2><label class="jb-field" for="workspace-name">工作区名称：<input class="jb-input" id="workspace-name" name="workspaceName" autocomplete="off" aria-describedby="name-error" required><span class="jb-error" id="name-error" hidden>请输入工作区名称。</span></label><label class="jb-stack"><input id="compact" name="compact" type="checkbox">使用紧凑布局</label><p class="jb-muted">设置在当前会话中生效。</p><div class="jb-dialog-actions"><button class="jb-button" id="cancel-settings" type="button">取消</button><button class="jb-button jb-primary" type="submit">应用</button></div></form></dialog>
+<dialog class="jb-drawer" id="resources" aria-labelledby="resources-title"><div class="jb-panel-head" id="resources-title">资源<button class="jb-icon-button" id="close-resources" aria-label="关闭资源"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="jb-files" id="mobile-files"></div></dialog>
+</body></html>

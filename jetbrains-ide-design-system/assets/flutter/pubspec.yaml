@@ -1,0 +1,25 @@
+name: jetbrains_islands_starter
+description: Independent Web and Flutter adaptation of the JetBrains Islands design language.
+version: 1.0.0
+publish_to: none
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+  flutter: '>=3.41.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/InterVariable.ttf
+    - family: JetBrains Mono
+      fonts:
+        - asset: fonts/JetBrainsMono-Regular.ttf
+    - family: Noto Sans SC
+      fonts:
+        - asset: fonts/NotoSansSC.ttf
