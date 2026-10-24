@@ -47,6 +47,7 @@ class _WorkspaceState extends State<Workspace> {
   Future<void> editSettings() async {
     final result = await showDialog<String>(
         context: context,
+        animationStyle: AnimationStyle.noAnimation,
         builder: (ctx) => WorkspaceSettingsDialog(name: name));
     if (mounted && result != null) setState(() => name = result);
   }
@@ -209,22 +210,55 @@ class _WorkspaceState extends State<Workspace> {
                               style:
                                   const TextStyle(fontWeight: FontWeight.w600)),
                           Semantics(
-                              label: '外观',
-                              child: DropdownButton<ThemeMode>(
-                                  style: Theme.of(context).textTheme.bodyMedium,
-                                  value: widget.mode,
-                                  onChanged: (v) => widget.onMode(v!),
-                                  items: const [
-                                    DropdownMenuItem(
-                                        value: ThemeMode.system,
-                                        child: Text('跟随系统')),
-                                    DropdownMenuItem(
-                                        value: ThemeMode.light,
-                                        child: Text('浅色')),
-                                    DropdownMenuItem(
-                                        value: ThemeMode.dark,
-                                        child: Text('深色')),
-                                  ])),
+                            label: '外观',
+                            child: PopupMenuButton<ThemeMode>(
+                              tooltip: '外观',
+                              popUpAnimationStyle: AnimationStyle.noAnimation,
+                              initialValue: widget.mode,
+                              onSelected: widget.onMode,
+                              itemBuilder: (_) => [
+                                for (final entry in const {
+                                  ThemeMode.system: '跟随系统',
+                                  ThemeMode.light: '浅色',
+                                  ThemeMode.dark: '深色',
+                                }.entries)
+                                  CheckedPopupMenuItem(
+                                    value: entry.key,
+                                    checked: widget.mode == entry.key,
+                                    child: Text(entry.value),
+                                  ),
+                              ],
+                              child: Container(
+                                constraints: const BoxConstraints(minHeight: 48),
+                                padding: const EdgeInsets.symmetric(horizontal: 8),
+                                decoration: BoxDecoration(
+                                  color: Theme.of(
+                                    context,
+                                  ).extension<JbColors>()!['control'],
+                                  border: Border.all(
+                                    color: Theme.of(
+                                      context,
+                                    ).extension<JbColors>()!['border'],
+                                  ),
+                                  borderRadius: BorderRadius.circular(
+                                    JbMetrics.controlRadius,
+                                  ),
+                                ),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    Text(switch (widget.mode) {
+                                      ThemeMode.system => '跟随系统',
+                                      ThemeMode.light => '浅色',
+                                      ThemeMode.dark => '深色',
+                                    }),
+                                    const SizedBox(width: 8),
+                                    const Icon(Icons.keyboard_arrow_down),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
                           JbButton(label: '设置…', onPressed: editSettings),
                         ])),
                 Expanded(

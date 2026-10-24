@@ -68,6 +68,8 @@ def validate():
         check(not re.search(r'[A-Z]:[\\/]|/Users/|/home/', content), 'Machine-specific path in ' + doc.name)
     for needed in ['INSTALL.md', 'THIRD_PARTY_NOTICES.md', 'agents/openai.yaml', 'licenses/Apache-2.0.txt', 'licenses/Inter-OFL.txt', 'licenses/JetBrainsMono-OFL.txt', 'licenses/NotoSansSC-OFL.txt', 'assets/web/index.html', 'assets/flutter/lib/main.dart', 'assets/flutter/test/widget_test.dart']:
         check((ROOT / needed).is_file(), 'Missing ' + needed)
+    for needed in ['references/motion.md', 'assets/flutter/test/motion_test.dart']:
+        check((ROOT / needed).is_file(), 'Missing motion guidance/test: ' + needed)
     return {'passed': not errors, 'checks': checks, 'textContrastPairs': ratios, 'errors': errors}
 
 if __name__ == '__main__':

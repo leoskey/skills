@@ -2,7 +2,7 @@
 name: jetbrains-ide-design-system
 description: 为 Web 或 Flutter 应用构建、改造和审查 JetBrains IDE 风格界面，采用官方 Islands 明暗主题、Inter 字体、语义 Token 和 IDE 工作区模式。用户指定 JetBrains、IntelliJ、Rider、WebStorm 或 Islands 视觉风格时使用；普通 UI 请求不自动套用。
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # JetBrains IDE Design System
@@ -14,6 +14,7 @@ metadata:
 1. 修改前，合并最新需求为当前规格：目标页面、业务操作、Web/Flutter、主题、屏幕范围和验收项。已明确的内容直接沿用。
 2. 读取 [基础规范](references/foundations.md)，以 [tokens.json](assets/tokens.json) 为本包 Token 的唯一编辑入口。官方版本及来源见 [来源与维护](references/sources.md)。
 3. 按任务读取 [组件与布局](references/components.md)。只应用业务需要的模式；普通业务应用无需增加编辑器、终端、Git 或模拟窗口控制按钮。
+   动效设计、过渡审查或减少动画适配时，读取 [动效规范](references/motion.md)，区分本包适配选择与平台内置反馈。
 4. Web 任务读取 [Web 接入](references/web.md)，从 `assets/web/` 复制所需主题和样式。Flutter 任务读取 [Flutter 接入](references/flutter.md)，从 `assets/flutter/` 复制所需主题和控件。
 5. 同步更新实现、调用方、命名、配置、文案、状态、注释、测试与使用说明。按照 [验收](references/acceptance.md) 检查实际渲染与受影响交互。
 

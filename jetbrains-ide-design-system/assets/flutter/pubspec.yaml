@@ -1,6 +1,6 @@
 name: jetbrains_islands_starter
 description: Independent Web and Flutter adaptation of the JetBrains Islands design language.
-version: 1.0.0
+version: 1.0.1
 publish_to: none
 environment:
   sdk: '>=3.11.0 <4.0.0'

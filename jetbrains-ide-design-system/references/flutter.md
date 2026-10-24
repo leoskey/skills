@@ -20,7 +20,7 @@ return JbIsland(child: Column(children: [
 
 controller/error/connect 由应用提供。JbField 保持标签、错误和文字缩放；JbButton 基于 Flutter 按钮保留焦点和语义。
 
-ThemeExtension 支持 copyWith/lerp，示例零时长切换。Material 作为实现基础，主题覆盖其颜色、圆角、表面染色与反馈；新增 Material 控件仍需视觉检查。
+ThemeExtension 支持 copyWith/lerp，示例主题零时长切换。外观菜单和设置弹窗显式使用 AnimationStyle.noAnimation；资源抽屉保留平台短过渡，并由 SDK 响应系统减少动画设置。详见 [动效规范](motion.md)。Material 作为实现基础，新增控件仍需检查其默认动效，不能把主题或按钮的零时长设置当作全局无动画开关。
 
 JbButton 的 touch 默认为 true（48px 命中目标），明确鼠标环境才设 false 使用 28px 最小高度。高度随文字增长，不能固定 MediaQuery.textScaler。使用 LayoutBuilder 按实际可用宽度决定抽屉和侧栏。
 

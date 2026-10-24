@@ -134,6 +134,16 @@ ThemeData jbTheme(Brightness brightness) {
         borderRadius: BorderRadius.circular(JbMetrics.islandRadius),
       ),
     ),
+    popupMenuTheme: PopupMenuThemeData(
+      color: c['popup'],
+      surfaceTintColor: Colors.transparent,
+      elevation: 2,
+      shadowColor: c['scrim'],
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(JbMetrics.controlRadius),
+        side: BorderSide(color: c['popupBorder']),
+      ),
+    ),
     checkboxTheme: CheckboxThemeData(
       fillColor: WidgetStateProperty.resolveWith(
         (s) => s.contains(WidgetState.selected) ? c['accent'] : c['control'],
