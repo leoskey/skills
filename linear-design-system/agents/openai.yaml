@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linear Design System"
+  short_description: "Linear 风格界面、语义 token、紧凑工作区与视觉验收"
+  default_prompt: "使用 $linear-design-system 为当前界面应用 Linear 风格；保留业务、语言与技术栈，按产品工作区或展示网站选择密度，验证响应式、键盘交互和视觉层级。"

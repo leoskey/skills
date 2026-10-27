@@ -1,0 +1,75 @@
+/* Independent reference values. Opt in with .linear-theme; no global reset. */
+.linear-theme {
+  color-scheme: dark;
+  --linear-canvas: #101112;
+  --linear-sidebar: #131415;
+  --linear-surface: #191a1b;
+  --linear-raised: #232425;
+  --linear-hover: #27282a;
+  --linear-border: #2c2d2f;
+  --linear-border-strong: #3b3c3e;
+  --linear-text: #e1e2e6;
+  --linear-muted: #a0a3ac;
+  --linear-subtle: #858993;
+  --linear-primary: #5e6ad2;
+  --linear-primary-hover: #727ce1;
+  --linear-on-primary: #ffffff;
+  --linear-accent: #727be8;
+  --linear-success: #56b788;
+  --linear-warning: #e8c64a;
+  --linear-danger: #ee6b72;
+  --linear-attention: #f28c59;
+  --linear-space-1: 4px;
+  --linear-space-2: 8px;
+  --linear-space-3: 12px;
+  --linear-space-4: 16px;
+  --linear-space-6: 24px;
+  --linear-space-8: 32px;
+  --linear-space-12: 48px;
+  --linear-radius-small: 6px;
+  --linear-radius-medium: 8px;
+  --linear-radius-large: 12px;
+  --linear-radius-pill: 9999px;
+  --linear-font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --linear-type-metadata-size: 12px;
+  --linear-type-metadata-line: 18px;
+  --linear-type-metadata-weight: 400;
+  --linear-type-ui-size: 13px;
+  --linear-type-ui-line: 20px;
+  --linear-type-ui-weight: 500;
+  --linear-type-body-size: 14px;
+  --linear-type-body-line: 22px;
+  --linear-type-body-weight: 400;
+  --linear-type-detail-title-size: 20px;
+  --linear-type-detail-title-line: 28px;
+  --linear-type-detail-title-weight: 600;
+  --linear-type-detail-title-tracking: -0.4px;
+  --linear-type-page-title-size: 24px;
+  --linear-type-page-title-line: 32px;
+  --linear-type-page-title-weight: 600;
+  --linear-type-page-title-tracking: -0.7px;
+  --linear-sidebar-width: 238px;
+  --linear-list-width: 320px;
+  --linear-properties-width: 210px;
+  --linear-toolbar-height: 44px;
+  --linear-motion-fast: 120ms;
+  --linear-motion-standard: 160ms;
+}
+.linear-theme[data-linear-profile="marketing"] {
+  --linear-canvas: #010102;
+  --linear-sidebar: #0f1011;
+  --linear-surface: #0f1011;
+  --linear-raised: #141516;
+  --linear-hover: #18191a;
+  --linear-border: #23252a;
+  --linear-border-strong: #34343a;
+  --linear-text: #f7f8f8;
+  --linear-muted: #d0d6e0;
+  --linear-subtle: #8a8f98;
+}
+@media (prefers-reduced-motion: reduce) {
+  .linear-theme {
+    --linear-motion-fast: 0ms;
+    --linear-motion-standard: 0ms;
+  }
+}

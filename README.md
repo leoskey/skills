@@ -4,6 +4,7 @@
 
 | Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
+| [linear-design-system](linear-design-system/SKILL.md) | Linear 风格：近黑表面、细边框、紧凑工作区与克制蓝紫色；区分产品内与官网密度 | 明确指定 Linear 风格的工作台、列表、详情、项目视图或展示网站；保留业务、语言与技术栈 | [基础与布局](linear-design-system/references/foundations.md) · [设计变量](linear-design-system/assets/tokens.json) · [组件与交互](linear-design-system/references/components.md) · [概念预览](linear-design-system/assets/preview.png) |
 | [jetbrains-ide-design-system](jetbrains-ide-design-system/SKILL.md) | JetBrains IDE Islands 风格：官方明暗主题、语义 Token、字体与工作区组件规范 | 明确指定 JetBrains IDE 风格的 Web / Flutter 应用设计、改造与审查；保留现有业务流程 | [基础规范](jetbrains-ide-design-system/references/foundations.md)、[Web 接入](jetbrains-ide-design-system/references/web.md)、[Flutter 接入](jetbrains-ide-design-system/references/flutter.md)、[来源与维护](jetbrains-ide-design-system/references/sources.md) |
 | [antd-design-system](antd-design-system/SKILL.md) | Ant Design Pro 官方页面模式与视觉验收：27 页模板、ProLayout、主题 Token 和同视口同状态对照 | 明确指定 Ant Design Pro 风格的后台设计、实现与改造；包含本地演示模板和差异记录 | [页面模式](antd-design-system/references/page-patterns.md) · [主题 Token](antd-design-system/assets/tokens.json) · [视觉验收](antd-design-system/references/visual-acceptance.md) · [验收范围与差异](antd-design-system/references/expanded-acceptance.md) |
 | [gentle-design-system](gentle-design-system/SKILL.md) | **柔和极简数据风**：灰白表面、细边框圆角卡片、克制排版、语义配色与纹理图表 | SaaS 后台、数据仪表盘、列表、详情与预测页面；可适配不同技术栈 | [设计 token](gentle-design-system/assets/tokens.json) · [CSS](gentle-design-system/assets/tokens.css) · [预览](gentle-design-system/assets/preview.png) |
@@ -56,6 +57,10 @@ npx skills add leoskey/skills --skill jetbrains-ide-design-system --agent codex 
 ## 使用
 
 在支持 skill 调用的 Agent 中，明确指定名称和任务：
+
+```text
+使用 $linear-design-system 设计记录列表与详情页，保留当前业务、中文内容和技术栈，验证桌面、手机与键盘交互。
+```
 
 ```text
 使用 $jetbrains-ide-design-system 为当前 Web 或 Flutter 应用呈现 JetBrains Islands 风格，保留业务流程，验证明暗主题、键盘操作和响应式布局。
