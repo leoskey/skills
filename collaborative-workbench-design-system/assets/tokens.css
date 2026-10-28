@@ -1,0 +1,31 @@
+/* Original scoped theme. Keep in sync with tokens.json. */
+.cwb[data-theme="light"] {
+  --cwb-canvas: #f3f6f8;
+  --cwb-surface: #ffffff;
+  --cwb-text: #182a36;
+  --cwb-muted: #526573;
+  --cwb-accent: #086b61;
+  --cwb-onAccent: #ffffff;
+  --cwb-selected: #e2f3ee;
+  --cwb-border: #d5dfe5;
+  --cwb-control: #6c7e88;
+  --cwb-success: #166346;
+  --cwb-warning: #805000;
+  --cwb-danger: #b02a37;
+}
+.cwb[data-theme="dark"] {
+  --cwb-canvas: #111a21;
+  --cwb-surface: #18242d;
+  --cwb-text: #e9f1f5;
+  --cwb-muted: #afc1cc;
+  --cwb-accent: #83d9c5;
+  --cwb-onAccent: #10241f;
+  --cwb-selected: #233f3c;
+  --cwb-border: #354650;
+  --cwb-control: #859ba8;
+  --cwb-success: #8fddaf;
+  --cwb-warning: #f1ca80;
+  --cwb-danger: #ffadb5;
+}
+.cwb { --cwb-space: 4px; --cwb-radius: 6px; font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif; font-size: 15px; line-height: 1.6; color: var(--cwb-text); background: var(--cwb-canvas); color-scheme: light; }
+.cwb[data-theme="dark"] { color-scheme: dark; }
