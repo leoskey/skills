@@ -1,0 +1,46 @@
+/* Optional styles, not a framework or behavior implementation. */
+.rc-theme .rc-button {
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--rc-space-2);
+  min-height:var(--rc-control-height); padding:7px 14px;
+  border:1px solid var(--rc-border); border-radius:var(--rc-radius-md);
+  background:var(--rc-raised); color:var(--rc-text);
+  font:var(--rc-font-medium) var(--rc-text-sm)/1.4 var(--rc-font-sans); cursor:pointer;
+  transition:background var(--rc-duration-fast) var(--rc-ease);
+}
+.rc-theme .rc-button:not(:disabled):hover { background:var(--rc-hover); }
+.rc-theme .rc-button:not(:disabled):active { transform:translateY(1px); }
+.rc-theme .rc-button--primary { background:var(--rc-brand); border-color:transparent; color:var(--rc-on-brand); }
+.rc-theme .rc-button--primary:not(:disabled):hover { background:var(--rc-brand-hover); }
+.rc-theme .rc-button--ghost { background:transparent; border-color:transparent; }
+.rc-theme .rc-button--danger { color:var(--rc-danger); }
+.rc-theme .rc-button:disabled { opacity:.4; cursor:not-allowed; }
+.rc-theme .rc-input {
+  display:block; width:100%; min-height:var(--rc-control-height); padding:8px 12px;
+  background:var(--rc-bg); color:var(--rc-text); border:1px solid var(--rc-border);
+  border-radius:var(--rc-radius-md); font:inherit;
+}
+.rc-theme .rc-input::placeholder { color:var(--rc-text-tertiary); }
+.rc-theme .rc-input[aria-invalid="true"] { border-color:var(--rc-danger); }
+.rc-theme .rc-kbd {
+  display:inline-flex; align-items:center; justify-content:center; min-width:22px; height:22px;
+  padding:0 5px; border:1px solid var(--rc-border); border-radius:4px;
+  background:var(--rc-raised); color:var(--rc-text-secondary); font:12px/1 var(--rc-font-sans);
+}
+.rc-theme .rc-window { background:var(--rc-surface); border:1px solid var(--rc-border); border-radius:var(--rc-radius-window); box-shadow:var(--rc-shadow-window); }
+.rc-theme .rc-row {
+  display:flex; width:100%; align-items:center; gap:var(--rc-space-3); min-height:var(--rc-row-height);
+  padding:8px 12px; border:0; border-radius:var(--rc-radius-md); background:transparent;
+  color:var(--rc-text); font:inherit; text-align:left;
+}
+.rc-theme button.rc-row { cursor:pointer; }
+.rc-theme button.rc-row:hover { background:var(--rc-hover); }
+.rc-theme .rc-row[aria-selected="true"], .rc-theme .rc-row[aria-pressed="true"] { background:var(--rc-selected); }
+.rc-theme .rc-reading { max-inline-size:44em; font-size:var(--rc-text-reading); line-height:var(--rc-line-reading); font-weight:400; letter-spacing:normal; color:var(--rc-body); }
+.rc-theme .rc-reading strong { font-weight:500; color:var(--rc-text); }
+.rc-theme .rc-composer { padding:var(--rc-space-4); border:1px solid var(--rc-border); border-radius:var(--rc-radius-lg); background:var(--rc-surface); }
+.rc-theme .rc-composer:focus-within { outline:2px solid var(--rc-focus); outline-offset:3px; }
+.rc-theme .rc-composer textarea { width:100%; min-height:80px; resize:vertical; border:0; background:transparent; color:var(--rc-text); font:inherit; }
+.rc-theme .rc-composer textarea:focus-visible { outline:none; }
+@media(pointer:coarse) { .rc-theme .rc-button, .rc-theme .rc-input, .rc-theme button.rc-row { min-height:44px; } }
+@media(max-width:760px) { .rc-theme .rc-input, .rc-theme .rc-composer textarea { font-size:16px; } }
+@media(prefers-reduced-motion:reduce) { .rc-theme *, .rc-theme *::before, .rc-theme *::after { transition:none!important; animation:none!important; scroll-behavior:auto!important; } }

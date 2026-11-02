@@ -1,0 +1,94 @@
+/* Generated from tokens.json by scripts/build_tokens.py.
+ * Independent Raycast-inspired values; see references/sources.md. */
+.rc-theme {
+  --rc-font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Segoe UI", "Microsoft YaHei", sans-serif;
+  --rc-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --rc-font-regular: 400;
+  --rc-font-medium: 500;
+  --rc-text-xs: 12px;
+  --rc-text-sm: 13px;
+  --rc-text-md: 14px;
+  --rc-text-reading: 15px;
+  --rc-title-sm: 20px;
+  --rc-title-md: 24px;
+  --rc-line-caption: 1.5;
+  --rc-line-body: 1.6;
+  --rc-line-reading: 1.85;
+  --rc-space-1: 4px;
+  --rc-space-2: 8px;
+  --rc-space-3: 12px;
+  --rc-space-4: 16px;
+  --rc-space-5: 20px;
+  --rc-space-6: 24px;
+  --rc-space-8: 32px;
+  --rc-space-12: 48px;
+  --rc-radius-sm: 6px;
+  --rc-radius-md: 8px;
+  --rc-radius-lg: 12px;
+  --rc-radius-window: 16px;
+  --rc-control-height: 36px;
+  --rc-row-height: 44px;
+  --rc-search-height: 56px;
+  --rc-icon-size: 18px;
+  --rc-duration-fast: 120ms;
+  --rc-duration-normal: 180ms;
+  --rc-duration-slow: 240ms;
+  --rc-ease: cubic-bezier(.2,.8,.2,1);
+  --rc-canvas: #101011;
+  --rc-bg: #151515;
+  --rc-surface: #202123;
+  --rc-raised: #292A2D;
+  --rc-hover: #303135;
+  --rc-selected: #28282B;
+  --rc-border: #3E4045;
+  --rc-border-subtle: #2C2D31;
+  --rc-text: #F5F5F7;
+  --rc-text-secondary: #BFC0C8;
+  --rc-text-tertiary: #A0A1AB;
+  --rc-body: #D2D2D8;
+  --rc-brand: #FF6363;
+  --rc-brand-hover: #FF8585;
+  --rc-on-brand: #151515;
+  --rc-accent-text: #FF8585;
+  --rc-accent-soft: #FF636315;
+  --rc-success: #62D99C;
+  --rc-warning: #F5C66D;
+  --rc-danger: #FF8585;
+  --rc-info: #8BB8FF;
+  --rc-focus: #A6C8FF;
+  --rc-shadow-window: 0 24px 80px #00000066, 0 4px 16px #00000033;
+  --rc-shadow-popover: 0 12px 32px #00000066;
+  color-scheme: dark;
+  color: var(--rc-text); background: var(--rc-bg);
+  font: var(--rc-font-regular) var(--rc-text-md)/var(--rc-line-body) var(--rc-font-sans);
+  font-synthesis: none; -webkit-font-smoothing: antialiased;
+}
+.rc-theme[data-theme="light"] {
+  --rc-canvas: #EFEFF2;
+  --rc-bg: #F6F6F8;
+  --rc-surface: #FFFFFF;
+  --rc-raised: #FFFFFF;
+  --rc-hover: #E7E7EC;
+  --rc-selected: #EDEDF2;
+  --rc-border: #CDCED7;
+  --rc-border-subtle: #E0E1E7;
+  --rc-text: #202027;
+  --rc-text-secondary: #51515F;
+  --rc-text-tertiary: #676775;
+  --rc-body: #3F3F4C;
+  --rc-brand: #FF6363;
+  --rc-brand-hover: #FF8585;
+  --rc-on-brand: #151515;
+  --rc-accent-text: #BE293C;
+  --rc-accent-soft: #D83B4C14;
+  --rc-success: #217B55;
+  --rc-warning: #8A650E;
+  --rc-danger: #BF3046;
+  --rc-info: #345EC3;
+  --rc-focus: #305FDA;
+  --rc-shadow-window: 0 24px 80px #20202725, 0 4px 16px #20202712;
+  --rc-shadow-popover: 0 12px 32px #20202722;
+  color-scheme: light;
+}
+.rc-theme, .rc-theme *, .rc-theme *::before, .rc-theme *::after { box-sizing: border-box; }
+.rc-theme :focus-visible { outline: 2px solid var(--rc-focus); outline-offset: 3px; }

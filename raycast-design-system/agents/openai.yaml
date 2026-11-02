@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raycast Design System"
+  short_description: "Raycast 风格设计系统：明暗主题、中文排版、桌面组件与键盘交互"
+  default_prompt: "使用 $raycast-design-system 设计或审查当前产品界面，保留业务、语言与技术栈，验证明暗主题、文字可读性和键盘交互。"

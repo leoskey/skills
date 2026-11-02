@@ -4,6 +4,7 @@
 
 | Skill | 简介 | 适用场景 | 资源 |
 | --- | --- | --- | --- |
+| [raycast-design-system](raycast-design-system/SKILL.md) | Raycast 软件风格：明暗语义主题、清晰中文排版、紧凑列表与键盘交互 | 明确指定 Raycast 风格的产品界面设计、实现与审查；保留业务、语言和技术栈 | [基础与布局](raycast-design-system/references/foundations.md) · [组件与交互](raycast-design-system/references/components.md) · [设计变量](raycast-design-system/assets/tokens.json) · [概念预览](raycast-design-system/assets/preview.png) |
 | [linear-design-system](linear-design-system/SKILL.md) | Linear 风格：近黑表面、细边框、紧凑工作区与克制蓝紫色；区分产品内与官网密度 | 明确指定 Linear 风格的工作台、列表、详情、项目视图或展示网站；保留业务、语言与技术栈 | [基础与布局](linear-design-system/references/foundations.md) · [设计变量](linear-design-system/assets/tokens.json) · [组件与交互](linear-design-system/references/components.md) · [概念预览](linear-design-system/assets/preview.png) |
 | [jetbrains-ide-design-system](jetbrains-ide-design-system/SKILL.md) | JetBrains IDE Islands 风格：官方明暗主题、语义 Token、字体与工作区组件规范 | 明确指定 JetBrains IDE 风格的 Web / Flutter 应用设计、改造与审查；保留现有业务流程 | [基础规范](jetbrains-ide-design-system/references/foundations.md)、[Web 接入](jetbrains-ide-design-system/references/web.md)、[Flutter 接入](jetbrains-ide-design-system/references/flutter.md)、[来源与维护](jetbrains-ide-design-system/references/sources.md) |
 | [antd-design-system](antd-design-system/SKILL.md) | Ant Design Pro 官方页面模式与视觉验收：27 页模板、ProLayout、主题 Token 和同视口同状态对照 | 明确指定 Ant Design Pro 风格的后台设计、实现与改造；包含本地演示模板和差异记录 | [页面模式](antd-design-system/references/page-patterns.md) · [主题 Token](antd-design-system/assets/tokens.json) · [视觉验收](antd-design-system/references/visual-acceptance.md) · [验收范围与差异](antd-design-system/references/expanded-acceptance.md) |
@@ -59,6 +60,10 @@ npx skills add leoskey/skills --skill jetbrains-ide-design-system --agent codex 
 在支持 skill 调用的 Agent 中，明确指定名称和任务：
 
 ```text
+使用 $raycast-design-system 设计一个明暗主题的桌面工具界面，保留现有业务与技术栈，验证中文阅读和键盘操作。
+```
+
+```text
 使用 $linear-design-system 设计记录列表与详情页，保留当前业务、中文内容和技术栈，验证桌面、手机与键盘交互。
 ```
 
@@ -85,3 +90,14 @@ npx skills add leoskey/skills --skill jetbrains-ide-design-system --agent codex 
 ```text
 使用 $varlive-design-system，将当前页面应用 VAR LIVE 品牌配色、字体和组件规范，保留项目语言、业务结构与现有技术栈。
 ```
+
+
+## Raycast Design System
+
+独立提炼的 Raycast 软件风格设计系统：用中性表面、克制珊瑚红、清晰中文排版与键盘优先交互组织产品界面，包含明暗主题和可映射到现有技术栈的语义 token。
+
+![Raycast 风格设计系统明暗主题的独立概念预览，包含通用示例记录、字体层级与控件](raycast-design-system/assets/preview.png)
+
+*以上是独立制作的设计系统概念展示，使用示例内容，不是 Raycast 原生应用截图。三项官方品牌色与独立提炼值的边界见 [来源说明](raycast-design-system/references/sources.md)。*
+
+可以打开 [HTML 概念预览](raycast-design-system/assets/preview.html)，或复用 [JSON Tokens](raycast-design-system/assets/tokens.json)、[CSS Tokens](raycast-design-system/assets/tokens.css) 与 [基础组件样式](raycast-design-system/assets/components.css)。
